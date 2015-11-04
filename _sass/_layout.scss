@@ -9,7 +9,7 @@
     // Positioning context for the mobile navigation icon
     position: relative;
     img {
-      margin: 0 auto; 
+      margin: 0 auto;
     }
 }
 
@@ -170,8 +170,13 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
+.container {
+    // padding: $spacing-unit 0;
+    position: relative;
+    margin: 0 auto;
+    background: #fdfdfd;
+    width: 700px;
+    z-index: 10;
 }
 
 .page-heading {
@@ -203,9 +208,16 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    // margin-bottom: $spacing-unit;
+    padding: 60px 0;
 }
 
+.post-icon {
+  height: 200px;
+  margin: 0 auto 60px auto;
+  object-fit: cover;
+  width: 200px;
+}
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
