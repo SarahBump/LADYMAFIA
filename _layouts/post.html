@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: post-view
 ---
-<div class="post">
+<!-- <div class="post"> -->
     {% if page.reading_time %}
-    <p class="post-reading-time">&#126;
+    <p class="row post-reading-time">&#126;
         {% capture words %}
           {{ content | number_of_words | minus: 180 }}
         {% endcapture %}
@@ -12,20 +12,13 @@ layout: default
         {% endunless %}
     </p>
     {% endif %}
-
-    <header class="post-header">
-        {% if page.thumb %}
-        <img src="{{ page.thumb }}" alt="{{ page.title }}" class="post-icon" />
-        {% endif %}
-
-        <h1 class="post-title">{{ page.title }} </h1>
-    </header>
-
-    <article class="post-content">
+    <article class="row post-content">
+      <div class="container">
         {{ content }}
+      </div>
     </article>
 
-    <footer class="post-meta">
+    <!-- <footer class="post-meta">
         {% if page.date %}
         <div class="meta">
             <h3 class="meta-title">Date</h3>
@@ -58,6 +51,6 @@ layout: default
             </span>
         </div>
         {% endif %}
-    </footer>
+    </footer> -->
 
-</div>
+<!-- </div> -->

@@ -1,0 +1,21 @@
+#home-image {
+  background-image: url(/images/ladymafia.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 160px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.header-title{
+  display: none;
+}
+
+.post-wrapper {
+  background-color: $background-color;
+}
+
+.post-header {
+  background-color: $background-color;
+}

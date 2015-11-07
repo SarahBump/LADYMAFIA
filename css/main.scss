@@ -22,11 +22,13 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$post-header-height: 400px;
 // Width of the content area
 $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
 
 
 
@@ -43,11 +45,21 @@ $on-laptop:        800px;
     }
 }
 
+@mixin theme($background, $title){
+    .post-header h1 {
+      color: $title;
+    }
+    .post-content {
+      background-color: $background;
+    }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "styles.scss",
+        "post-themes"
 ;

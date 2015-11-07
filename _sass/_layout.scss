@@ -207,30 +207,49 @@
 /**
  * Posts
  */
+
 .post-header {
-    // margin-bottom: $spacing-unit;
-    padding: 60px 0;
+    padding: 50px 0 0;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    height: $post-header-height;
 }
 
 .post-icon {
   height: 200px;
-  margin: 0 auto 60px auto;
-  object-fit: cover;
   width: 200px;
+  margin: 0 auto 60px auto;
+  border-radius: 200px;
+  border: 1px solid black;
+  object-fit: cover;
 }
 .post-title {
     font-size: 42px;
+    text-align: center;
     letter-spacing: -1px;
     line-height: 1;
+    color: white;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
 }
 
-.post-content {
-    margin-bottom: $spacing-unit;
+.post-body{
+  margin-bottom: 50px;
+  top: $post-header-height;
+  position: relative;
+}
 
+.post-content {
+    padding-top: $spacing-unit;
+    -webkit-box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
+    box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
+    .container {  
+      background-color: transparent;
+    }
     h2 {
         font-size: 32px;
 
