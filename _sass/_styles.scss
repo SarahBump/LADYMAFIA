@@ -1,3 +1,10 @@
+.main-header {
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: $spacing-unit;
+}
+.header-title{
+  display: none;
+}
 #home-image {
   background-image: url(/images/ladymafia.png);
   background-repeat: no-repeat;
@@ -6,10 +13,6 @@
   height: 160px;
   width: 200px;
   margin: 20px auto;
-}
-
-.header-title{
-  display: none;
 }
 
 .post-wrapper {

@@ -29,7 +29,21 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+// Font variables
+$font-name: "Blackout Midnight";
+$font-path-file-name: {{ baseurl }}/assets/fonts/Blackout/webfonts/blackout_midnight-webfont;
 
+
+// font_name font
+@font-face {
+  font-family: $font-name;
+  src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
+  src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      //  url($font-path-file-name+'.woff2') format('woff2'), /* Super Modern Browsers */
+      //  url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
+       url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
+}
 
 
 // Use media queries like this:
