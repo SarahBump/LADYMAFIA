@@ -213,6 +213,7 @@
     text-align: center;
     position: fixed;
     z-index: 99;
+    top: 0;
     height: $post-header-height;
 }
 
@@ -236,18 +237,23 @@
     }
 }
 
-.post-body{
+.post-body.container{
   margin-bottom: 50px;
+  padding: 0px $spacing-unit;
   top: $post-header-height;
   position: relative;
+  @include  media-query($on-palm) {
+    margin: 0 0 30px;
+    width: 100%;
+  }
 }
 
 .post-content {
     padding-top: $spacing-unit;
-    -webkit-box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
-    -moz-box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
-    box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
-    .container {  
+    // -webkit-box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
+    // -moz-box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
+    // box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
+    .container {
       background-color: transparent;
     }
     h2 {
