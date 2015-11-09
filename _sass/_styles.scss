@@ -1,17 +1,27 @@
 .main-header {
-  border-bottom: 1px solid lightgrey;
+  // border-bottom: 1px solid lightgrey;
   margin-bottom: $spacing-unit;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
 }
 .header-title{
-  display: none;
+  font-family: 'Blackout Midnight', arial-bold, sans-serif;
+  font-style: bold;
+  padding-top: 10%;
+  h1 {
+    font-size: 100px;
+    color: black;
+  }
+
 }
 #home-image {
-  background-image: url(/images/ladymafia.png);
+  background-image: url(/images/ladymafia_notext.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
-  height: 160px;
-  width: 200px;
+  height: 200px;
+  width: auto;
   margin: 20px auto;
 }
 
