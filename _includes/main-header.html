@@ -26,30 +26,17 @@
 
 </header> -->
 
-<header class="container">
+<header class="site-header ">
   <div class="row main-header">
     <div class="four columns header-title">
       <h1>LADY</h1>
     </div>
-    <div class="four columns">
+    <div class="three columns">
       <a id="home-image" class="u-max-full-width" href="/" alt="ladymafia"></a>
     </div>
-    <div class="four columns header-title">
+    <div class="five columns header-title">
       <h1>MAFIA</h1>
     </div>
   </div>
-  <nav class="row site-nav">
-    <!-- <a id="post-link" class="nav-link" href="/" alt="ladymafia">Posts</a>
-    <span> / </span>
-    <a id="about-link" class="nav-link" href="/" alt="ladymafia">Posts</a>
-    <span> / </span> -->
-    <div class="trigger">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> <span> / </span>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </nav>
   <!-- <p>{{ site.title }}</p> -->
 </header>

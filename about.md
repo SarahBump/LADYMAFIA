@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: alt
 title: Who is Lady Mafia?
 permalink: /about/
 ---
 
----
 
 ### Why lady mafia?
 Violence and drug connotations aside, when you think of the word mafia you might associate it with a sense of mystique, an ubiquitous but unseen force, an invisible network of individuals, a powerful whole that is greater than the sum of its parts. A formal definition is hard to come by, as elusive as a mafia itself. Generally defined, a mafia is a closed group of people in a particular field, having a controlling influence.

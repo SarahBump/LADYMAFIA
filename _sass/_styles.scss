@@ -1,28 +1,44 @@
-.main-header {
-  // border-bottom: 1px solid lightgrey;
-  margin-bottom: $spacing-unit;
-  padding-top: 100px;
-  padding-bottom: 100px;
+.site-header, .main-header {
+    // border-bottom: 1px solid lightgrey;
+    margin-bottom: $spacing-unit;
+    padding-top: 100px;
+    // padding-bottom: 100px;
+    .header-title{
+      font-family: 'Blackout Midnight', arial-bold, sans-serif;
+      font-style: bold;
+      padding-top: 10%;
+      h1 {
+        font-size: 150px;
+        color: black;
+      }
 
-}
-.header-title{
-  font-family: 'Blackout Midnight', arial-bold, sans-serif;
-  font-style: bold;
-  padding-top: 10%;
-  h1 {
-    font-size: 100px;
-    color: black;
+    }
+  #home-image {
+    background-image: url(/images/ladymafia_notext.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 200px;
+    width: auto;
+    margin-top: 35px;
+    margin-left: 25px;
   }
 
 }
-#home-image {
-  background-image: url(/images/ladymafia_notext.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  height: 200px;
-  width: auto;
-  margin: 20px auto;
+
+
+.header-small{
+  padding: 0px;
+  #home-image {
+    background-image: url(/images/ladymafia_fav_circle.png);
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .header-title h1{
+    font-size: 100px;
+    text-align: center;
+  }
 }
 
 .post-wrapper {

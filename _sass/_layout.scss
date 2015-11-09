@@ -1,17 +1,17 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    img {
-      margin: 0 auto;
-    }
-}
+// .site-header {
+//     border-top: 5px solid $grey-color-dark;
+//     border-bottom: 1px solid $grey-color-light;
+//     min-height: 56px;
+//
+//     // Positioning context for the mobile navigation icon
+//     position: relative;
+//     img {
+//       margin: 0 auto;
+//     }
+// }
 
 .site-title {
     font-size: 26px;
@@ -41,7 +41,10 @@
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 15px;
+        }
+        &:not(:first-child) {
+            margin-left: 15px;
         }
     }
 
