@@ -4,12 +4,12 @@
     padding-top: 100px;
     // padding-bottom: 100px;
     .header-title{
-      font-family: 'Blackout Midnight', arial-bold, sans-serif;
-      font-style: bold;
+      font-family: 'blackout midnight', arial-bold, sans-serif;
       padding-top: 10%;
       h1 {
         font-size: 150px;
         color: black;
+        margin-bottom: 0;
       }
 
     }
@@ -29,15 +29,16 @@
 
 .header-small{
   padding: 0px;
+  margin-bottom: 0;
   #home-image {
     background-image: url(/images/ladymafia_fav_circle.png);
-    height: 150px;
+    height: 100px;
     margin-left: 10px;
     margin-top: 50px;
   }
   .header-title h1{
-    font-size: 100px;
-    text-align: center;
+    font-size: 75px;
+    font-family: 'blackout sunrise', arial-bold, sans-serif;
   }
 }
 

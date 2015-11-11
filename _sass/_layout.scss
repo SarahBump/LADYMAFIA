@@ -27,9 +27,20 @@
     }
 }
 
+.content {
+  clear: both;
+  h3 {
+    font-family: 'ostrich-sans inline-regular';
+  }
+}
+
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
+    display: block;
+    // font-family: 'blackout midnight';
+    font-size: 20px;
+    padding-bottom: 50px;
 
     .menu-icon {
         display: none;
@@ -38,13 +49,14 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
+        font-family: 'blackout two_am';
+        font-size: 20px;
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 15px;
+            margin-right: 10px;
         }
         &:not(:first-child) {
-            margin-left: 15px;
+            margin-left: 10px;
         }
     }
 
