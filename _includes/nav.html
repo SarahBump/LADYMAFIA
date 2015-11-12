@@ -4,7 +4,10 @@
       {% if my_page.title %}
       <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> <span> /  </span>
       {% endif %}
+      <div class="nav-tagline">{{ my_page.tagline }}<div>
+
     {% endfor %}
+
     <!-- <a id="about-link" class="page-link" href="/all-posts.html" alt="ladymafia">Posts</a> -->
   </div>
 </nav>

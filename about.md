@@ -2,6 +2,7 @@
 layout: alt
 title: What
 permalink: /about/
+tagline: What is Lady Mafia?
 ---
 
 ### Why lady mafia?
