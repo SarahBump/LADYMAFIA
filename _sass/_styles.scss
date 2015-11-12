@@ -74,6 +74,7 @@
 .post-list-alt{
   li {
     text-align: left;
+    margin-bottom: 20px;
     list-style-type: none;
     text-decoration: none;
     font-family: 'blackout two_am';
@@ -84,10 +85,17 @@
       color: black;
     }
     &:hover {
-      background-color: black;
+      background-image: url(/images/ladymafia_favicon_round.png);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: contain;
+      height: 55;
+
       font-family: 'blackout midnight';
+      padding: 20px 0 20px 120px;
       a.post-link, span {
         color: white;
+        // padding-left: 20px;
       }
     }
   }

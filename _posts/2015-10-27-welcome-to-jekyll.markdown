@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "A Cool Test Post"
 date:   2015-10-27 21:06:38 -0500
 author: Lady Mafia
 categories: jekyll update
