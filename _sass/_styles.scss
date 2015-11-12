@@ -70,3 +70,25 @@
   }
 
 }
+
+.post-list-alt{
+  li {
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'blackout two_am';
+    color: black;
+
+    a.post-link, span {
+      text-decoration: none;
+      color: black;
+    }
+    &:hover {
+      background-color: black;
+      font-family: 'blackout midnight';
+      a.post-link, span {
+        color: white;
+      }
+    }
+  }
+}

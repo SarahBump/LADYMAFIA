@@ -1,7 +1,12 @@
+//theme(content color, title color, link color)
 .ladyMafia{
-  @include theme(aliceblue, black);
+  @include theme(aliceblue, black, red);
 }
 
 .kiranGandhi {
-  @include theme(goldenrod, goldenrod);
+  @include theme(goldenrod, goldenrod, goldenrod);
+}
+
+.sarahBump {
+  @include theme(lightblue, lightblue, lightblue);
 }

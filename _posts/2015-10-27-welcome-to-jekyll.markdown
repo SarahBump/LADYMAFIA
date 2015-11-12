@@ -4,7 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2015-10-27 21:06:38 -0500
 author: Lady Mafia
 categories: jekyll update
-thumb: /images/ladymafia_notext.png
+thumb: /images/ladymafia_fav_circle.png
 theme: ladyMafia
 ---
 

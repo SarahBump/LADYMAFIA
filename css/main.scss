@@ -62,12 +62,18 @@ $on-laptop:        800px;
     }
 }
 
-@mixin theme($background, $title){
+@mixin theme($background, $title, $link){
     .post-header h1 {
       color: $title;
     }
     .post-content{
       background-color: $background;
+    }
+
+    &.post-summary {
+      a.post-link, span {
+        color: $link;
+      }
     }
 }
 
