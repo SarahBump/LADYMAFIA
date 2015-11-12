@@ -51,21 +51,25 @@
         line-height: $base-line-height;
         font-family: 'blackout two_am';
         font-size: 20px;
-        // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 10px;
         }
         &:not(:first-child) {
             margin-left: 10px;
         }
+        &.nav-tagline{
+          display: none;
+          font-family: 'Raleway';
+        }
         &:hover {
           font-family: 'blackout midnight';
           text-decoration: none;
+          &.nav-tagline{
+            display: inline-block;
+          }
         }
     }
-    // .nav-tagline{
-    //   display: none;
-    // }
+
 }
 
 
