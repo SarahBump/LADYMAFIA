@@ -90,12 +90,18 @@
     text-decoration: none;
     font-family: 'blackout two_am';
     color: black;
-
+    a.title {
+      display: none;
+      font-size: 40px;
+    }
     a.post-link, span {
       text-decoration: none;
       color: black;
     }
     &:hover {
+      a.title {
+        display: block;
+      }
       // background-image: url(/images/ladymafia_favicon_round.png);
       // background-repeat: no-repeat;
       // background-position: left;

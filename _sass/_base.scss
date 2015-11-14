@@ -67,6 +67,9 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+    @include media-query($on-palm){
+      margin-left: 0;
+    }
 }
 
 li {

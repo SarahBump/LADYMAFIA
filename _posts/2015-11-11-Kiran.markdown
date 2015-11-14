@@ -7,6 +7,7 @@ author: Sarah Bump
 categories: jekyll update
 thumb: /images/kiranGandhi.jpg
 theme: kiranGandhi
+teaser: "free bleeding, making music with marbles, and feminine leadership"
 quote: If we include men in the conversation, we will be able to move forward and we will be able to show men that enabling women to be their authentic self can actually enable men to be their authentic self too.
 ---
 
