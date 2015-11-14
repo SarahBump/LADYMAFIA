@@ -64,6 +64,7 @@
 
     #nav-image{
       margin-left: 30px;
+      margin-right: 20px;
       float: left;
       background-image: url(/images/ladymafia_favicon_round.png);
       background-repeat: no-repeat;
@@ -71,6 +72,11 @@
       display: inline-block;
       height: $post-nav-height;
       width: $post-nav-height;
+    }
+    @include media-query($on-palm){
+      #nav-image {
+        margin-left: 20px;
+      }
     }
   }
 

@@ -1,17 +1,7 @@
 /**
  * Site header
  */
-// .site-header {
-//     border-top: 5px solid $grey-color-dark;
-//     border-bottom: 1px solid $grey-color-light;
-//     min-height: 56px;
-//
-//     // Positioning context for the mobile navigation icon
-//     position: relative;
-//     img {
-//       margin: 0 auto;
-//     }
-// }
+
 
 .site-title {
     font-size: 26px;
@@ -51,25 +41,34 @@
         line-height: $base-line-height;
         font-family: 'blackout two_am';
         font-size: 20px;
-        &:not(:last-child) {
-            margin-right: 10px;
-        }
-        &:not(:first-child) {
-            margin-left: 10px;
-        }
-        &.nav-tagline{
-          display: none;
-          font-family: 'Raleway';
-        }
+        // &:not(:last-child) {
+        //     margin-right: 10px;
+        // }
+        // &:not(:first-child) {
+        //     margin-left: 10px;
+        // }
         &:hover {
           font-family: 'blackout midnight';
           text-decoration: none;
-          &.nav-tagline{
-            display: inline-block;
-          }
         }
-    }
 
+        span {
+          font-family: Helvetica;
+          padding-left: 15px;
+          padding-right: 10px;
+        }
+      }
+    .page-link:hover + .nav-tagline{
+      display: inline-block;
+      @include media-query($on-palm) {
+        display: none;
+      }
+    }
+    .nav-tagline{
+      display: none;
+      float: right;
+      font-family: 'Raleway';
+    }
 }
 
 
@@ -192,12 +191,27 @@
  * Posts
  */
 
+.scroll-test{
+
+  .post-header {
+    .post-icon {
+      float: left;
+      margin: 40px auto 60px 100px;
+    }
+    .post-title {
+      float: left;
+      text-align: left;
+      padding-left: 30px;
+    }
+  }
+  .post-body{
+    float: right;
+  }
+
+}
 .post-header {
-    margin-top: $post-nav-height;
+    margin-top: 80px;
     text-align: center;
-    position: fixed;
-    z-index: 99;
-    height: $post-header-height;
 }
 
 .post-icon {
@@ -213,18 +227,19 @@
     text-align: center;
     letter-spacing: -1px;
     line-height: 1;
-    color: white;
-    font-family: 'Blackout Midnight';
+    color: #fdfdfd;
+    font-family: 'Blackout two_am';
 
     @include media-query($on-laptop) {
         font-size: 36px;
-    }
+    };
 }
-
-.post-body.container{
+.post-quote {
+  padding: 0 150px;
+}
+.post-body{
   margin-bottom: 50px;
   padding: 0px $spacing-unit;
-  top: $post-header-height;
   position: relative;
   @include  media-query($on-palm) {
     margin: 0 0 30px;

@@ -1,16 +1,18 @@
 <nav class="row site-nav">
   <div class="trigger">
     {% for my_page in site.pages %}
-      {% if my_page.title %}
-      <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> <span> /  </span>
-      {% endif %}
-    {% endfor %}
-    {% for my_page in site.pages %}
+    {% if my_page.title %}
+    <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}<span>/</span></a>
+    <div class="nav-tagline">{{ my_page.tagline }}</div>
 
-    {% if my_page.tagline %}
-    <div class="page-link nav-tagline">{{ my_page.tagline }}<div>
     {% endif %}
     {% endfor %}
+
+    <!-- {% for my_page in site.pages %}
+    {% if my_page.tagline %}
+    <div class="nav-tagline">{{ my_page.tagline }}<div>
+    {% endif %}
+    {% endfor %} -->
 
 
     <!-- <a id="about-link" class="page-link" href="/all-posts.html" alt="ladymafia">Posts</a> -->

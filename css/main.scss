@@ -25,7 +25,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $post-header-height: 400px;
 // Width of the content area
 $content-width:    800px;
-$post-nav-height: 80px;
+$post-nav-height: 50px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -63,13 +63,9 @@ $on-laptop:        800px;
 }
 
 @mixin theme($themecolor){
-    .post-header h1 {
-      color: $themecolor;
-    }
-    .post-content{
+    .post-header{
       background-color: $themecolor;
     }
-
     &.post-summary {
       a.post-link, span {
         color: $themecolor;

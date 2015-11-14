@@ -3,22 +3,32 @@
 
   {% include head.html %}
   <body class="post-wrapper {{ page.theme }}">
-    <div class='post-nav'>
-      <a id="nav-image" href="/" alt="ladymafia"></a>
-      {% include nav.html %}
-    </div>
-    <header class="post-header u-full-width">
-      <div class="row">
-        {% if page.thumb %}
-        <img src="{{ page.thumb }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
-        {% endif %}
-
-        <h1 class="post-title u-full-width">{{ page.title }} </h1>
+      <div class='post-nav'>
+        <a id="nav-image" href="/" alt="ladymafia"></a>
+        {% include nav.html %}
       </div>
-    </header>
-    <div class="post-body container">
-        {{ content }}
-    </div>
+      <div class="container">
+        <header class="post-header row">
+          {% if page.thumb %}
+          <img src="{{ page.thumb }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
+          {% endif %}
+
+          {% if page.type == 'interview' %}
+          <h1 class="post-title u-full-width">
+            {{ page.title | prepend: 'A Conversation with '}}
+          </h1>
+          {% elsif page.type == 'profile' %}
+          <h1 class="post-title u-full-width">
+            {{ page.title | prepend: 'Notable Mafia Member: '}}
+          </h1>
+          {% endif %}
+
+        </header>
+        <div class="post-body row">
+            {{ content }}
+        </div>
+
+      </div>
 
   </body>
 

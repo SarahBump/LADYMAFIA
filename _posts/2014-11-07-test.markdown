@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Super Test Post Magic!!"
+type: profile
 date:   2015-10-27 21:06:38 -0500
 categories: jekyll update
 thumb: /images/ladymafia_notext.png

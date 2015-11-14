@@ -12,9 +12,17 @@ layout: post-view
         {% endunless %}
     </p>
     {% endif %}
-    <article class="row post-content">
-      <div class="container">
+    <article class="post-content">
+      {% if page.quote %}
+      <p class="post-quote u-full-width"><span>"</span>{{ page.quote }}</p>
+      {% endif %}
+        <div class="container">
         {{ content }}
+        <div class="sign-off">
+          <span>Until next time,</span><br>
+          <span>{{ page.author }}</span><br>
+          {{ page.date | date: "%-d %B %Y" }}
+        </div>
       </div>
     </article>
 

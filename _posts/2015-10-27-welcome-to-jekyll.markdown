@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Cool Test Post"
+type: profile
 date:   2015-10-27 21:06:38 -0500
 author: Lady Mafia
 categories: jekyll update
