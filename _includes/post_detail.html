@@ -1,8 +1,8 @@
-<h1 class="entry-title">
-{% if page.title %}
-    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
-{% endif %}
+<div class="post-summary {{post.theme}}">
 {% if post.title %}
-    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+  <a class="post-link title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  <a class="post-link teaser" href="{{ post.url | prepend: site.baseurl }}">{{ post.teaser }}</a>
+  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 {% endif %}
-</h1>
+
+</div>
