@@ -16,15 +16,13 @@ custom_js:
     {% endif %}
     <article class="post-content">
         <div class="container">
-        {% if page.quote %}
+        <!-- {% if page.quote %}
         <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
-        {% endif %}
+        {% endif %} -->
         {{ content }}
-        <div class="sign-off">
-          <span>Until next time,</span><br>
-          <span>{{ page.author }}</span><br>
-          {{ page.date | date: "%-d %B %Y" }}
-        </div>
+
+        {% include signoff.html %}
+        {% include post-footer.html %}
       </div>
     </article>
 

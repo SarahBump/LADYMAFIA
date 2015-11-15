@@ -2,11 +2,29 @@
 .ladyMafia{
   @include theme(red, kiran);
 }
+.sarahBump {
+  @include theme(lightblue, kiran);
+}
+///
+
+// =====  A  =====
+// =====  B  =====
+// =====  C  =====
+// =====  D  =====
+// =====  E  =====
+// =====  F  =====
+// =====  G  =====
+
+// =====  H  =====
+.hedyLamarr {
+  @include theme(#76eec6, kiran);
+}
+
+// =====  I  =====
+// =====  J  =====
+
+// =====  K  =====
 
 .kiranGandhi {
   @include theme(goldenrod, kiran);
-}
-
-.sarahBump {
-  @include theme(lightblue, kiran);
 }

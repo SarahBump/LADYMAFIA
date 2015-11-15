@@ -76,7 +76,7 @@ $on-laptop:        800px;
 @mixin theme($themecolor, $header){
     .post-header{
       // background: linear-gradient(to right bottom, lighten($themecolor, 10%) 50%, $themecolor 50%);
-      background-image: url(/images/#{$header}-header.png);
+      background-image: url(/images/#{$header}.png);
     }
     .post-title{ color: $themecolor;}
     blockquote, blockquote.post-quote {

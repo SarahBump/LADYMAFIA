@@ -5,7 +5,7 @@ type: profile
 date:   2015-10-27 21:06:38 -0500
 author: Lady Mafia
 categories: jekyll update
-thumb: /images/ladymafia_fav_circle.png
+thumb: /images/logo/ladymafia_fav_circle.png
 theme: ladyMafia
 teaser: "sex, drugs, and rock n roll"
 ---

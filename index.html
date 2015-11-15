@@ -1,6 +1,6 @@
 ---
 layout: default
-thumb: /images/ladymafia_notext.png
+thumb: /images/logo/ladymafia_notext.png
 ---
 
 <div class="home">
@@ -9,7 +9,7 @@ thumb: /images/ladymafia_notext.png
   <h3> our latest post </h3>
   <p> </p>
   <div class="blog-index post-list-alt">
-    {% for post in site.categories.contemporary %}
+    {% for post in site.categories.contemporary limit:1 %}
       {% assign post = site.posts.first %}
       {% assign content = post.content %}
       {% include post_detail.html %}
@@ -19,7 +19,7 @@ thumb: /images/ladymafia_notext.png
   <h3> O.G. </h3>
   <p>The movers and shakers you didn't learn about in history class</p>
   <div class="blog-index post-list-alt">
-    {% for post in site.categories.historical %}
+    {% for post in site.categories.historical limit:1 %}
       {% assign post = site.posts.first %}
       {% assign content = post.content %}
       {% include post_detail.html %}

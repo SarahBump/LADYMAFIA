@@ -61,17 +61,6 @@ figcaption {
 }
 
 
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-    @include media-query($on-palm){
-      margin-left: 0;
-    }
-}
-
 li {
     > ul,
     > ol {
@@ -97,6 +86,7 @@ h2 {
 }
 h3 {
   font-size: 24px;
+  margin-bottom: 0;
 }
 
 

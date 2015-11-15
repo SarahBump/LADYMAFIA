@@ -1,6 +1,12 @@
 /**
  * Syntax highlighting styles
  */
+
+ em {
+   background: black;
+   color: $background-color;
+   font-style: normal;
+ }
 .highlight {
     background: #fff;
     @extend %vertical-rhythm;
