@@ -20,7 +20,7 @@
 .content {
   clear: both;
   h3 {
-    font-family: 'ostrich-sans inline-regular';
+    font-family: courier;
   }
 }
 
@@ -28,46 +28,41 @@
     float: left;
     line-height: 56px;
     display: block;
-    // font-family: 'blackout midnight';
+    font-family: 'blackout midnight';
     font-size: 20px;
     padding-bottom: 50px;
-
-    .menu-icon {
+    a {
+      color: $text-color;
+      line-height: $base-line-height;
+      font-family: 'blackout two_am';
+      text-decoration: none;
+      font-size: 20px;
+      &:hover, &:active {
+        font-family: 'blackout midnight';
+        text-decoration: none;
+        color: black;
+      }
+      &.current{
         display: none;
+      }
     }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-        font-family: 'blackout two_am';
-        font-size: 20px;
-        // &:not(:last-child) {
-        //     margin-right: 10px;
-        // }
-        // &:not(:first-child) {
-        //     margin-left: 10px;
-        // }
-        &:hover {
-          font-family: 'blackout midnight';
-          text-decoration: none;
-        }
-
-        span {
-          font-family: Helvetica;
-          padding-left: 15px;
-          padding-right: 10px;
-        }
-      }
-    .page-link:hover + .nav-tagline{
+    span {
+      font-family: Helvetica;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: bold;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .nav-tagline.current{
       display: inline-block;
-      @include media-query($on-palm) {
-        display: none;
-      }
+      // @include media-query($on-palm) {
+      //   display: none;
+      // }
     }
     .nav-tagline{
       display: none;
-      float: right;
-      font-family: 'Raleway';
+      font-family: 'blackout midnight';
     }
 }
 
@@ -191,40 +186,38 @@
  * Posts
  */
 
-.scroll-test{
-
-  .post-header {
-    .post-icon {
-      float: left;
-      margin: 40px auto 60px 100px;
-    }
-    .post-title {
-      float: left;
-      text-align: left;
-      padding-left: 30px;
-    }
-  }
-  .post-body{
-    float: right;
-  }
-
-}
-.post-header {
+.post-header.container {
     margin-top: 80px;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    padding-top: 40px;
+    &.scroll {
+      background-color: $background-color;
+      z-index: 98;
+      position: fixed;
+      top: $post-nav-height + 20px;
+      .post-title {
+        padding: 20px;
+      }
+      .post-icon {
+        display: none;
+      }
+    }
 }
 
 .post-icon {
   height: 200px;
   width: 200px;
-  margin: 0 auto 60px auto;
+  margin: 20px auto 0px auto;
   border-radius: 200px;
-  border: 1px solid black;
   object-fit: cover;
 }
 .post-title {
     font-size: 42px;
-    text-align: center;
+    text-align: left;
+    padding-left: 320px;
     letter-spacing: -1px;
     line-height: 1;
     color: #fdfdfd;
@@ -234,24 +227,20 @@
         font-size: 36px;
     };
 }
-.post-quote {
-  padding: 0 150px;
-}
+
 .post-body{
   margin-bottom: 50px;
   padding: 0px $spacing-unit;
   position: relative;
   @include  media-query($on-palm) {
     margin: 0 0 30px;
+    padding: 0;
     width: 100%;
   }
 }
 
 .post-content {
     padding-top: $spacing-unit;
-    // -webkit-box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
-    // -moz-box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
-    // box-shadow: inset 0px 10px 12px 0px rgba(0,0,0,0.21);
     .container {
       background-color: transparent;
     }
@@ -277,5 +266,10 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    .post-quote {
+      font-family: courier;
+      color: black;
+      
     }
 }

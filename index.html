@@ -6,10 +6,23 @@ thumb: /images/ladymafia_notext.png
 <div class="home">
 
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-  <h2> our latest post </h2>
+  <h3> our latest post </h3>
+  <p> </p>
   <div class="blog-index post-list-alt">
-    {% assign post = site.posts.first %}
-    {% assign content = post.content %}
-    {% include post_detail.html %}
+    {% for post in site.categories.contemporary %}
+      {% assign post = site.posts.first %}
+      {% assign content = post.content %}
+      {% include post_detail.html %}
+    {% endfor %}
+  </div>
+
+  <h3> O.G. </h3>
+  <p>The movers and shakers you didn't learn about in history class</p>
+  <div class="blog-index post-list-alt">
+    {% for post in site.categories.historical %}
+      {% assign post = site.posts.first %}
+      {% assign content = post.content %}
+      {% include post_detail.html %}
+    {% endfor %}
   </div>
 </div>

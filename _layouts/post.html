@@ -1,5 +1,7 @@
 ---
 layout: post-view
+custom_js:
+- posts.js
 ---
 <!-- <div class="post"> -->
     {% if page.reading_time %}
@@ -13,10 +15,10 @@ layout: post-view
     </p>
     {% endif %}
     <article class="post-content">
-      {% if page.quote %}
-      <p class="post-quote u-full-width"><span>"</span>{{ page.quote }}</p>
-      {% endif %}
         <div class="container">
+        {% if page.quote %}
+        <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
+        {% endif %}
         {{ content }}
         <div class="sign-off">
           <span>Until next time,</span><br>
@@ -26,39 +28,8 @@ layout: post-view
       </div>
     </article>
 
-    <!-- <footer class="post-meta">
-        {% if page.date %}
-        <div class="meta">
-            <h3 class="meta-title">Date</h3>
-            <span class="meta-content">{{ page.date | date: "%B %-d, %Y" }}</span>
-        </div>
-        {% endif %}
-        {% if page.author %}
-        <div class="meta">
-            <h3 class="meta-title">Author</h3>
-            <span class="meta-content">{{ page.author }}</span>
-        </div>
-        {% endif %}
-        {% if page.show_categories %}
-        <div class="meta">
-            <h3 class="meta-title">Categories</h3>
-            <span class="meta-content">
-                {% for category in page.categories %}
-                    {{ category | capitalize }}&nbsp;
-                {% endfor %}
-            </span>
-        </div>
-        {% endif %}
-        {% if page.show_tags %}
-        <div class="meta">
-            <h3 class="meta-title">Tags</h3>
-            <span class="meta-content">
-                {% for tag in page.tags %}
-                    {{ tag | capitalize }}&nbsp;
-                {% endfor %}
-            </span>
-        </div>
-        {% endif %}
-    </footer> -->
-
-<!-- </div> -->
+{% if page.custom_js %}
+  {% for js_file in page.custom_js %}
+  <script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
+  {% endfor %}
+{% endif %}

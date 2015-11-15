@@ -4,11 +4,11 @@ title:  "Kiran Gandhi"
 type: interview
 date:   2015-11-11 21:06:38 -0500
 author: Sarah Bump
-categories: jekyll update
-thumb: /images/kiranGandhi.jpg
+categories: contemporary
+thumb: /images/kiranGandhi.png
 theme: kiranGandhi
 teaser: "free bleeding, making music with marbles, and feminine leadership"
-quote: If we include men in the conversation, we will be able to move forward and we will be able to show men that enabling women to be their authentic self can actually enable men to be their authentic self too.
+quote: I want to work with a group of people who touch a large amount of lives. I think to be a sole independent person, you can inspire others, but unless you’re working together, you won’t move the earth in as big or impactful of a way as you could.
 ---
 
 

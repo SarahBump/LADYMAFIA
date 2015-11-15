@@ -84,10 +84,20 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+h2, h3 {
+  font-family: courier;
+  color: black;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
 
 
 /**
@@ -113,12 +123,10 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
 
     > :last-child {
         margin-bottom: 0;

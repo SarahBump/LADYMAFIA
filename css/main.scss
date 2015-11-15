@@ -22,7 +22,6 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$post-header-height: 400px;
 // Width of the content area
 $content-width:    800px;
 $post-nav-height: 50px;
@@ -56,15 +55,32 @@ $on-laptop:        800px;
   }
 }
 
+@font-face {
+  $font-path-file-name: /assets/fonts/chunk/webfonts/Chunkfive-webfont;
+  font-family: 'chunk';
+  src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
+  src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      //  url($font-path-file-name+'.woff2') format('woff2'), /* Super Modern Browsers */
+      //  url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
+       url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
+}
+
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
-@mixin theme($themecolor){
+@mixin theme($themecolor, $header){
     .post-header{
-      background-color: $themecolor;
+      // background: linear-gradient(to right bottom, lighten($themecolor, 10%) 50%, $themecolor 50%);
+      background-image: url(/images/#{$header}-header.png);
+    }
+    .post-title{ color: $themecolor;}
+    blockquote, blockquote.post-quote {
+        border-left: 4px solid $themecolor;
     }
     &.post-summary {
       a.post-link, span {
