@@ -26,7 +26,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    800px;
 $post-nav-height: 50px;
 
-$on-palm:          600px;
+$mobile:          600px;
 $on-laptop:        800px;
 
 @each $font-face in midnight, sunrise, two_am {
@@ -87,6 +87,13 @@ $on-laptop:        800px;
       }
       &:hover{
         background-color: $themecolor;
+      }
+    }
+    p a {
+      color: $themecolor;
+      font-weight: bolder;
+      &:active , &:hover {
+        color: darken($themecolor, 10%);
       }
     }
 }

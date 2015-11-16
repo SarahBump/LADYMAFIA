@@ -15,7 +15,6 @@ custom_js:
     </p>
     {% endif %}
     <article class="post-content">
-        <div class="container">
         {% if page.quote %}
         <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
         {% endif %}
@@ -23,7 +22,6 @@ custom_js:
 
         {% include signoff.html %}
         {% include post-footer.html %}
-      </div>
     </article>
 
 {% if page.custom_js %}

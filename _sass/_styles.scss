@@ -20,7 +20,7 @@
     margin-left: 25px;
   }
 
-  @include media-query($on-palm){
+  @include media-query($mobile){
     padding-top: 0;
     .header-title h1{
       font-size: 72px;

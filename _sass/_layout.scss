@@ -32,7 +32,7 @@
   }
   &.row {
     width: 80%;
-    @include media-query($on-palm){
+    @include media-query($mobile){
       width: 100%;
     }
   }
@@ -76,7 +76,7 @@
       display: none;
       font-family: 'blackout midnight';
     }
-    @include media-query($on-palm) {
+    @include media-query($mobile) {
       a.current {
         display: inline-block;
         font-family: 'blackout midnight';
@@ -150,7 +150,7 @@
     }
 }
 
-@include media-query($on-palm) {
+@include media-query($mobile) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -207,60 +207,74 @@
 /**
  * Posts
  */
+ .post-content, .post-header {
+   width: 80%;
+   padding: 0;
+   margin: 0 auto;
+   @include media-query($on-laptop) {
+     width: 100%;
+   }
+ }
 
-.post-header.container {
-    margin-top: 80px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    padding-top: 40px;
-    &.scroll {
-      background-color: $background-color;
-      z-index: 98;
-      position: fixed;
-      top: $post-nav-height + 20px;
-      .post-title {
-        padding: 20px;
-      }
-      .post-icon {
-        display: none;
-      }
-    }
+.post-header {
+  margin-top: 80px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 40px;
 }
 
 .post-icon {
-  height: 250px;
   width: 250px;
-  margin: 10px auto 0px 20px;
-  // border-radius: 200px;
+  max-width: 40%;
+  display: inline;
   object-fit: cover;
   float: left;
+  // padding-right: 30px;
+  @include media-query($mobile) {
+    display: none;
+  }
 }
 div.post-title {
   display: inline-block;
-  margin-left: 30px;
-  float: left;
-  max-width: 60%
+  // margin-left: 30px;
+  max-width: 60%;
+  @include media-query($mobile) {
+    max-width: 100%;
+    margin: 0;
+  }
+  h1 {
+    font-size: 42px;
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    };
+  }
+  h3 {
+    font-size: 32px;
+    @include media-query($on-laptop) {
+        font-size: 28px;
+    };
+  }
+  h2 {
+    font-size: 36px;
+    @include media-query($on-laptop) {
+        font-size: 32px;
+    };
+  }
 }
 .post-title {
-    font-size: 42px;
     text-align: left;
     letter-spacing: -1px;
     line-height: 1;
     color: #fdfdfd;
     font-family: 'Blackout two_am';
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    };
 }
 
 .post-body{
   margin-bottom: 50px;
   padding: 0px $spacing-unit;
   position: relative;
-  @include  media-query($on-palm) {
+  @include  media-query($mobile) {
     margin: 0 0 30px;
     padding: 0;
     width: 100%;
@@ -271,12 +285,9 @@ div.post-title {
   padding-top: $spacing-unit;
   h3 { margin-bottom: 0;}
 }
-
 .post-content {
     padding-top: $spacing-unit;
-    .container {
-      background-color: transparent;
-    }
+    clear: both;
     h2 {
         font-size: 32px;
 
@@ -303,6 +314,9 @@ div.post-title {
     .post-quote {
       font-family: courier;
       color: black;
+      @include media-query($mobile) {
+        font-size: 14px;
+      }
 
     }
 }
