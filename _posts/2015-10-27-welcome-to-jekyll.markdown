@@ -3,7 +3,7 @@ layout: post
 title:  "A Cool Test Post"
 type: profile
 date:   2015-10-27 21:06:38 -0500
-author: Lady Mafia
+author: LADY MAFIA
 categories: jekyll update
 thumb: /images/logo/ladymafia_fav_circle.png
 theme: ladyMafia
