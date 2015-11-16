@@ -16,9 +16,9 @@ custom_js:
     {% endif %}
     <article class="post-content">
         <div class="container">
-        <!-- {% if page.quote %}
+        {% if page.quote %}
         <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
-        {% endif %} -->
+        {% endif %}
         {{ content }}
 
         {% include signoff.html %}

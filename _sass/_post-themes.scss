@@ -1,13 +1,17 @@
 //theme(content color, title color, link color)
 .ladyMafia{
-  @include theme(red, kiran);
+  @include theme(red);
 }
 .sarahBump {
-  @include theme(lightblue, kiran);
+  @include theme(lightblue);
 }
 ///
 
 // =====  A  =====
+
+.adaLovelace {
+  @include theme(darkslateblue);
+}
 // =====  B  =====
 // =====  C  =====
 // =====  D  =====
@@ -17,7 +21,7 @@
 
 // =====  H  =====
 .hedyLamarr {
-  @include theme(#76eec6, kiran);
+  @include theme(#76eec6);
 }
 
 // =====  I  =====
@@ -26,5 +30,5 @@
 // =====  K  =====
 
 .kiranGandhi {
-  @include theme(goldenrod, kiran);
+  @include theme(goldenrod);
 }

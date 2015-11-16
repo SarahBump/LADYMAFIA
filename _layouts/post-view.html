@@ -10,7 +10,7 @@
       <div class="container">
         <header class="post-header container">
             {% if page.thumb %}
-            <img src="{{ page.thumb }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
+            <img src="/images/post-icons/{{ page.thumb }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
             {% endif %}
             <div class="post-title">
             {% if page.type == 'interview' %}
@@ -20,7 +20,7 @@
               </h1>
               {% elsif page.type == 'profile' %}
               <h1 class="post-title u-full-width">
-                {{ page.title | prepend: 'Notable Mafia Member: '}}
+                {{ page.title | prepend: 'O.G. '}}
               </h1>
             {% endif %}
             <h3 class="post-title">{{ page.teaser }}</h3>
