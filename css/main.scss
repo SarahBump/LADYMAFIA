@@ -27,8 +27,24 @@ $content-width:    800px;
 $post-nav-height: 50px;
 
 $mobile:          600px;
-$on-laptop:        800px;
+$laptop:        800px;
+$bigscreen: 1200px;
 
+
+//media queries
+@mixin media($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $bigscreen) {
+    @content;
+  }
+}
+
+//web fonts
 @each $font-face in midnight, sunrise, two_am {
   @font-face {
     $font-path-file-name: /assets/fonts/blackout/webfonts/blackout_#{$font-face}-webfont;
@@ -66,13 +82,7 @@ $on-laptop:        800px;
        url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
 }
 
-
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
+//post theme customization
 @mixin theme($themecolor){
     .post-header{
       // background: linear-gradient(to right bottom, lighten($themecolor, 10%) 50%, $themecolor 50%);

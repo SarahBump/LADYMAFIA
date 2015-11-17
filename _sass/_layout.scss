@@ -18,8 +18,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
+    
     &:visited {
         color: $grey-color-dark;
     }
@@ -32,7 +31,7 @@
   }
   &.row {
     width: 80%;
-    @include media-query($mobile){
+    @include media($mobile){
       width: 100%;
     }
   }
@@ -76,7 +75,7 @@
       display: none;
       font-family: 'blackout midnight';
     }
-    @include media-query($mobile) {
+    @include media($mobile) {
       a.current {
         display: inline-block;
         font-family: 'blackout midnight';
@@ -138,7 +137,7 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include media($laptop) {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -151,7 +150,7 @@
     }
 }
 
-@include media-query($mobile) {
+@include media($mobile) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -212,7 +211,7 @@
    width: 80%;
    padding: 0;
    margin: 0 auto;
-   @include media-query($on-laptop) {
+   @include media($laptop) {
      width: 100%;
    }
  }
@@ -232,7 +231,7 @@
   object-fit: cover;
   float: left;
   // padding-right: 30px;
-  @include media-query($mobile) {
+  @include media($mobile) {
     display: none;
   }
 }
@@ -240,25 +239,25 @@ div.post-title {
   display: inline-block;
   // margin-left: 30px;
   max-width: 60%;
-  @include media-query($mobile) {
+  @include media($mobile) {
     max-width: 100%;
     margin: 0;
   }
   h1 {
     font-size: 42px;
-    @include media-query($on-laptop) {
+    @include media($laptop) {
         font-size: 36px;
     };
   }
   h3 {
     font-size: 32px;
-    @include media-query($on-laptop) {
+    @include media($laptop) {
         font-size: 28px;
     };
   }
   h2 {
     font-size: 36px;
-    @include media-query($on-laptop) {
+    @include media($laptop) {
         font-size: 32px;
     };
   }
@@ -275,7 +274,7 @@ div.post-title {
   margin-bottom: 50px;
   padding: 0px $spacing-unit;
   position: relative;
-  @include  media-query($mobile) {
+  @include  media($mobile) {
     margin: 0 0 30px;
     padding: 0;
     width: 100%;
@@ -292,7 +291,7 @@ div.post-title {
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include media($laptop) {
             font-size: 28px;
         }
     }
@@ -300,7 +299,7 @@ div.post-title {
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include media($laptop) {
             font-size: 22px;
         }
     }
@@ -308,14 +307,14 @@ div.post-title {
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include media($laptop) {
             font-size: 18px;
         }
     }
     .post-quote {
       font-family: courier;
       color: black;
-      @include media-query($mobile) {
+      @include media($mobile) {
         font-size: 14px;
       }
 
@@ -332,7 +331,7 @@ div.post-title {
   right: 0;
   z-index: -1;
   border-top: 4px solid black;
-  // @include media-query($on-laptop){
+  // @include media($laptop){
   //   margin-bottom: 145px;
   // }
 }

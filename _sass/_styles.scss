@@ -1,38 +1,73 @@
 .site-header, .main-header {
-    .header-title{
+  padding-top: 10%;
+
+    h1.header-title{
       font-family: 'blackout midnight', arial-bold, sans-serif;
-      padding-top: 10%;
-      h1 {
-        font-size: 150px;
-        color: black;
-        margin-bottom: 0;
+      font-size: 150px;
+      font-size: 12vw;
+      color: black;
+      margin-bottom: 0;
+      display: inline-block;
+      + h1.header-title{
+        padding-left: 12vw;
+        &:before {
+          content: " ";
+          position: absolute;
+          background-image: url(/images/logo/ladymafia_notext.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 11vw;
+          width: 11vw;
+          margin-left: -12vw;
+        }
       }
-
     }
-  #home-image {
-    background-image: url(/images/logo/ladymafia_notext.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: block;
-    height: 200px;
-    width: auto;
-    margin-top: 35px;
-    margin-left: 25px;
+
+  @include desktop {
+    h1.header-title{
+      font-size: 11vw;
+        + h1.header-title {
+          &:before {
+          height: 10vw;
+          width: 10vw;
+          margin-left: -11vw;
+        }
+      }
+    }
   }
-
-  @include media-query($mobile){
-    padding-top: 0;
-    .header-title h1{
-      font-size: 72px;
+  @include media($laptop) {
+    h1.header-title{
+      font-size: 13vw;
+        + h1.header-title {
+          padding-left: 12vw;
+          &:before {
+          height: 12vw;
+          width: 12vw;
+          margin-left: -13vw;
+        }
+      }
     }
-    #home-image { display: none;}
+  }
+  @include media($mobile) {
+    padding-top: 10px;
+    h1.header-title{
+      font-size: 72px;
+      font-size: 14vw;
+        + h1.header-title {
+          &:before {
+          height: 13vw;
+          width: 13vw;
+          margin-left: -12vw;
+        }
+      }
+    }
   }
 
 }
 
 
 .header-small{
-  padding: 0px;
+  // padding: 0px;
   margin-bottom: 0;
   #home-image {
     background-image: url(/images/logo/ladymafia_fav_circle.png);
@@ -41,10 +76,11 @@
     margin-top: 50px;
   }
   .header-title{
-    a:hover {
+    a:hover, a:visited, a:active, a:focus {
       text-decoration: none;
     }
     h1 {
+      color: black;
       font-size: 75px;
       font-family: 'blackout sunrise', arial-bold, sans-serif;
     }
