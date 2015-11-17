@@ -85,6 +85,9 @@
       font-family: 'blackout sunrise', arial-bold, sans-serif;
     }
   }
+  & +.post-nav{
+    display: none;
+  }
 }
 
 .post-wrapper {
@@ -93,30 +96,29 @@
   .post-header {
     background-color: $background-color;
   }
-  .post-nav{
-    width: 100%;
-    position: fixed;
-    padding: 20px;
-    top: 0;
-    z-index: 99;
-    height: $post-nav-height;
-    background-color: $background-color;
-
-    #nav-image{
-      margin-left: 10px;
-      margin-right: 20px;
-      float: left;
-      background-image: url(/images/logo/ladymafia_favicon_round.png);
-      background-repeat: no-repeat;
-      background-size: 50px;
-      display: inline-block;
-      height: $post-nav-height;
-      width: $post-nav-height;
-    }
-  }
-
 }
+.post-nav{
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: $post-nav-height;
+  background-color: $background-color;
 
+  #nav-image{
+    margin-left: 10px;
+    margin-right: 20px;
+    float: left;
+    background-image: url(/images/logo/ladymafia_favicon_round.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    display: inline-block;
+    height: $post-nav-height;
+    width: $post-nav-height;
+  }
+}
 .post-list-alt{
   .post-summary {
     text-align: left;
