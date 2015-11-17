@@ -18,14 +18,15 @@ custom_js:
         {% if page.quote %}
         <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
         {% endif %}
+
         {{ content }}
 
         {% include signoff.html %}
         {% include post-footer.html %}
     </article>
 
-{% if page.custom_js %}
+<!-- {% if page.custom_js %}
   {% for js_file in page.custom_js %}
   <script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
   {% endfor %}
-{% endif %}
+{% endif %} -->

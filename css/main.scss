@@ -27,8 +27,24 @@ $content-width:    800px;
 $post-nav-height: 50px;
 
 $mobile:          600px;
-$on-laptop:        800px;
+$laptop:        800px;
+$bigscreen: 1200px;
 
+
+//media queries
+@mixin media($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $bigscreen) {
+    @content;
+  }
+}
+
+//web fonts
 @each $font-face in midnight, sunrise, two_am {
   @font-face {
     $font-path-file-name: /assets/fonts/blackout/webfonts/blackout_#{$font-face}-webfont;
@@ -66,16 +82,14 @@ $on-laptop:        800px;
        url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
 }
 
-
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
+//post theme customization
 @mixin theme($themecolor){
-    .post-header{
-      // background: linear-gradient(to right bottom, lighten($themecolor, 10%) 50%, $themecolor 50%);
+    p a {
+      color: $themecolor;
+      font-weight: bolder;
+      &:active , &:hover {
+        color: darken($themecolor, 10%);
+      }
     }
     .post-title{ color: $themecolor;}
     blockquote, blockquote.post-quote {
@@ -89,11 +103,15 @@ $on-laptop:        800px;
         background-color: $themecolor;
       }
     }
-    p a {
-      color: $themecolor;
-      font-weight: bolder;
-      &:active , &:hover {
-        color: darken($themecolor, 10%);
+    .post-content {
+      p + hr {
+        width: 30px;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 20px;
+        height: 0;
+        right: 0;
+        border-top: 3px solid $themecolor;
       }
     }
 }
