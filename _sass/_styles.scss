@@ -106,9 +106,11 @@
   z-index: 99;
   height: $post-nav-height;
   background-color: $background-color;
+  @include media($mobile) {
+    margin-bottom: 40px;
+  }
 
   #nav-image{
-    margin-left: 10px;
     margin-right: 20px;
     float: left;
     background-image: url(/images/logo/ladymafia_favicon_round.png);
