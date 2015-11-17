@@ -84,8 +84,12 @@ $bigscreen: 1200px;
 
 //post theme customization
 @mixin theme($themecolor){
-    .post-header{
-      // background: linear-gradient(to right bottom, lighten($themecolor, 10%) 50%, $themecolor 50%);
+    p a {
+      color: $themecolor;
+      font-weight: bolder;
+      &:active , &:hover {
+        color: darken($themecolor, 10%);
+      }
     }
     .post-title{ color: $themecolor;}
     blockquote, blockquote.post-quote {
@@ -99,11 +103,15 @@ $bigscreen: 1200px;
         background-color: $themecolor;
       }
     }
-    p a {
-      color: $themecolor;
-      font-weight: bolder;
-      &:active , &:hover {
-        color: darken($themecolor, 10%);
+    .post-content {
+      p + hr {
+        width: 50px;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 20px;
+        height: 0;
+        right: 0;
+        border-top: 4px solid $themecolor;
       }
     }
 }

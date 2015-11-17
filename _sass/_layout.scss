@@ -18,7 +18,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    
+
     &:visited {
         color: $grey-color-dark;
     }
@@ -96,7 +96,7 @@
     bottom: 0;
     margin-top: 100px;
     border-top: 1px solid $grey-color-light;
-    
+
 }
 
 .footer-heading {
@@ -283,8 +283,17 @@ div.post-title {
 }
 
 .post-footer {
-  padding-top: $spacing-unit;
+  padding-top: 40px;
   h3 { margin-bottom: 0;}
+  hr {
+    width: 50px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: 0;
+    right: 0;
+    border-top: 4px solid black;
+  }
 }
 .post-content {
     padding-top: $spacing-unit;
@@ -320,19 +329,4 @@ div.post-title {
       }
 
     }
-}
-.sign-off:after{
-  content:"";
-  width: 50px;
-  position: absolute;
-  display: block;
-  margin-top: 10px;
-  left: 0;
-  height: 0;
-  right: 0;
-  z-index: -1;
-  border-top: 4px solid black;
-  // @include media($laptop){
-  //   margin-bottom: 145px;
-  // }
 }
