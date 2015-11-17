@@ -6,7 +6,7 @@ tagline: What is LADY MAFIA?
 ---
 
 ### What is it?
-A catalogue of the humans who are moving the earth. Some you may have heard of, many that didn't make into your history books and all whose contributions to the world as we know it are powerful and invisible. Women and men who are making the world better, who are doing courageous things in the name of human flourishing.
+A catalogue of the humans who are moving the earth. Some you may have heard of, many that didn't make into your history books, and all whose contributions to the world as we know it are powerful and maybe invisible. Women and men who are making the world better, who are doing courageous things in the name of human flourishing.
 
 ### Why .rocks?
 Because the domain was cheap. However, we are not above taking donations to chip in towards the $3000 ".com" domain. Also because LADY MAFIA, well, rocks, so we can live with it.
