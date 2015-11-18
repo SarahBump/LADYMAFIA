@@ -11,7 +11,7 @@ function toggleNav() {
 }
 
 $(document).ready(function(){
-  if( $('.header-small').length ) {
+  if( $('.header-small').length > 0) {
     toggleNav();
   };
 })
