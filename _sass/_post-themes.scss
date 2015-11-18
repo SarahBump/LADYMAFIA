@@ -1,7 +1,4 @@
 //theme(content color, title color, link color)
-.ladyMafia{
-  @include theme(red);
-}
 .sarahBump {
   @include theme(lightblue);
 }
@@ -31,4 +28,10 @@
 
 .kiranGandhi {
   @include theme(goldenrod);
+}
+
+// =====  L  =====
+
+.ladyMafia{
+  @include theme(red);
 }
