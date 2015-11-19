@@ -14,12 +14,15 @@ credit: Antenna by Creative Stall from the Noun Project
 ---
 
 **What she's known for:**
+
 Her career on the silver screen that earned her the title of Most Beautiful Woman in the World.
 
 **Why you should know her, and why she is definitely a member of the mafia:**
+
 She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos) to help develop a frequency-hopping technology to thwart German U-Boats during World War II.
 
 **She is definitely not basic:**
+
 She was the first actress to portray the depiction of female pleasure on film.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z0gu2QhV1dc" frameborder="0" allowfullscreen></iframe>
