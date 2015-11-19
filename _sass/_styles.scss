@@ -111,6 +111,9 @@
   background-color: $background-color;
   @include media($mobile) {
     margin-bottom: 40px;
+    .trigger {
+        margin-top: -5px;
+    }
   }
 
   #nav-image{
