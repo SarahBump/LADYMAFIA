@@ -2,7 +2,7 @@
 layout: post
 title:  "Lady Mafia"
 type: interview
-date:   2015-18-15
+date:   2015-11-18
 author: Lady Mafia
 categories: contemporary
 thumb: Ladymafia_notext.png
@@ -12,7 +12,7 @@ quote: We aren’t documenting “women engineers,” or “female leaders,” o
 ---
 
 ### Why did we decide to create this site?
-shouldn't be learning about people who made history from google doodle, led to believe women's history is a footnote, people who are impacting our lives, whether contemporary or historical, should be acknowledge for their contributions regardless of who they are. If anything the adversity that women have faced almost warrants more recognition. 
+shouldn't be learning about people who made history from google doodle, led to believe women's history is a footnote, people who are impacting our lives, whether contemporary or historical, should be acknowledge for their contributions regardless of who they are. If anything the adversity that women have faced almost warrants more recognition.
 
 ### Why should you care?
 
