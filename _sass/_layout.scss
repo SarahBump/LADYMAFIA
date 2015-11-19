@@ -204,6 +204,12 @@
     font-size: 20px;
 }
 
+.mobile-intro {
+  @include no-mobile {
+    display: none;
+  }
+}
+
 .post-list {
     margin-left: 0;
     list-style: none;
