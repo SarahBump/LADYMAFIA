@@ -11,22 +11,20 @@ teaser: frequency-hopping, submarine signals, and the most beautiful woman in th
 quote:
 ---
 
-What she's known for:
-Acting
+**What she's known for:**
+Her career on the silver screen that earned her the title of Most Beautiful Woman in the World.
 
-Why you should know her:
-She basically invented wifi
+**Why you should know her, and why she is definitely a member of the mafia:**
+She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos) to help develop a frequency-hopping technology to thwart German U-Boats during World War II.
 
-Fun fact:
-first portrayal of female orgasm on film.
+**She is definitely not basic:**
+She was the first actress to portray the depiction of female pleasure on film.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z0gu2QhV1dc" frameborder="0" allowfullscreen></iframe>
 
-read [Google Doodle](http://www.google.com/doodles/hedy-lamarrs-101st-birthday)
+Thanks to the wonderful [Google Doodle](http://www.google.com/doodles/hedy-lamarrs-101st-birthday) for educating us on the inventors who have made our modern lives possible.  
 
-
-http://www.google.com/doodles/ada-lovelaces-197th-birthday
-
+Learn about Hedy's technical prowess and controversial acting career in this entertaining and informative post on [Movie Pilot](http://moviepilot.com/posts/3635767?lt_source=external,manual);
 
 
 Antenna by Creative Stall from the Noun Project
