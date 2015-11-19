@@ -13,9 +13,13 @@
  	min-height:100%;
  	position:relative;
   .container {
-    	padding-bottom: $footer-height;
+    	padding-bottom: 100px;
       position:relative;
   }
+ }
+
+ .site-header {
+   padding-top: 10%;
  }
   h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
