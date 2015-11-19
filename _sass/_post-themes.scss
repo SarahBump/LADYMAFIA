@@ -34,4 +34,8 @@
 
 .LadyMafia{
   @include theme(red);
+  .post-icon {
+    width: 200px;
+    margin-left: 40px;
+  }
 }
