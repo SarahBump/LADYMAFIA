@@ -50,6 +50,9 @@
       font-family: 'blackout two_am';
       text-decoration: none;
       font-size: 20px;
+      @include media($mobile) {
+        font-size: 16px;
+      }
       &:hover, &:active, &:focus {
         font-family: 'blackout midnight';
         text-decoration: none;
