@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: post-view
+custom_js:
+- posts.js
 ---
-<div class="post">
+<!-- <div class="post"> -->
     {% if page.reading_time %}
-    <p class="post-reading-time">&#126;
+    <p class="row post-reading-time">&#126;
         {% capture words %}
           {{ content | number_of_words | minus: 180 }}
         {% endcapture %}
@@ -12,52 +14,19 @@ layout: default
         {% endunless %}
     </p>
     {% endif %}
-
-    <header class="post-header">
-        {% if page.thumb %}
-        <img src="{{ page.thumb }}" alt="{{ page.title }}" class="post-thumb" />
+    <article class="post-content">
+        {% if page.quote %}
+        <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
         {% endif %}
 
-        <h1 class="post-title">{{ page.title }} </h1>
-    </header>
-
-    <article class="post-content">
         {{ content }}
+
+        {% include signoff.html %}
+        {% include post-footer.html %}
     </article>
 
-    <footer class="post-meta">
-        {% if page.date %}
-        <div class="meta">
-            <h3 class="meta-title">Date</h3>
-            <span class="meta-content">{{ page.date | date: "%B %-d, %Y" }}</span>
-        </div>
-        {% endif %}
-        {% if page.author %}
-        <div class="meta">
-            <h3 class="meta-title">Author</h3>
-            <span class="meta-content">{{ page.author }}</span>
-        </div>
-        {% endif %}
-        {% if page.show_categories %}
-        <div class="meta">
-            <h3 class="meta-title">Categories</h3>
-            <span class="meta-content">
-                {% for category in page.categories %}
-                    {{ category | capitalize }}&nbsp;
-                {% endfor %}
-            </span>
-        </div>
-        {% endif %}
-        {% if page.show_tags %}
-        <div class="meta">
-            <h3 class="meta-title">Tags</h3>
-            <span class="meta-content">
-                {% for tag in page.tags %}
-                    {{ tag | capitalize }}&nbsp;
-                {% endfor %}
-            </span>
-        </div>
-        {% endif %}
-    </footer>
-
-</div>
+<!-- {% if page.custom_js %}
+  {% for js_file in page.custom_js %}
+  <script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
+  {% endfor %}
+{% endif %} -->

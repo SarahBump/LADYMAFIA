@@ -1,0 +1,160 @@
+.site-header, .main-header {
+    h1.header-title{
+      font-family: 'blackout midnight', arial-bold, sans-serif;
+      font-size: 150px;
+      font-size: 12vw;
+      color: black;
+      margin-bottom: 0;
+      display: inline-block;
+      + h1.header-title{
+        padding-left: 12vw;
+        &:before {
+          content: " ";
+          position: absolute;
+          background-image: url(/images/logo/ladymafia_notext.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 11vw;
+          width: 11vw;
+          margin-left: -12vw;
+        }
+      }
+    }
+
+  @include desktop {
+    h1.header-title{
+      font-size: 11vw;
+        + h1.header-title {
+          &:before {
+          height: 10vw;
+          width: 10vw;
+          margin-left: -11vw;
+        }
+      }
+    }
+  }
+  @include media($laptop) {
+    h1.header-title{
+      font-size: 13vw;
+        + h1.header-title {
+          padding-left: 12vw;
+          &:before {
+          height: 12vw;
+          width: 12vw;
+          margin-left: -13vw;
+        }
+      }
+    }
+  }
+  @include media($mobile) {
+    padding-top: 10px;
+    h1.header-title{
+      font-size: 72px;
+      font-size: 14vw;
+        + h1.header-title {
+          &:before {
+          height: 13vw;
+          width: 13vw;
+          margin-left: -13vw;
+        }
+      }
+    }
+  }
+
+}
+
+
+.header-small{
+  // padding: 0px;
+  margin-bottom: 0;
+  #home-image {
+    background-image: url(/images/logo/ladymafia_fav_circle.png);
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .header-title{
+    a:hover, a:visited, a:active, a:focus {
+      text-decoration: none;
+    }
+    h1 {
+      color: black;
+      font-size: 75px;
+      font-family: 'blackout sunrise', arial-bold, sans-serif;
+    }
+  }
+  & +.post-nav{
+    display: none;
+  }
+}
+
+.post-wrapper {
+  background-color: $background-color;
+  height: 100%;
+  .site-wrapper .container {
+    padding-bottom: 100px;
+  }
+
+  .post-header {
+    background-color: $background-color;
+  }
+}
+.post-nav{
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: $post-nav-height;
+  background-color: $background-color;
+  @include media($mobile) {
+    margin-bottom: 40px;
+  }
+
+  #nav-image{
+    margin-right: 20px;
+    float: left;
+    background-image: url(/images/logo/ladymafia_favicon_round.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    display: inline-block;
+    height: $post-nav-height;
+    width: $post-nav-height;
+  }
+}
+.post-list-alt{
+  .post-summary {
+    text-align: left;
+    max-width: 660px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'blackout two_am';
+    color: black;
+    a.title {
+      display: none;
+      font-size: 40px;
+    }
+    a.post-link, span {
+      text-decoration: none;
+      color: black;
+    }
+    &:hover {
+      a.title {
+        display: block;
+      }
+      // background-image: url(/images/logo/ladymafia_favicon_round.png);
+      // background-repeat: no-repeat;
+      // background-position: left;
+      // background-size: contain;
+      height: 55;
+
+      font-family: 'blackout midnight';
+      padding: 0px 20px;
+      a.post-link, span {
+        color: white;
+        // padding-left: 20px;
+      }
+    }
+  }
+}

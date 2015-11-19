@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div "site-wrapper">
+      <div class="container">
+      {% include small-header.html %}
+
+      <div class="row content">
+          {{ content }}
+      </div>
+      </div>
+      {% include footer.html %}
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,41 @@
+//theme(content color, title color, link color)
+.sarahBump {
+  @include theme(lightblue);
+}
+///
+
+// =====  A  =====
+
+.adaLovelace {
+  @include theme(darkslateblue);
+}
+// =====  B  =====
+// =====  C  =====
+// =====  D  =====
+// =====  E  =====
+// =====  F  =====
+// =====  G  =====
+
+// =====  H  =====
+.hedyLamarr {
+  @include theme(#76eec6);
+}
+
+// =====  I  =====
+// =====  J  =====
+
+// =====  K  =====
+
+.kiranGandhi {
+  @include theme(goldenrod);
+}
+
+// =====  L  =====
+
+.LadyMafia{
+  @include theme(red);
+  .post-icon {
+    width: 200px;
+    margin-left: 40px;
+  }
+}

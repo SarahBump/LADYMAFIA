@@ -2,19 +2,24 @@
 <html>
 
   {% include head.html %}
-
-  <body class='placeholder'>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+  <body>
+    <div class="site-wrapper">
+      <div class="container">
+      {% include main-header.html %}
+      {% include nav.html %}
+      <div class="row content">
+          {{ content }}
       </div>
     </div>
-
     {% include footer.html %}
 
+  </div>
   </body>
 
 </html>
+
+{% if page.custom_js %}
+  {% for js_file in page.custom_js %}
+  <script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
+  {% endfor %}
+{% endif %}

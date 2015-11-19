@@ -19,3 +19,6 @@ github_username:  ladymafia
 
 # Build settings
 markdown: kramdown
+
+#Output
+# permalink: page.title

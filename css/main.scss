@@ -13,6 +13,7 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$footer-height: 	50px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -24,25 +25,101 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
+$post-nav-height: 50px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$mobile:          600px;
+$laptop:        800px;
+$bigscreen: 1200px;
 
 
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
+//media queries
+@mixin media($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
+@mixin desktop {
+  @media screen and (min-width: $bigscreen) {
+    @content;
+  }
+}
+
+//web fonts
+@each $font-face in midnight, sunrise, two_am {
+  @font-face {
+    $font-path-file-name: /assets/fonts/blackout/webfonts/blackout_#{$font-face}-webfont;
+    font-family: 'blackout ' + $font-face;
+    src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
+    src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        //  url($font-path-file-name+'.woff2') format('woff2'), /* Super Modern Browsers */
+        //  url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
+         url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
+  }
+}
+
+@each $font-face in light, rounded, regular, black, bold, dashed, inline-italic, inline-regular, {
+  @font-face {
+    $font-path-file-name: /assets/fonts/ostrich-sans/webfonts/ostrich-sans-#{$font-face};
+    font-family: 'ostrich-sans ' + $font-face;
+    src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
+    src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        //  url($font-path-file-name+'.woff2') format('woff2'), /* Super Modern Browsers */
+        //  url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
+         url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
+  }
+}
+
+@font-face {
+  $font-path-file-name: /assets/fonts/chunk/webfonts/Chunkfive-webfont;
+  font-family: 'chunk';
+  src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
+  src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      //  url($font-path-file-name+'.woff2') format('woff2'), /* Super Modern Browsers */
+      //  url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
+       url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
+}
+
+//post theme customization
+@mixin theme($themecolor){
+    p a {
+      color: $themecolor;
+      font-weight: bolder;
+      &:active , &:hover {
+        color: darken($themecolor, 10%);
+      }
+    }
+    .post-title{ color: $themecolor;}
+    blockquote, blockquote.post-quote {
+        border-left: 4px solid $themecolor;
+    }
+    &.post-summary {
+      a.post-link, span {
+        color: $themecolor;
+      }
+      &:hover{
+        background-color: $themecolor;
+      }
+    }
+    .post-content {
+      p + hr {
+        width: 30px;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 20px;
+        height: 0;
+        right: 0;
+        border-top: 3px solid $themecolor;
+      }
+    }
+}
+
+img{
+  width: 30px;
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -50,5 +127,14 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
-        "placeholder"
+        "styles.scss",
+        "post-themes"
 ;
+
+
+.foot {
+  background-color: black;
+}
+.copy{
+  float: right;
+}

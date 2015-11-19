@@ -1,0 +1,22 @@
+<div class="post-footer">
+  <hr>
+  <h3> Next up... </h3>
+  <div class="blog-index post-list-alt">
+      {% if page.url != site.posts.first.url %}
+        {% assign post = site.posts.first %}
+        {% assign content = post.content %}
+        {% include post_detail.html %}
+      {% else %}
+        {% assign post = site.posts.last %}
+        {% assign content = post.content %}
+        {% include post_detail.html %}
+      {% endif %}
+
+<!-- first_post.url
+    {% if post.next.url %}
+        {% assign post = site.posts.first %}
+        {% assign content = post.content %}
+        {% include post_detail.html %}
+    {% endif %} -->
+  </div>
+</div>
