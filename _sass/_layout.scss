@@ -92,10 +92,15 @@
 /**
  * Site footer
  */
-.container.site-footer {
-    bottom: 0;
+.site-footer {
     margin-top: 100px;
-    border-top: 1px solid $grey-color-light;
+    height: $footer-height;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    min-height: 10%;
+
+
 }
 
 .footer-heading {

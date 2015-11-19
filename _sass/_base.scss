@@ -1,12 +1,31 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
+
+ html,
+ body {
+ 	margin:0;
+ 	padding:0;
+ 	height:100%;
+ }
+
+ .site-wrapper {
+ 	min-height:100%;
+ 	position:relative;
+ }
+
+.container {
+  	padding-bottom: $footer-height;
+}
+
+  h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
+
+
 
 
 
