@@ -124,6 +124,8 @@
     width: $post-nav-height;
     @include media($mobile) {
       margin-right: 10px;
+      height: 40px;
+      width: 40px;
     }
   }
 }
