@@ -92,6 +92,10 @@
 
 .post-wrapper {
   background-color: $background-color;
+  height: 100%;
+  .site-wrapper .container {
+    padding-bottom: 100px;
+  }
 
   .post-header {
     background-color: $background-color;
