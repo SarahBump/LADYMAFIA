@@ -12,11 +12,13 @@ quote: We aren’t documenting “women engineers,” or “female leaders,” o
 ---
 
 ### Why did we decide to create this site?
-We wanted to find a fun way (with a kick-ass UI, duh) to catalogue the people that are inspiring us, the movers and shakers we are trying to emulate as womangineers(ew, what an awful term). We thought our peers would feel the same and this site will do just that. We're sick of learning about people who made history from  a google doodle and women's history to be a footnote, a category of it's own. Whether contemporary or historical, these people should be acknowledged for their contributions regardless of who they are. If anything, the adversity that women have faced almost warrants more recognition. We are here to out the mafia, the invisible network of individuals moving the world in the name of human flourishing, who embody the spirit of the force of femininity that has upheld the virtue of humanity even in the darkest days of history.  
+We wanted to find a fun way (with a kick-ass UI, duh) to catalogue the people that are inspiring us, the movers and shakers we are trying to emulate as womangineers(ew, what an awful term). We thought our peers would feel the same and this site will do just that. School taught us women who shaped history were few, far between, and exceptions to the rule. But we realized there was a problem when we started learning about people who made history from a google doodle.
+
+Why has women's history always been a footnote, a category of it's own. Whether contemporary or historical, these people should be acknowledged for their contributions regardless of who they are. If anything, the adversity that women have faced almost warrants more recognition. We are here to out the mafia, the invisible network of individuals moving the world in the name of human flourishing, who embody the spirit of the force of femininity that has upheld the virtue of humanity even in the darkest days of history.  
 
 
 ### Why should you care?
-As a human person these people inspire us, your a human person and we want to inspire you to use your talents to improve this Earth we share. So join us, be inspired, and join to the mafia!
+As a human person these people inspire us, you're a human person and we want to inspire you to use your talents to improve this Earth we share. So join us, be inspired, and join to the mafia!
 
 ### Our hopes and dreams for LadyMafia.rocks
 We want to re-contextualize the narrative. Give credit where credit is due. And, at the least, bring some intelligent entertainment to the web.  
