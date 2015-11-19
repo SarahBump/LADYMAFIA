@@ -9,6 +9,8 @@ thumb: hedyLamarr.svg
 theme: hedyLamarr
 teaser: frequency-hopping, submarine signals, and the most beautiful woman in the world.
 quote:
+credit: Antenna by Creative Stall from the Noun Project
+
 ---
 
 **What she's known for:**
@@ -25,6 +27,3 @@ She was the first actress to portray the depiction of female pleasure on film.
 Thanks to the wonderful [Google Doodle](http://www.google.com/doodles/hedy-lamarrs-101st-birthday) for educating us on the inventors who have made our modern lives possible.  
 
 Learn about Hedy's technical prowess and controversial acting career in this entertaining and informative post on [Movie Pilot](http://moviepilot.com/posts/3635767?lt_source=external,manual);
-
-
-Antenna by Creative Stall from the Noun Project
