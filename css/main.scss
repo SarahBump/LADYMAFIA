@@ -13,6 +13,7 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$footer-height: 	50px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -130,17 +131,9 @@ img{
         "post-themes"
 ;
 
-footer {
-  min-height: 10%;
-  background-color: black;
-  font-color: white;
-}
+
 .foot {
   background-color: black;
 }
 .copy{
   float: right;
-}
-.wrapper-footer{
-  padding-top: 20px; 
-}
