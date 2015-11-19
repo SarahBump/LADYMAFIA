@@ -108,10 +108,26 @@
   left: 0;
   z-index: 99;
   height: $post-nav-height;
-  background: $background-color;
+  background-color: $background-color;
   @include media($mobile) {
-    background: linear-gradient(to bottom, rgba(253, 253, 253, 1) 0%  rgba(253, 253, 253, 0) 100%);
-    padding-bottom: 30px;
+    background-color: transparent;
+    // background: linear-gradient(to bottom, rgba(253, 253, 253, 1) 0%  rgba(253, 253, 253, 0) 100%);
+    /* Webkit */
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgba(253, 253, 253,0.5)), /* Top */
+        color-stop(1, rgba(253, 253, 253,1.0)) /* Bottom */
+    );
+
+    /* Gecko */
+    background: -moz-linear-gradient(
+        center bottom,
+        rgba(253, 253, 253,0.0) 0%, /* Bottom */
+        rgba(253, 253, 253,1.0) 100% /* Top */
+    );
+        padding-bottom: 30px;
     .trigger {
         margin-top: -5px;
     }
