@@ -12,12 +12,11 @@
  .site-wrapper {
  	min-height:100%;
  	position:relative;
+  .container {
+    	padding-bottom: $footer-height;
+      position:relative;
+  }
  }
-
-.container {
-  	padding-bottom: $footer-height;
-}
-
   h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
