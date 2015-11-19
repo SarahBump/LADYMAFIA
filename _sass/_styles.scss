@@ -122,6 +122,9 @@
     display: inline-block;
     height: $post-nav-height;
     width: $post-nav-height;
+    @include media($mobile) {
+      margin-right: 10px;
+    }
   }
 }
 .post-list-alt{
