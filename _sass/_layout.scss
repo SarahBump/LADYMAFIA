@@ -70,6 +70,10 @@
       font-weight: bold;
       padding-left: 10px;
       padding-right: 10px;
+      @include media($mobile) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
     }
     .nav-tagline.current{
       display: inline-block;
