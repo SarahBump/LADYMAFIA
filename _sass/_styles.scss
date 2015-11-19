@@ -110,7 +110,7 @@
   height: $post-nav-height;
   background: $background-color;
   @include media($mobile) {
-    background: linear-gradient(to bottom, rgba(253, 253, 253, 1),  rgba(253, 253, 253, .75));
+    background: linear-gradient(to bottom, rgba(253, 253, 253, 1) 0%  rgba(253, 253, 253, .75) 100%);
     padding-bottom: 30px;
     .trigger {
         margin-top: -5px;
