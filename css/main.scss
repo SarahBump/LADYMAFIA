@@ -27,7 +27,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    800px;
 $post-nav-height: 50px;
 
-$mobile:          600px;
+$mobile:          700px;
 $laptop:        800px;
 $bigscreen: 1200px;
 
@@ -41,6 +41,11 @@ $bigscreen: 1200px;
 
 @mixin desktop {
   @media screen and (min-width: $bigscreen) {
+    @content;
+  }
+}
+@mixin no-mobile {
+  @media screen and (min-width: $mobile) {
     @content;
   }
 }
