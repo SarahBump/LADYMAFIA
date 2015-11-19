@@ -13,6 +13,8 @@ credit: Antenna by Creative Stall from the Noun Project
 
 ---
 
+### Selfie addicts of the world, you are welcome.
+
 **What she's known for:**
 
 Her career on the silver screen that earned her the title of Most Beautiful Woman in the World.
