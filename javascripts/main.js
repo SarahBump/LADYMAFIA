@@ -1,7 +1,7 @@
 
 function toggleNav() {
   $(window).scroll(function() {
-    if($(this).width() < 769 && $(this).scrollTop() > 150){
+    if($(this).width() < 769 && $(this).scrollTop() > 50){
       $('.header-wrapper').hide();
       $('.post-nav').show();
     } else {
@@ -13,6 +13,6 @@ function toggleNav() {
 
 $(document).ready(function(){
   if( $('.header-small').length > 0) {
-    toggleNav();
+    // toggleNav();
   };
 })
