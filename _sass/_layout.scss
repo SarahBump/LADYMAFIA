@@ -3,11 +3,16 @@
   h3 {
     margin-bottom: 0;
   }
-  p {
-    margin-bottom: 10px;
+  h3 + p {
+    margin-bottom: 0px;
   }
-  div + h3 {
-    margin-top: 20px;
+  .blog-index + h3 {
+    margin-top: 30px;
+  }
+  p.temp-site-intro {
+    color: red;
+    font-family: 'blackout two_am';
+    font-size: 20px;
   }
 }
 
