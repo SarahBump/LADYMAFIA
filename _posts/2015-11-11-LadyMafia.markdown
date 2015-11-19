@@ -2,7 +2,7 @@
 layout: post
 title:  "Lady Mafia"
 type: interview
-date:   2015-11-18
+date:   2015-11-11
 author: Lady Mafia
 categories: contemporary
 thumb: ladymafia_notext.png
