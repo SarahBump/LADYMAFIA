@@ -110,7 +110,7 @@
 
     }
   @include media($mobile) {
-    display: hidden;
+    display: none;
   }
 }
 
