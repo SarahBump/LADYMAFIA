@@ -2,7 +2,7 @@
 layout: post
 title:  "Kiran Gandhi"
 type: interview
-date:   2015-11-11 21:06:38 -0500
+date:   2015-11-18 21:06:38 -0500
 author: Sarah Bump
 categories: contemporary
 thumb: kiranGandhi.svg
