@@ -21,18 +21,6 @@ github_username:  ladymafia
 markdown: kramdown
 
 #Output
-# permalink: page.title
-
-jekyll_ga:
-  service_account_email: account-1@ladymafia0.iam.gserviceaccount.com    # service account email address
-  key_file: ga-key.p12                                                   # service account private key file
-  key_secret: notasecret                                                 # service account private key's password
-  profileID: ga:112135013                                                # profile ID
-  start: last month                                                      # Beginning of report
-  end: now                                                               # End of report
-  metric: ga:pageviews                                                   # Metric code
-  # segment:                                                               # optional
-  # filters:                                                               # optional
-  sort: true                                                             # Sort posts by this metric
+permalink: /:categories/:title/
 
 exclude: [".gitignore", ".gitattributes", ".gitmodules", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock", "_drafts", "instagram.html", "ga-key.p12"]
