@@ -20,7 +20,12 @@ github_username:  ladymafia
 # Build settings
 markdown: kramdown
 
+paginate: 2
+
 #Output
 permalink: /:categories/:title/
+
+# Plugins
+gems: ['github-pages', 'jekyll-paginate']
 
 exclude: [".gitignore", ".gitattributes", ".gitmodules", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock", "_drafts", "instagram.html", "ga-key.p12"]
