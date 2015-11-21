@@ -27,7 +27,7 @@ She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos)
 
 She was the first actress to portray the depiction of female pleasure on film.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z0gu2QhV1dc" frameborder="0" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/Z0gu2QhV1dc" frameborder="0" allowfullscreen></iframe>
 
 Thanks to the wonderful [Google Doodle](http://www.google.com/doodles/hedy-lamarrs-101st-birthday) for educating us on the inventors who have made our modern lives possible.  
 
