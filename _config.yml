@@ -22,3 +22,5 @@ markdown: kramdown
 
 #Output
 # permalink: page.title
+
+exclude: [.gitignore, _drafts/]
