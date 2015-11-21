@@ -1,6 +1,11 @@
 <div class="post-footer">
   <hr>
+  {% if page.next != nil %}
   <h3> Next up... </h3>
+  {% else %}
+  <h3> More from Lady Mafia... </h3>
+  {% endif %}
+
   <div class="blog-index post-list-alt">
     {% if page.next != nil %}
       {% assign post = page.next %}
