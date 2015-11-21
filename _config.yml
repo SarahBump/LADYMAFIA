@@ -23,4 +23,4 @@ markdown: kramdown
 #Output
 # permalink: page.title
 
-exclude: [.gitignore, _drafts/]
+exclude: [".gitignore", ".gitattributes", ".gitmodules", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock", "_drafts"]
