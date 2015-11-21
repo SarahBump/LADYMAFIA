@@ -3,7 +3,7 @@ layout: post
 title:  "Lady Mafia"
 type: interview
 date:   2015-11-11
-author: Lady Mafia
+author: Gaby Ruiz-Funes & Sarah Bump
 categories: contemporary
 thumb: ladymafia_notext.png
 theme: LadyMafia
