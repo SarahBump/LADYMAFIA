@@ -21,7 +21,7 @@ Her career on the silver screen that earned her the title of Most Beautiful Woma
 
 **Why you should know her, and why she is definitely a member of the mafia:**
 
-She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos) to help develop a frequency-hopping technology to thwart German U-Boats during World War II.
+She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos) to help develop a frequency-hopping technology to thwart German U-Boats during World War II that served as the basis for wifi technology that lets us send our beloved selfies across the world with the click of a button.
 
 **She is definitely not basic:**
 
