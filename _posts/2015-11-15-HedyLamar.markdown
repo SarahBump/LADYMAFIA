@@ -25,7 +25,7 @@ She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos)
 
 **She is definitely not basic:**
 
-She was the first actress to portray the depiction of female pleasure on film.
+She was the first actress to portray a sex scene involving female pleasure on film.
 
 <iframe height="315" src="https://www.youtube.com/embed/Z0gu2QhV1dc" frameborder="0" allowfullscreen></iframe>
 
