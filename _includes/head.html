@@ -5,7 +5,8 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+  <meta name="author" content="{{ site.title }} | {% if page.author %}{{ page.author }}{% else %}{{ page.title }}{% endif %}">
+  
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/public/stylesheets/skeleton/normalize.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/public/stylesheets/skeleton/skeleton.css" | prepend: site.baseurl }}">
