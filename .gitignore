@@ -1,5 +1,5 @@
 _site
 .sass-cache
 .jekyll-metadata
-.gitignore
 ga-key.p12
+google-analytics.html
