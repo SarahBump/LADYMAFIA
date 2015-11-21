@@ -3,7 +3,7 @@ layout: post
 title:  "Hedy Lamarr"
 type: profile
 date:   2015-11-11 21:06:38 -0500
-author: LADY MAFIA
+author: Gaby Ruiz-Funes
 categories: historical
 thumb: hedyLamarr.svg
 theme: hedyLamarr
