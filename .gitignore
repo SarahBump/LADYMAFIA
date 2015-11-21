@@ -1,4 +1,13 @@
 _site
+_drafts
+_includes
+_layouts
+_plugins
+_posts
+_sass
+_images
+
 .sass-cache
 .jekyll-metadata
 .gitignore
+ga-key.p12

@@ -53,7 +53,7 @@ $bigscreen: 1200px;
 //web fonts
 @each $font-face in midnight, sunrise, two_am {
   @font-face {
-    $font-path-file-name: /assets/fonts/blackout/webfonts/blackout_#{$font-face}-webfont;
+    $font-path-file-name: /public/fonts/blackout/webfonts/blackout_#{$font-face}-webfont;
     font-family: 'blackout ' + $font-face;
     src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
     src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -66,7 +66,7 @@ $bigscreen: 1200px;
 
 @each $font-face in light, rounded, regular, black, bold, dashed, inline-italic, inline-regular, {
   @font-face {
-    $font-path-file-name: /assets/fonts/ostrich-sans/webfonts/ostrich-sans-#{$font-face};
+    $font-path-file-name: /public/fonts/ostrich-sans/webfonts/ostrich-sans-#{$font-face};
     font-family: 'ostrich-sans ' + $font-face;
     src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
     src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -78,7 +78,7 @@ $bigscreen: 1200px;
 }
 
 @font-face {
-  $font-path-file-name: /assets/fonts/chunk/webfonts/Chunkfive-webfont;
+  $font-path-file-name: /public/fonts/chunk/webfonts/Chunkfive-webfont;
   font-family: 'chunk';
   src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
   src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
