@@ -9,9 +9,7 @@ thumb: kiranGandhi.svg
 theme: kiranGandhi
 teaser: "free bleeding, making music with marbles, and feminine leadership"
 quote: I want to work with a group of people who touch a large amount of lives. I think to be a sole independent person, you can inspire others, but unless you’re working together, you won’t move the earth in as big or impactful of a way as you could.
-
-//the following is for SEO
-excerpt: **LM:** How do you cultivate your sense of values? <br>
+excerpt: **LM:** How do you cultivate your sense of values?
 **KG:** What I try to do is think about when I am so in the flow, so present, that I’m not thinking about anything else. First, it is when I am speaking about gender equality. Second, it is when I have been innovating in the music industry, either with my boss at [Interscope Records](http://www.interscope.com/, "Interscope Records"), or when I was at Harvard running this group, [Music Minds](http://kirangandhi.com/2015/03/05/musicminds-soulcycle-as-curator/), which hacked problems in the music industry. Finally, it is when I am playing and creating music. I like focusing my attention this way, rather than saying, “oh what’s my fifteen year plan from now?” Because then, I don’t have to have any regrets, I just get to be true to Kiran of this moment. If I am so committed to this fifteen year goal without recognizing what Kiran of the present needs, that fifteen year goal will never be achieved because I am not being honest about the current building block that needs to happen today, the current atomic moment.  
 
 **LM:** How would you describe your style of femininity? <br>
