@@ -1,7 +1,6 @@
 ---
 author: Sarah Bump
 categories: contemporary
-comments: true
 date:   2015-11-18 21:06:38 -0500
 layout: post
 quote: I want to work with a group of people who touch a large amount of lives. I think to be a sole independent person, you can inspire others, but unless you’re working together, you won’t move the earth in as big or impactful of a way as you could.
