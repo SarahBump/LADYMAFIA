@@ -2,4 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 ga-key.p12
-_includes/add-ons/*
+_includes/add-ons/google-analytics.html
+_includes/add-ons/comments-script.html
