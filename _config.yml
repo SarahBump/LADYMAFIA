@@ -19,13 +19,26 @@ github_username:  ladymafia
 
 # Build settings
 markdown: kramdown
-
 paginate: 2
 
-#Output
+# Output
 permalink: /:categories/:title/
 
 # Plugins
 gems: ['github-pages', 'jekyll-paginate']
+
+# Comments
+comments :
+  provider : facebook
+  facebook :
+    appid : '710933359043848'
+    num_posts: '4'
+    colorscheme: dark
+
+# Analytics
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-70409012-1'
 
 exclude: [".gitignore", ".gitattributes", ".gitmodules", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock", "_drafts", "instagram.html", "ga-key.p12"]

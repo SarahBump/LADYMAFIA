@@ -330,6 +330,14 @@ div.post-title {
     border-top: 4px solid black;
   }
 }
+.post-comments {
+  .fb-comments, .fb-comments-count, .fb_comments_count_zero {
+    display: none;
+  }
+  hr {
+    
+  }
+}
 .post-content {
     padding-top: $spacing-unit;
     clear: both;

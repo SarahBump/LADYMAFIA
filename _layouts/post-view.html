@@ -3,6 +3,9 @@
 
   {% include head.html %}
   <body class="post-wrapper {{ page.theme }}">
+
+    {% include /add-ons/comments-script.html %}
+
     <div class="site-wrapper">
       <div class='post-nav'>
         <a id="nav-image" href="/" alt="ladymafia"></a>
@@ -31,7 +34,6 @@
         <div class="post-body row">
             {{ content }}
         </div>
-
       </div>
       {% include footer.html %}
     </div>

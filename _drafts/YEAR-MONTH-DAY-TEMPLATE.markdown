@@ -1,0 +1,13 @@
+---
+author:
+categories:
+comments:
+date:   
+layout:
+quote:
+teaser:
+theme:
+thumb:
+title:  
+type: 
+---
