@@ -1,18 +1,21 @@
 ---
-layout: post
-title:  "Kiran Gandhi"
-type: interview
-date:   2015-11-18 21:06:38 -0500
 author: Sarah Bump
 categories: contemporary
-thumb: kiranGandhi.svg
-theme: kiranGandhi
-teaser: "free bleeding, making music with marbles, and feminine leadership"
+date:   2015-11-18 21:06:38 -0500
+layout: post
 quote: I want to work with a group of people who touch a large amount of lives. I think to be a sole independent person, you can inspire others, but unless you’re working together, you won’t move the earth in as big or impactful of a way as you could.
+teaser: "Big data, making music with marbles, and feminine leadership"
+theme: kiranGandhi
+thumb: kiranGandhi.svg
+title:  "Kiran Gandhi"
+type: interview
 ---
 
 
-Kiran Gandhi first grabbed our attention when she ran the London Marathon with her period, sans tampon. Pretty brave if you ask us, but like she says, ‘who is going to f*ck with a marathon runner?’ she’s right. **_She’s using shock culture to bring awareness to the sentiment of period-shaming_** and the language surrounding women’s menstrual cycles. What you don’t know about Kiran is aside from being a free bleeder, she is a drummer. She has toured with the likes of M.I.A and Thievery Corporation. What we love most, is that **_she’s a nerd._** She has her MBA from Harvard and studied mathematics at Georgetown University. She’s using her skill set to improve the industries she is passionate about, most notably in working with Spotify to bring some of the first marketing algorithms to artists in the music industry.
+Kiran Gandhi first grabbed our attention when she ran the London Marathon with her period, sans tampon. Pretty brave if you ask us, but like she says, ‘who is going to f*ck with a marathon runner?’ she’s right. She’s using shock culture to bring awareness to the sentiment of period-shaming and the language surrounding women’s menstrual cycles.
+
+**_What you don’t know about Kiran_** is aside from being a free bleeder, she is a drummer. She has toured with the likes of M.I.A and Thievery Corporation. What we love most, is that she’s a nerd. Kiran has her MBA from Harvard (that she earned while on tour, like a boss), and studied mathematics at Georgetown University. While at Harvard, she started a group called Music Minds, to hack problems in the industry, collaborating with companies like Soul Cycle to develop [innovative ways for artists to circulate their music](http://kirangandhi.com/2015/03/05/musicminds-soulcycle-as-curator/).
+Kiran is using her skill set to improve the industries she is passionate about, most notably in working with Spotify to bring some of the first marketing algorithms to artists in the music industry.
 
 We caught up with Kiran to find out how she ticks, how she’s able to balance everything, and what is inspiring her to do it all. Kiran Gandhi is a drummer, a mathematician, a feminist, and **_she is LADY MAFIA._**
 
@@ -34,7 +37,7 @@ so that everybody else on that stage feels like “okay cool Kiran’s got my ba
 **KG:** What I try to do is think about when I am so in the flow, so present, that I’m not thinking about anything else. First, it is when I am speaking about gender equality. Second, it is when I have been innovating in the music industry, either with my boss at [Interscope Records](http://www.interscope.com/ "Interscope Records"){:target="_blank"}, or when I was at Harvard running this group, [Music Minds](http://kirangandhi.com/2015/03/05/musicminds-soulcycle-as-curator/){:target="_blank"}, which hacked problems in the music industry. Finally, it is when I am playing and creating music. I like focusing my attention this way, rather than saying, “oh what’s my fifteen year plan from now?” Because then, I don’t have to have any regrets, I just get to be true to Kiran of this moment. If I am so committed to this fifteen year goal without recognizing what Kiran of the present needs, that fifteen year goal will never be achieved because I am not being honest about the current building block that needs to happen today, the current atomic moment.  
 
 **LM:** How would you describe your style of femininity? <br>
-**KG:** What a fucking awesome question. I would describe it as being holistically, authentically myself. There are moments when I am deeply emotional, when I cry, when I am very aware of my sensory experiences, my ability to actually touch someone and make contact with them in kind of a loving and maternal non-sexual way. When I am able to give someone a hug and really pull them into my heart, whether they are male or female and do this in a way that they can understand it has a purity to it and not a sexual energy to it. I think this is something that men can’t necessarily do in the same way. On the other side,
+**KG:** What a f*cking awesome question. I would describe it as being holistically, authentically myself. There are moments when I am deeply emotional, when I cry, when I am very aware of my sensory experiences, my ability to actually touch someone and make contact with them in kind of a loving and maternal non-sexual way. When I am able to give someone a hug and really pull them into my heart, whether they are male or female and do this in a way that they can understand it has a purity to it and not a sexual energy to it. I think this is something that men can’t necessarily do in the same way. On the other side,
 
 > being feminine is just being authentic to what it is that you want to do. So if you want to be a mathematician, if you want to be a drummer, cool, just do it! And in doing it, you’re actively reconstructing a new definition of femininity.
 

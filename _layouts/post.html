@@ -1,8 +1,7 @@
 ---
 layout: post-view
-
+comments: true
 ---
-<!-- <div class="post"> -->
     {% if page.reading_time %}
     <p class="row post-reading-time">&#126;
         {% capture words %}
@@ -21,8 +20,10 @@ layout: post-view
         {{ content }}
 
         {% include signoff.html %}
+        {% include /add-ons/comments-markup.html %}
         {% include post-footer.html %}
     </article>
+
 
 <!-- {% if page.custom_js %}
   {% for js_file in page.custom_js %}

@@ -21,13 +21,13 @@ Her career on the silver screen that earned her the title of Most Beautiful Woma
 
 **Why you should know her, and why she is definitely a member of the mafia:**
 
-She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos) to help develop a frequency-hopping technology to thwart German U-Boats during World War II.
+She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos) to help develop a frequency-hopping technology to thwart German U-Boats during World War II that served as the basis for wifi technology that lets us send our beloved selfies across the world with the click of a button.
 
 **She is definitely not basic:**
 
-She was the first actress to portray the depiction of female pleasure on film.
+She was the first actress to portray a sex scene involving female pleasure on film.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z0gu2QhV1dc" frameborder="0" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/Z0gu2QhV1dc" frameborder="0" allowfullscreen></iframe>
 
 Thanks to the wonderful [Google Doodle](http://www.google.com/doodles/hedy-lamarrs-101st-birthday) for educating us on the inventors who have made our modern lives possible.  
 
