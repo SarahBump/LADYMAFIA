@@ -93,7 +93,7 @@ $bigscreen: 1200px;
     p a {
       color: $themecolor;
       font-weight: bolder;
-      &:active , &:hover {
+      &:active , &:hover &:visited {
         color: darken($themecolor, 10%);
       }
     }
@@ -102,13 +102,48 @@ $bigscreen: 1200px;
         border-left: 4px solid $themecolor;
     }
     &.post-summary {
-      a.post-link, span {
-        color: $themecolor;
+      &:hover, &:visited {
+          background-color: $themecolor;
+          color: white;
       }
-      &:hover{
-        background-color: $themecolor;
+      @include media($mobile) {
+        &:hover, &:visited {
+          font-family: 'blackout midnight';
+          background-color: $background-color;
+          padding: 0px 20px;
+          a.post-link, span {
+            color: $themecolor;
+          }
+        }
       }
     }
+    .all-posts{
+      &.post-summary {
+        a.post-link, span {
+          color: $themecolor;
+        }
+        &:hover, &:visited {
+            background-color: $themecolor;
+            color: white;
+        }
+        @include media($mobile) {
+          background-color: $themecolor;
+          a.post-link, span {
+            color: white;
+          }
+          &:hover, &:visited {
+            font-family: 'blackout midnight';
+            background-color: $background-color;
+            padding: 0px 20px;
+            a.post-link, span {
+              color: $themecolor;
+            }
+          }
+        }
+      }
+    }
+
+
     .post-content {
       p + hr {
         width: 30px;

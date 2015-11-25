@@ -171,23 +171,16 @@
       text-decoration: none;
       color: black;
     }
-    @include no-mobile {
-      &:hover {
-        a.title {
-          display: block;
-        }
-        // background-image: url(/images/logo/ladymafia_favicon_round.png);
-        // background-repeat: no-repeat;
-        // background-position: left;
-        // background-size: contain;
-        height: 55;
-
-        font-family: 'blackout midnight';
-        padding: 0px 20px;
-        a.post-link, span {
-          color: white;
-          // padding-left: 20px;
-        }
+    &:hover {
+      a.title {
+        display: block;
+      }
+      height: 55;
+      font-family: 'blackout midnight';
+      padding: 0px 20px;
+      a.post-link, span {
+        color: white;
+        // padding-left: 20px;
       }
     }
   }
