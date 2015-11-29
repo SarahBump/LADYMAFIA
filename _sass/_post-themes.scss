@@ -16,6 +16,10 @@
 // =====  F  =====
 // =====  G  =====
 
+.gertrudeBell {
+  @include theme(navy);
+}
+
 // =====  H  =====
 .hedyLamarr {
   @include theme(#76eec6);

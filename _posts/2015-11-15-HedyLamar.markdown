@@ -31,4 +31,4 @@ She was the first actress to portray a sex scene involving female pleasure on fi
 
 Thanks to the wonderful [Google Doodle](http://www.google.com/doodles/hedy-lamarrs-101st-birthday) for educating us on the inventors who have made our modern lives possible.  
 
-Learn about Hedy's technical prowess and controversial acting career in this entertaining and informative post on [Movie Pilot](http://moviepilot.com/posts/3635767?lt_source=external,manual);
+Learn about Hedy's technical prowess and controversial acting career in this entertaining and informative post on [Movie Pilot](http://moviepilot.com/posts/3635767?lt_source=external,manual).

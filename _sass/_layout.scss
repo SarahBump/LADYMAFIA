@@ -371,8 +371,12 @@ div.post-title {
   }
 }
 .post-comments {
-  .fb-comments, .fb-comments-count, .fb_comments_count_zero {
+ .first-comment {
     display: none;
+  }
+  .fb-comments-count, .fb_comments_count_zero {
+    color: transparent;
+    height: 0;
   }
 }
 .post-content {
@@ -410,6 +414,10 @@ div.post-title {
       @include media($mobile) {
         font-size: 14px;
       }
-
+    }
+    .photo-credit{
+      padding-top: $spacing-unit;
+      font-size: 12px;
+      font-family: courier;
     }
 }

@@ -20,13 +20,11 @@ comments: true
         {{ content }}
 
         {% include signoff.html %}
+
+        {% if page.credit %}
+        <div class="photo-credit">Photocred: {{ page.credit }}</div>
+        {% endif %}
+
         {% include /add-ons/comments-markup.html %}
         {% include post-footer.html %}
     </article>
-
-
-<!-- {% if page.custom_js %}
-  {% for js_file in page.custom_js %}
-  <script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
-  {% endfor %}
-{% endif %} -->
