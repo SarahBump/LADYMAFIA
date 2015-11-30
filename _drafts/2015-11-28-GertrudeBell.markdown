@@ -35,3 +35,14 @@ when we hear about Iraq and Syria, we are experiencing Gertrude's living legacy.
 **Don't worry, we know you didn't sleep through class:**
 
 You should have learned about Gertrude Bell in any history class that covered influential explorers, WWI, the Victorian era, and definitely any current events lessons. Um, hello, she created Iraq and literally drew Syria, so yeah, she's probably pretty relevant.
+
+**Gertrude Bell’s List of Firsts**
+
+* The first woman to receive a first-class degree, the highest honors in Modern History at Oxford 1886.
+* The first person to climb all the peaks of the Engelhörner range in the Swiss Alps, one of which is named after her: “Gertrude’s Peak.” 1904
+* The first woman to do a solo journey into the uncharted Arabian desert (she traveled by camel for 1500 miles across Central Arabia in 1914 and received the gold Founder’s Medal from the Royal Geographic Society)
+* Created the first comprehensive map of Syria and other areas of the Middle East.
+* First female officer (known as “Major Miss Bell”) ever to be employed by British military intelligence and named Commander of the Most Excellent Order of the British Empire.
+* Orchestrated the first government in Iraq.
+* Published the first white paper to written by woman: *Review of the Civil Administration of Mesopotamia* in 1920.
+* Miss Bell’s life and legacy was also the subject of an international scholarly conference last year in London, the first of its kind.
