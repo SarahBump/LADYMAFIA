@@ -2,12 +2,13 @@
 author:
 categories:
 comments:
-date:   
+credit: 
+date: post  
 layout:
 quote:
 teaser:
 theme:
 thumb:
 title:  
-type: 
+type:
 ---

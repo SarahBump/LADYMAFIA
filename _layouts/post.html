@@ -18,6 +18,10 @@ comments: true
         {% endif %}
 
         {{ content }}
+        {% if page.datingprofile %}
+          {% include dating-card.html %}
+        {% endif %}
+
 
         {% include signoff.html %}
 

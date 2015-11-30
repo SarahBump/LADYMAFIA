@@ -27,6 +27,10 @@ She basically invented wifi. Hedy used her knowledge of torpedos (yes, torpedos)
 
 She was the first actress to portray a sex scene involving female pleasure on film.
 
+**Don't worry, we know you didn't sleep through class:**
+
+Your history classes probably forgot cover Hedy's contribution in any World War II unit. If you learned about frequency and sound waves in physics (you did, but that is one you may have slept through), Hedy should have been mentioned.
+
 <iframe height="315" src="https://www.youtube.com/embed/Z0gu2QhV1dc" frameborder="0" allowfullscreen></iframe>
 
 Thanks to the wonderful [Google Doodle](http://www.google.com/doodles/hedy-lamarrs-101st-birthday) for educating us on the inventors who have made our modern lives possible.  
