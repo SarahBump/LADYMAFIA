@@ -23,4 +23,4 @@ markdown: kramdown
 #Output
 permalink: /:categories/:title/
 
-exclude: ["google-analytics.html", ".gitignore", ".gitattributes", ".gitmodules", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock", "_drafts", "instagram.html", "ga-key.p12"]
+exclude: ["google-analytics.html", ".gitignore", ".gitattributes", ".gitmodules", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock", "_drafts", "ga-key.p12"]
