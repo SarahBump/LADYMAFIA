@@ -17,11 +17,11 @@ comments: true
         <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
         {% endif %}
 
-        {{ content }}
         {% if page.datingprofile %}
           {% include dating-card.html %}
         {% endif %}
-
+        
+        {{ content }}
 
         {% include signoff.html %}
 

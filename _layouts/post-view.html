@@ -15,25 +15,17 @@
           {% if page.icon %}
           <img src="/images/post-icons/{{ page.icon }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
           {% endif %}
-
             <div class="post-title">
-
-            {% if page.categories == 'historical' %}
+            {% if page.type == 'interview' %}
             <h3 class="post-title">A Conversation with </h3>
               <h1 class="post-title">
               {{ page.title}}
               </h1>
-              {% elsif page.categories == 'historical' %}
+              {% elsif page.type == 'historical' %}
               <h1 class="post-title u-full-width">
                 {{ page.title | prepend: 'O.G. '}}
               </h1>
-              {% else %}
-              <h1 class="post-title u-full-width">
-                {{ page.title }}
-              </h1>
-
             {% endif %}
-
             <h2 class="post-title">{{ page.teaser }}</h2>
           </div>
 

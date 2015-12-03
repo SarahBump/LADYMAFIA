@@ -1,11 +1,18 @@
-<div class="dating-profile">
-  <h4> A special edition of Tinder in History:</h4>
-  <h3> {{page.title}}'s dating profile </h3>
-  <div>{{ page.nameage }} </div>
-  <div>{{ page.location }} </div>
-  <div>{{ page.employer }} </div>
-  <div>{{ page.education }} </div>
-  <div>Interested in: {{ page.interested }} </div>
-  <div>Ideal first date: {{ page.firstdate }} </div>
-  <div>About: {{ page.bio }} </div>
+<h3> A special edition of Hot Singles in History:</h3>
+<div class="dating-card">
+  <!-- <h4> {{page.title}}'s dating profile </h4> -->
+  <img src="{{page.profileimage}}" class="dating-img">
+  <li class="dating-name">{{ page.nameage }} </li> <li class="dating-location"><img src="/images/site-icons/location.svg" class="location">{{ page.location }} </li><br>
+
+  <li class="dating-birthday"> <img src="/images/site-icons/birthday.svg" class="origin"> {{ page.birthday }} </li><br>
+  <li class="dating-origin"> <img src="/images/site-icons/house.svg" class="origin"> {{ page.origin }} </li><br>
+  <li class="dating-bio">{{ page.bio }} </li>
+  <hr>
+  <ul>
+    <li class="dating-employer"> <img src="/images/site-icons/work.svg" class="card-icon"> {{ page.employer }} </li><br>
+    <li class="dating-edu"><img src="/images/site-icons/school.svg" class="card-icon">{{ page.education }} </li><br>
+    <li class="dating-interest"><img src="/images/site-icons/heart.svg" class="card-icon"><strong>Interested in:</strong> {{ page.interested }} </li><br>
+    <li class="dating-date"> <img src="/images/site-icons/date.svg" class="card-icon"><strong>Ideal first date:</strong> {{ page.firstdate }} </li><br>
+  </ul>
 </div>
+<hr class="card-end">
