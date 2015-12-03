@@ -59,4 +59,9 @@ No tigress could have safeguarded Iraq’s rights better.
 -- Max Mallowan
 
 Agreed! There is so much more to learn about Ms. Bell, her diplomatic feats, her comprehensive education system for Iraqi girls, and her incredible adventures through desert and mountain.  Read more about this captivating woman here:
+[Amazing Women in History](http://www.amazingwomeninhistory.com/gertrude-bell-queen-of-the-desert/)
+[The New York Times](http://www.nytimes.com/2014/06/27/world/middleeast/gertrude-bell-sought-to-stabilize-iraq-after-world-war-i.html?_r=1)
+[The Atlantic](http://www.theatlantic.com/magazine/archive/2007/06/the-woman-who-made-iraq/305893/)
+[The Guardian](http://www.theguardian.com/world/2003/mar/12/iraq.jamesbuchan)
+[Wikipedia](https://en.wikipedia.org/wiki/Gertrude_Bell)
 
