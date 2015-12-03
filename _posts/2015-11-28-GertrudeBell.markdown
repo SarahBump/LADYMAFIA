@@ -34,7 +34,7 @@ Bell was instrumental in post-WWI policy in the middle East, and fought for Iraq
 
 >Saad Eskander, director of Iraq’s national library and archives, referred to Lawrence’s fame in the Middle East and then said, “But in Iraq, it is only Gertrude Bell who occupies an exceptional place both in the imagination of its ordinary people and in the mind of its cultural and political elites."
 
-Bell had a unique style of diplomacy that gained the respect of leaders of various tribes throughout the Middle East, not to mention Winston Churchill. She spend time understanding each culture, which made her so skilled as a liaison. Did we mention this all happened during a time where exposed wrists were scandalous?! Hard to believe a woman could Climb the swiss Alps, let alone be the trusted advisor of Europe's Prime Ministers and Mesopotamia's Prince's alike. 
+Bell had a unique style of diplomacy that gained the respect of leaders of various tribes throughout the Middle East, not to mention Winston Churchill. She spent time understanding each culture, which made her so skilled as a liaison. Did we mention this all happened during a time where exposed wrists were scandalous?! Hard to believe a woman could Climb the swiss Alps, let alone be the trusted advisor of Europe's Prime Ministers and Mesopotamia's Prince's alike. 
 
 While her dreams of a unified Iraq have crumbled (arguably because nobody since has displayed her level of tact and empathy), when we hear about Iraq and Syria, we are experiencing Gertrude's living legacy.  Take a moment to think of Bell and the other women and men who are are part of Lady Mafia - left out of history books but oh so relevant.
 
