@@ -20,13 +20,13 @@ origin: Great Britain
 employer: Works at British Military Intelligence, self-employed archeologist in Syria, or the Arab Bureau, depending on the day.
 education: Oxford (first chick awarded highest honors in Modern History)
 interested: Men (bonus if you speak one of the eight languages I am fluent in including French, German, Persian, Arabic and Turkish. But I’m great at teaching myself language, so it shouldn’t be a problem.
-firstdate: playing tennis or taking a stroll through the Baghdad Museum of Antiquities, which I created.
-bio: 5'5. People call me "al-Khatun" (Lady of the Court). When I’m not busy creating British colonial policy, I like long, solo, 1500-mile walks through the desert, climbing mountains in the Swiss Alps, and getting to know Arab tribal leaders. I’m super into archeology and have funded my own archeological digs throughout the middle-east, because the archeological societies won’t let a woman in! I’m passionate, caring, and a little shy, but definitely have a taste for luxury...even when traveling across the desert I must have my china dinner service and a formal dinner dress with me! Also, I may or may not be a spy.
+firstdate: playing tennis or taking a stroll through the Baghdad Museum of Antiquities, which I founded.
+bio: 5'5. People call me "al-Khatun" (Lady of the Court). When I’m not busy creating British colonial policy, I like long, solo, 1500-mile treks through the desert, climbing mountains in the Swiss Alps, and getting to know Arab tribal leaders. I’m super into archeology and have funded my own archeological digs throughout the middle-east, because the archeological societies won’t let a woman in (silly Victorian rules)! I’m passionate, caring, and a little shy, but definitely have a taste for luxury...even when traveling across the desert I must have my china dinner service and a formal dinner dress with me! Also, I may or may not be a spy.
 ---
 
-It's impossible to argue that she isn't incredible. Gertrude once spent 53 hours at the end of a rope in the Alps after her climbing expedition was caught in a blizzard. Are you in love yet? We sure are. Luckily, she's single (as of her suspected suicide in 1926)! #swiperight
+It's impossible to argue - she is incredible. Gertrude once spent 53 hours at the end of a rope in the Alps after her climbing expedition was caught in a blizzard. Are you in love yet? We sure are. Luckily, she's single (as of her suspected suicide in 1926)!  #swiperight
 
-Millennial dating pleasantries aside, in the spirit of Thanksgiving (with it's historical context of exploration and unfortunately colonization), we want to highlight one of the many fearless explorers who helped map uncharted lands. We thought it fitting to profile the person who embodies the contrast between the typical scene of stuffed, turkey-sedated, tipsy Americans at a Thanksgiving gathering and the violent events happening currently in the Middle East.
+Millennial dating quips aside, in the spirit of Thanksgiving (with it's historical context of exploration and unfortunately colonization), we want to highlight one of the many fearless explorers who helped map uncharted lands. We thought it fitting to profile the person who embodies the contrast between the typical scene of stuffed, turkey-sedated, tipsy Americans at a Thanksgiving gathering and the violent events happening currently in the Middle East.
 
 As the first female British intelligence Officer and adviser on Arabian affairs to the British government, Bell helped shape the geopolitical map of the world as it changed dramatically after World War I - she literally put Iraq and Syria on the map. She explored and documented much of Arabia (often by herself), creating the maps of Syria used in the World Wars known as the "Bell Maps."
 
@@ -34,9 +34,9 @@ Bell was instrumental in post-WWI policy in the middle East, and fought for Iraq
 
 >Saad Eskander, director of Iraq’s national library and archives, referred to Lawrence’s fame in the Middle East and then said, “But in Iraq, it is only Gertrude Bell who occupies an exceptional place both in the imagination of its ordinary people and in the mind of its cultural and political elites."
 
-Bell had a unique style of diplomacy that gained the respect of leaders of various tribes throughout the Middle East, not to mention Winston Churchill. She spend time understanding each culture, which made her so skilled as a liaison.
+Bell had a unique style of diplomacy that gained the respect of leaders of various tribes throughout the Middle East, not to mention Winston Churchill. She spend time understanding each culture, which made her so skilled as a liaison. Did we mention this all happened during a time where exposed wrists were scandalous?! Hard to believe a woman could Climb the swiss Alps, let alone be the trusted advisor of Europe's Prime Ministers and Mesopotamia's Prince's alike. 
 
-When we hear about Iraq and Syria, we are experiencing Gertrude's living legacy.  Take a moment to think of Bell and the other women and men who are are part of Lady Mafia - left out of history books but oh so relevant.
+While her dreams of a unified Iraq have crumbled (arguably because nobody since has displayed her level of tact and empathy), when we hear about Iraq and Syria, we are experiencing Gertrude's living legacy.  Take a moment to think of Bell and the other women and men who are are part of Lady Mafia - left out of history books but oh so relevant.
 
 **Don't worry, we know you didn't sleep through class:**
 
@@ -57,3 +57,6 @@ You should have learned about Gertrude Bell in any history class that covered in
 No tigress could have safeguarded Iraq’s rights better.
 >
 -- Max Mallowan
+
+Agreed! There is so much more to learn about Ms. Bell, her diplomatic feats, her comprehensive education system for Iraqi girls, and her incredible adventures through desert and mountain.  Read more about this captivating woman here:
+
