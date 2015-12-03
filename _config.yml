@@ -41,4 +41,4 @@ analytics :
   google :
       tracking_id : 'UA-70409012-1'
 
-exclude: [".gitignore", ".gitattributes", ".gitmodules", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock", "_drafts", "instagram.html", "ga-key.p12"]
+exclude: ["google-analytics.html", ".gitignore", ".gitattributes", ".gitmodules", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock", "_drafts", "ga-key.p12"]
