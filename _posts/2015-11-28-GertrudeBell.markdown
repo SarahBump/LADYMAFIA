@@ -8,7 +8,7 @@ layout: post
 quote: No woman in recent time has combined her qualities – her taste for arduous and dangerous adventure with her scientific interest and knowledge, her competence in archaeology and art, her distinguished literary gift, her sympathy for all sorts and condition of men, her political insight and appreciation of human values, her masculine vigour, hard common sense and practical efficiency – all tempered by feminine charm and a most romantic spirit.  -- D. G. Hogarth
 teaser: "creating Iraq, mapping Syria, and surviving 53 hours suspended by a rope in a blizzard"
 theme: gertrudeBell
-thumb: gertrudeBell.svg
+icon: gertrudeBell.svg
 title: "Gertrude Bell"
 type: profile
 datingprofile: true
@@ -22,7 +22,7 @@ bio: 5'5. People call me "al-Khatun" (Lady of the Court). When I’m not busy cr
 ---
 In the spirit of Thanksgiving (with it's historical context of exploration and unfortunately colonialization), we want to highlight one of the many fearless explorers who helped map uncharted lands. We thought it fitting to profile the person who embodies the contrast between the typical scene of stuffed, turkey-sedated, tipsy Americans at a Thanksgiving gathering and the violent events happening currently in the Middle East.
 
-literally put Iraq and Syria on the map.
+Gertrude bell literally put Iraq and Syria on the map.
 
 -driven by heartbreak
 -mountaineering, archaeology, mapping Syria ("Bell Maps")

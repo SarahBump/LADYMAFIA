@@ -12,13 +12,13 @@
       </div>
       <div class="container">
         <header class="post-header">
-          {% if page.thumb %}
-          <img src="/images/post-icons/{{ page.thumb }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
+          {% if page.icon %}
+          <img src="/images/post-icons/{{ page.icon }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
           {% endif %}
 
             <div class="post-title">
 
-            {% if page.categories == 'contemporary' && page.type == 'interview' %}
+            {% if page.categories == 'historical' %}
             <h3 class="post-title">A Conversation with </h3>
               <h1 class="post-title">
               {{ page.title}}

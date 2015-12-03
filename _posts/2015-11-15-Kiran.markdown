@@ -6,7 +6,7 @@ layout: post
 quote: I want to work with a group of people who touch a large amount of lives. I think to be a sole independent person, you can inspire others, but unless you’re working together, you won’t move the earth in as big or impactful of a way as you could.
 teaser: "Big data, making music with marbles, and feminine leadership"
 theme: kiranGandhi
-thumb: kiranGandhi.svg
+icon: kiranGandhi.svg
 title:  "Kiran Gandhi"
 type: interview
 ---

@@ -8,7 +8,7 @@ layout:
 quote:
 teaser:
 theme:
-thumb:
+icon:
 title:  
 type:
 ---
