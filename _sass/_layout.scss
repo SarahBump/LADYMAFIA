@@ -460,10 +460,14 @@ div.post-title {
   }
   img.card-icon{
     height: 60px;
+    width: 40px;
     margin: 0 20px 20px 0px;
-    width: 50px;
     display: inline;
     float: left;
+    @include media($mobile){
+      width: 35px;
+      margin-right: 10px;
+    }
   }
 
 }
