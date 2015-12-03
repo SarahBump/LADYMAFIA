@@ -1,6 +1,6 @@
 ---
 author: Gaby Ruiz-Funes
-categories: "OG"
+categories: historical
 comments: true
 credit: Compass by Stanislav Levin from the Noun Project; date by Gregor Črešnar from the Noun Project
 date: 2015-11-28
