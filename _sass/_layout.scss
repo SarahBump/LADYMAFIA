@@ -386,6 +386,9 @@ div.post-title {
 .post-content {
     padding-top: $spacing-unit;
     clear: both;
+    p + .img {
+      size: 250px;
+    }
     h2 {
         font-size: 32px;
 

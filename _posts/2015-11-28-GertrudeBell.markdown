@@ -20,7 +20,7 @@ interested: Men (preferably those who speak one of the eight languages I am flue
 firstdate: playing tennis or taking a stroll through the Baghdad Museum of Antiquities, which I created.
 bio: 5'5. People call me "al-Khatun" (Lady of the Court). When I’m not busy creating British colonial policy, I like long, solo, 1500 mile, walks through the desert, climbing mountains in the Swiss Alps, and getting to know Arab tribal leaders. I’m super into archeology and have funded my own archeological digs throughout the middle-east, because the archeological societies won’t let a woman in! I’m passionate, caring, and a little shy, but definitely have a taste for luxury...even when traveling across the desert I must have my china dinner service and a formal dinner dress with me! Also, I may or may not be a spy.
 ---
-In the spirit of Thanksgiving (with it's historical context of exploration and unfortunately colonialization), we want to highlight one of the many fearless explorers who helped map uncharted lands. Like the contrast between the typical scene of stuffed, turkey-sedated, tipsy Americans at a Thanksgiving gathering and the violent events happening currently in the Middle East, we thought it fitting to profile the person who represents that juxtoposition.
+In the spirit of Thanksgiving (with it's historical context of exploration and unfortunately colonialization), we want to highlight one of the many fearless explorers who helped map uncharted lands. We thought it fitting to profile the person who embodies the contrast between the typical scene of stuffed, turkey-sedated, tipsy Americans at a Thanksgiving gathering and the violent events happening currently in the Middle East.
 
 literally put Iraq and Syria on the map.
 

@@ -18,16 +18,16 @@
 
             <div class="post-title">
 
-            {% if page.type == 'interview' %}
+            {% if page.categories == 'contemporary' && page.type == 'interview' %}
             <h3 class="post-title">A Conversation with </h3>
               <h1 class="post-title">
               {{ page.title}}
               </h1>
-              {% elsif page.type == 'profile' && page.categories == 'historical'%}
+              {% elsif page.categories == 'historical' %}
               <h1 class="post-title u-full-width">
                 {{ page.title | prepend: 'O.G. '}}
               </h1>
-              {% elsif page.type == 'profile' && page.categories == 'contemporary'%}
+              {% else %}
               <h1 class="post-title u-full-width">
                 {{ page.title }}
               </h1>
