@@ -109,16 +109,16 @@ $bigscreen: 1200px;
       a.post-link, span {
         color: $themecolor;
       }
-      // @include media($mobile) {
-      //   &:hover, &:visited, &.tapped {
-      //     font-family: 'blackout midnight';
-      //     background-color: $background-color;
-      //     padding: 0px 20px;
-      //     a.post-link, span {
-      //       color: $themecolor;
-      //     }
-      //   }
-      // }
+      @include media($mobile) {
+        &:hover, &:visited, {
+          // font-family: 'blackout midnight';
+          // background-color: $background-color;
+          // padding: 0px 20px;
+          a.post-link, span {
+            color: white;
+          }
+        }
+      }
     }
     .all-posts{
       &.post-summary{
