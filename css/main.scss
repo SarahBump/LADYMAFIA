@@ -130,10 +130,10 @@ $bigscreen: 1200px;
             color: white;
         }
         @include media($mobile) {
-          // background-color: $themecolor;
-          // a.post-link, span {
-          //   color: white;
-          // }
+          background-color: $themecolor;
+          a.post-link, span {
+            color: white;
+          }
           &:hover, &:visited {
             // font-family: 'blackout midnight';
             // background-color: $background-color;
