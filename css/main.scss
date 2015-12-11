@@ -110,7 +110,7 @@ $bigscreen: 1200px;
         color: $themecolor;
       }
       @include media($mobile) {
-        &:visited, &:hover, &:active {
+          &.tapped, &:visited, &:hover, &:active {
           // font-family: 'blackout midnight';
           // background-color: $background-color;
           // padding: 0px 20px;
