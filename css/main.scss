@@ -129,20 +129,20 @@ $bigscreen: 1200px;
             background-color: $themecolor;
             color: white;
         }
-        // @include media($mobile) {
-        //   background-color: $themecolor;
-        //   a.post-link, span {
-        //     color: white;
-        //   }
-        //   &:hover, &:visited {
-        //     font-family: 'blackout midnight';
-        //     background-color: $background-color;
-        //     padding: 0px 20px;
-        //     a.post-link, span {
-        //       color: $themecolor;
-        //     }
-        //   }
-        // }
+        @include media($mobile) {
+          // background-color: $themecolor;
+          // a.post-link, span {
+          //   color: white;
+          // }
+          &:hover, &:visited {
+            // font-family: 'blackout midnight';
+            // background-color: $background-color;
+            // padding: 0px 20px;
+            a.post-link, span {
+              color: white;
+            }
+          }
+        }
       }
     }
 
