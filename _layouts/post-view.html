@@ -2,7 +2,9 @@
 <html>
 
   {% include head.html %}
+
   <body class="post-wrapper {{ page.theme }}">
+
     <div class="site-wrapper">
       <div class='post-nav'>
         <a id="nav-image" href="/" alt="ladymafia"></a>
@@ -10,8 +12,8 @@
       </div>
       <div class="container">
         <header class="post-header">
-          {% if page.thumb %}
-          <img src="/images/post-icons/{{ page.thumb }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
+          {% if page.icon %}
+          <img src="/images/post-icons/{{ page.icon }}" alt="{{ page.title }}" class="post-icon {{ page.theme }}" />
           {% endif %}
             <div class="post-title">
             {% if page.type == 'interview' %}
@@ -19,7 +21,7 @@
               <h1 class="post-title">
               {{ page.title}}
               </h1>
-              {% elsif page.type == 'profile' %}
+              {% elsif page.type == 'historical' %}
               <h1 class="post-title u-full-width">
                 {{ page.title | prepend: 'O.G. '}}
               </h1>
@@ -31,11 +33,10 @@
         <div class="post-body row">
             {{ content }}
         </div>
-
       </div>
       {% include footer.html %}
     </div>
-
+    <script src="/javascripts/fb-comments.js"></script>
   </body>
 
 </html>

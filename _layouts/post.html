@@ -1,8 +1,7 @@
 ---
 layout: post-view
-
+comments: true
 ---
-<!-- <div class="post"> -->
     {% if page.reading_time %}
     <p class="row post-reading-time">&#126;
         {% capture words %}
@@ -18,14 +17,18 @@ layout: post-view
         <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
         {% endif %}
 
+        {% if page.datingprofile %}
+          {% include dating-card.html %}
+        {% endif %}
+        
         {{ content }}
 
         {% include signoff.html %}
+
+        {% if page.credit %}
+        <div class="photo-credit">Photocred: {{ page.credit }}</div>
+        {% endif %}
+
+        {% include /add-ons/comments-markup.html %}
         {% include post-footer.html %}
     </article>
-
-<!-- {% if page.custom_js %}
-  {% for js_file in page.custom_js %}
-  <script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
-  {% endfor %}
-{% endif %} -->

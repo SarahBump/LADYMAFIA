@@ -5,7 +5,7 @@ type: profile
 date:   2015-11-11 21:06:38 -0500
 author: LADY MAFIA
 categories: historical
-thumb: adaLovelace.svg
+icon: adaLovelace.svg
 theme: adaLovelace
 teaser: Poetry, algorithms, and one futuristic calculator
 quote:

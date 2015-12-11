@@ -6,15 +6,52 @@
   h3 + p {
     margin-bottom: 0px;
   }
-  .blog-index + h3 {
-    margin-top: 30px;
+  .blog-index{
+    + h3 {
+      margin-top: 30px;
+    }
+    .post-summary {
+      a.post-link, span {
+        color: black;
+      }
+    }
   }
-  p.temp-site-intro {
+  p.temp-site-heading {
     color: red;
     font-family: 'blackout two_am';
     font-size: 20px;
   }
 }
+
+.read-more-box{
+  max-height: 250px;
+  position: relative;
+  overflow: hidden;
+
+  .read-more-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 30px 0;
+
+    background-image: linear-gradient(to bottom, transparent, $background-color);
+  }
+}
+.read-more-btn{
+  margin-bottom: $spacing-unit;
+  font-family: 'blackout two_am';
+  a {
+    color: black;
+    font-size: 20px;
+    &:visited, &:hover {
+      color: black;
+    }
+  }
+}
+
 
 .site-title {
     font-size: 26px;
@@ -58,6 +95,9 @@
       @include media($mobile) {
         font-size: 16px;
       }
+      &:hover, &:active, &:focus {
+        color: black;
+      }
       @include no-mobile {
         &:hover, &:active, &:focus {
           font-family: 'blackout midnight';
@@ -99,6 +139,10 @@
         display: none;
       }
     }
+}
+
+.sign-off {
+  padding-top: 30px;
 }
 
 
@@ -330,9 +374,21 @@ div.post-title {
     border-top: 4px solid black;
   }
 }
+.post-comments {
+ .first-comment {
+    display: none;
+  }
+  .fb-comments-count, .fb_comments_count_zero {
+    color: transparent;
+    height: 0;
+  }
+}
 .post-content {
     padding-top: $spacing-unit;
     clear: both;
+    p + .img {
+      size: 250px;
+    }
     h2 {
         font-size: 32px;
 
@@ -365,6 +421,56 @@ div.post-title {
       @include media($mobile) {
         font-size: 14px;
       }
-
     }
+    .photo-credit{
+      padding-top: $spacing-unit;
+      font-size: 12px;
+      font-family: courier;
+    }
+    i.em.em-ladymafia {
+      background-image: url(/images/logo/ladymafia_favicon_round.png);
+    }
+}
+
+.dating-card {
+  max-width: 475px;
+  margin: 0 auto;
+  hr {
+    margin: 10px 0;
+  }
+  .dating-img {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .dating-name {
+    font-family: courier;
+    text-align: center;
+    font-size: 18px;
+  }
+  .dating-location{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    color: grey;
+    padding-bottom: 10px;
+    img {
+      width: 25px;
+    }
+  }
+  li {
+    display: inline-block;
+    text-decoration: none;
+  }
+  img.card-icon{
+    height: 60px;
+    width: 40px;
+    margin: 0 20px 20px 0px;
+    display: inline;
+    float: left;
+    @include media($mobile){
+      width: 35px;
+      margin-right: 10px;
+    }
+  }
+
 }

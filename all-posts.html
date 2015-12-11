@@ -1,6 +1,7 @@
 ---
 layout: alt
 title: Who
+comments: false
 permalink: /Who_is_Lady_Mafia/
 tagline: Who is LADY MAFIA?
 ---
@@ -10,7 +11,7 @@ tagline: Who is LADY MAFIA?
   <ul class="post-list-alt row">
     {% for post in site.posts %}
       <li class="post-summary {{post.theme}}">
-        <a class="post-link title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
         <a class="post-link teaser" href="{{ post.url | prepend: site.baseurl }}">{{ post.teaser }}</a>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       </li>
