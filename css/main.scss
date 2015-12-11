@@ -114,6 +114,8 @@ $bigscreen: 1200px;
           // font-family: 'blackout midnight';
           // background-color: $background-color;
           // padding: 0px 20px;
+          color: white;
+
           a.post-link, span {
             color: white;
           }
@@ -131,13 +133,10 @@ $bigscreen: 1200px;
         }
         @include media($mobile) {
           background-color: $themecolor;
-          a.post-link, span {
-            color: white;
             &:visited, &:hover, &:active {
               // font-family: 'blackout midnight';
-              background-color: yellow;
+                          color: white;
               // padding: 0px 20px;
-            }
           }
         }
       }
