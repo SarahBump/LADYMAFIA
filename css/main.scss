@@ -93,7 +93,7 @@ $bigscreen: 1200px;
     p a {
       color: $themecolor;
       font-weight: bolder;
-      &:active , &:hover &:visited {
+      &:visited, &:hover, &:active{
         color: darken($themecolor, 10%);
       }
     }
@@ -102,7 +102,7 @@ $bigscreen: 1200px;
         border-left: 4px solid $themecolor;
     }
     &.post-summary {
-      &.tapped, &:hover, &:visited {
+      &.tapped, &:visited, &:hover, &:active {
           background-color: $themecolor;
           color: white;
       }
@@ -110,7 +110,7 @@ $bigscreen: 1200px;
         color: $themecolor;
       }
       @include media($mobile) {
-        &:hover, &:visited, {
+        &:visited, &:hover, &:active {
           // font-family: 'blackout midnight';
           // background-color: $background-color;
           // padding: 0px 20px;
@@ -125,7 +125,7 @@ $bigscreen: 1200px;
         a.post-link, span {
           color: $themecolor;
         }
-        &.tapped, &:hover, &:visited, {
+        &.tapped, &:visited, &:hover, &:active {
             background-color: $themecolor;
             color: white;
         }
@@ -133,13 +133,13 @@ $bigscreen: 1200px;
           background-color: $themecolor;
           a.post-link, span {
             color: white;
-          }
-          &:hover, &:visited {
-            // font-family: 'blackout midnight';
-            // background-color: $background-color;
-            // padding: 0px 20px;
-            a.post-link, span {
-              color: white;
+            &:visited, &:hover, &:active {
+              // font-family: 'blackout midnight';
+              // background-color: $background-color;
+              // padding: 0px 20px;
+              a.post-link, span {
+                color: white;
+              }
             }
           }
         }
