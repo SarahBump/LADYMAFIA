@@ -10,11 +10,11 @@
     + h3 {
       margin-top: 30px;
     }
-    .post-summary {
-      a.post-link, span {
-        color: black;
-      }
-    }
+    // .post-summary {
+    //   a.post-link, span {
+    //     color: black;
+    //   }
+    // }
   }
   p.temp-site-heading {
     color: red;
@@ -429,4 +429,50 @@ div.post-title {
       font-size: 12px;
       font-family: courier;
     }
+    i.em.em-ladymafia {
+      background-image: url(/images/logo/ladymafia_favicon_round.png);
+    }
+}
+
+.dating-card {
+  max-width: 475px;
+  margin: 0 auto;
+  hr {
+    margin: 10px 0;
+  }
+  .dating-img {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .dating-name {
+    font-family: courier;
+    text-align: center;
+    font-size: 18px;
+  }
+  .dating-location{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    color: grey;
+    padding-bottom: 10px;
+    img {
+      width: 25px;
+    }
+  }
+  li {
+    display: inline-block;
+    text-decoration: none;
+  }
+  img.card-icon{
+    height: 60px;
+    width: 40px;
+    margin: 0 20px 20px 0px;
+    display: inline;
+    float: left;
+    @include media($mobile){
+      width: 35px;
+      margin-right: 10px;
+    }
+  }
+
 }

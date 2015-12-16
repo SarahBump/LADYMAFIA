@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Hedy Lamarr"
-type: profile
+type: historical
 date:   2015-11-11 21:06:38 -0500
 author: Gaby Ruiz-Funes
-categories: historical
+categories: 
 icon: hedyLamarr.svg
 theme: hedyLamarr
 teaser: frequency-hopping, submarine signals, and the most beautiful woman in the world.
