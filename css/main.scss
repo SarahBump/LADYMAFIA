@@ -143,8 +143,6 @@ $bigscreen: 1200px;
         }
       }
     }
-
-
     .post-content {
       p + hr {
         width: 30px;
@@ -154,6 +152,12 @@ $bigscreen: 1200px;
         height: 0;
         right: 0;
         border-top: 3px solid $themecolor;
+      }
+      strong em {
+        // border-bottom: 4px solid $themecolor;
+        background-color: lighten($themecolor, 20%);
+        font-style: normal;
+
       }
     }
 }
