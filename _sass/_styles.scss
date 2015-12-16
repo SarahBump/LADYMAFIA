@@ -1,4 +1,6 @@
-
+.instagram1 {
+  font-family: 'blackout two_am';
+}
 .site-header, .main-header {
     h1.header-title{
       font-family: 'blackout midnight', arial-bold, sans-serif;
@@ -21,6 +23,8 @@
         }
       }
     }
+
+
 
   @include desktop {
     h1.header-title{
@@ -88,6 +92,10 @@
   & +.post-nav{
     display: none;
   }
+}
+
+.about{
+  @include theme(hotpink);
 }
 
 .post-wrapper {

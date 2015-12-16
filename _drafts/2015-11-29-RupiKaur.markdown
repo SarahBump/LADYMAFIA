@@ -1,0 +1,33 @@
+---
+author: Sarah Bump
+categories: contemporary
+date:  2015-11-29 21:06:38 -0500
+layout: post
+quote:
+teaser: "Meditation, Web Design, and Poetry"
+theme: rupiKaur
+icon: honeyBee.svg
+title:  "Rupi Kaur"
+type: profile
+---
+
+###Finding the Power in Minimalism, <br>a Profile on Rupi Kaur
+
+I think that there is a real power in minimalism. It allows people to focus their energy on one thing, something very difficult for humans, something really beautiful when accomplished. I can barely settle my mind long enough to decide what to do for lunch. By practicing meditation, I have found the sort of stillness in my mind that enables me to make difficult decisions. I can’t help but reflect on this, why can I do this, simply because I focus on one thing for a set amount of time, which allows my mind to clear and focus.  Buddhists devote their whole lives to meditation, focusing on the present, finding the most minimal mindset, one mantra, to achieve enlightenment.
+
+In coding school we all wanted all of our websites to be as simple and minimalist as possible, we all agreed that the simplest websites were the most pleasant to the eye, as well as the most user-friendly. We knew we wanted minimalist sites, but we found that minimalist sites were the hardest to build, between alignment, design, usability, and function, minimalism was the hardest thing to accomplish. The students who did accomplish minimalism, were the classes favorite sites. People who can create minimalist products, whether it be in art, design, or engineering, I truly admire. Rupi Kaur does just this in her poetry.
+
+She has a way of bringing elegance to some really heavy topics, which is a really beautiful way to put something out into the world and give people who are suffering from something similar a vehicle to express the emotion they are feeling as well. Putting these emotions out into the world in such a raw form is, in my mind, one of the most brave things you can do. When you come from a place of raw passion, people will empathize, they will be comforted, they will be inspired.
+
+![Rupi 1](/images/Rupi/Rupi1.png)
+![Rupi 2](/images/Rupi/Rupi2.png)
+
+
+Rupi Kaur is a member of lady mafia because she is giving people an accessible and bite-size way to express a huge emotion. That comfort that she can bring from her simplistic poetry and illustrations has proven to be powerful. She has just under 300K followers on instagram and a book that has had soaring reviews. Huffington Post deemed her, “the poet every woman needs to read,” Bustle magazine raves, “[her book] Milk and Honey is Essential Reading.”
+
+Her words are very soft, very feminine, but the power her words have is the type of femininity I admire. Using the power of your feminine side, which comes most naturally. This has a much greater impact and is much more effective than out-male-ing the men. We will never achieve that, so to play our strengths as females we can lead in a much more impactful way.
+
+This is how Rupi inspires me, playing the strength of minimalism, I hope you can appreciate and take something similar from her poetry. Follow her on [instagram](http://www.instagram.com/rupikaur_/ "instagram"){:target="_blank"} for more of her work, @RUPIKAUR_ and you can purchase her book, Milk and Honey, [here](http://www.rupikaur.com/milkandhoney "here"){:target="_blank"}.
+
+![Rupi 3](/images/Rupi/Rupi3.png)
+![Rupi 4](/images/Rupi/Rupi4.png)
