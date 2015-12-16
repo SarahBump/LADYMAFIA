@@ -15,7 +15,7 @@ It is being served by Github Pages, you can view the <a href="https://github.com
 ###Design
 The site was designed by Gaby Ruiz-Funes and Sarah Bump.<br>
 The site's icons were built in Adobe Illustrator by Gaby Ruiz-Funes, unless otherwise noted.<br>
-The name of the font package is blackout and is hosted by The League of Type we appreciated the block style, as it gives a news-like feel, a sense of importance and urgency.<br>
+The name of the font package is blackout and it is hosted by The League of Type. We appreciated the block style, as it gives a news-like feel, a sense of importance and urgency.<br>
 There is no use of pictures on the site, the only time you see pictures of the Mafia is a mug shot.<br>
 The individual colors for each post represent the spirit of that post.<br>
 The logo was designed to look like she is either wearing a hoodie or it is her hair,<br> left it up to the interpretation of the viewer.<br>
