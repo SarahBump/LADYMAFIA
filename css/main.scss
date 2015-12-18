@@ -93,7 +93,8 @@ $bigscreen: 1200px;
 @mixin theme($themecolor){
     p a {
     //   color: $themecolor;
-      font-weight: bolder;
+      color: black;
+    //   font-weight: bolder;
       border-bottom: 3px solid $themecolor;
       &:visited, &:hover, &:active{
         // color: darken($themecolor, 10%);
