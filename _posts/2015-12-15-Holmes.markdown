@@ -1,7 +1,7 @@
 ---
 author: Sarah Bump
 categories: contemporary
-date:   2015-12-16 
+date:   2015-12-16
 layout: post
 teaser: The Silicon Valley Darling We Love to Hate
 theme: Holmes
@@ -12,7 +12,7 @@ credit: Blood Pressure by Ricardo Moreira from the Noun Project
 ---
 
 
-CEO and Founder of blood testing company, [Theranos](https://theranos.com/){:target="_blank"}, Elizabeth Holmes is no stranger to the spotlight. **_She is the youngest self-made billionaire_** and a college dropout. She left Stanford, where she was studying chemical engineering, at the age of 19 to start Theranos. Theranos was projected to be the disruption the laboratory-diagnostic industry needed. Blood testing has not changed since the modern clinical lad emerged in the 1960’s and **_her idea was revolutionary_**: No more vials or tourniquets, just a pinprick of blood gathered in a container smaller than a dime. Up to 70 lab tests can be run on one drop of blood and in less time than traditional tests. Not to mention, at a much lower cost, Theranos charges from $2.67 for a glucose test to $59.95 for a range of STD’s and posts all of its prices online, upholding the highest standard of transparency. Holmes thinks that ease of testing will make people more likely to go through with blood tests and help with earlier detection of illness, something she's passionate about.
+CEO and Founder of blood testing company, [Theranos](https://theranos.com/){:target="_blank"}, Elizabeth Holmes is no stranger to the spotlight. **_She is the youngest self-made billionaire_** and a college dropout. She left Stanford, where she was studying chemical engineering, at the age of 19 to start Theranos. Theranos was projected to be the disruption the laboratory-diagnostic industry needed. Blood testing has not changed since the modern clinical lab emerged in the 1960’s and **_her idea was revolutionary_**: No more vials or tourniquets, just a pinprick of blood gathered in a container smaller than a dime. Up to 70 lab tests can be run on one drop of blood and in less time than traditional tests. Not to mention, at a much lower cost, Theranos charges from $2.67 for a glucose test to $59.95 for a range of STD’s and posts all of its prices online, upholding the highest standard of transparency. Holmes thinks that ease of testing will make people more likely to go through with blood tests and help with earlier detection of illness, something she's passionate about.
 
 A Silicon Valley darling, and the investors to back her, **_what’s the catch_**? Well she she still hasn’t revealed how she is going to do this. Holmes has yet to produce the test data, paperwork, or U.S. Food and Drug administration approval that this technology actually works. Reportedly, Theranos isn’t using its own products and technology to analyze most of the tests it was conducting for consumers. Former employees claimed Theranos was cheating on routine proficiency tests, which help federal regulators determine if a particular lab is producing accurate results. The implication is that Theranos’s technology is a charade.
 
