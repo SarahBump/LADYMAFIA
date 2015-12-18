@@ -96,10 +96,13 @@ $bigscreen: 1200px;
     //   color: black;
     //   font-weight: bolder;
       border-bottom: 3px solid $themecolor;
+      text-decoration: none;
+
       &:visited, &:hover, &:active{
         // color: darken($themecolor, 10%);
         color: $themecolor;
         border: none;
+        text-decoration: none;
       }
     }
     .post-title{ color: $themecolor;}
