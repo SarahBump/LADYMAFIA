@@ -98,12 +98,15 @@ $bigscreen: 1200px;
       border-bottom: 3px solid $themecolor;
       text-decoration: none;
 
-      &:visited, &:hover, &:active{
+      &:hover{
         // color: darken($themecolor, 10%);
         color: $themecolor;
         border: none;
         text-decoration: none;
       }
+        &:visited, &:active{
+            color: #222;
+        }
     }
     .post-title{ color: $themecolor;}
     blockquote, blockquote.post-quote {
