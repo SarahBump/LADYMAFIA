@@ -92,13 +92,13 @@ $bigscreen: 1200px;
 //post theme customization
 @mixin theme($themecolor){
     p a {
-    //   color: $themecolor;
-      color: black;
+      color: $themecolor;
+    //   color: black;
     //   font-weight: bolder;
       border-bottom: 3px solid $themecolor;
       &:visited, &:hover, &:active{
         // color: darken($themecolor, 10%);
-        color: $themecolor;
+        color: black;
       }
     }
     .post-title{ color: $themecolor;}
