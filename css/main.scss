@@ -98,7 +98,8 @@ $bigscreen: 1200px;
       border-bottom: 3px solid $themecolor;
       &:visited, &:hover, &:active{
         // color: darken($themecolor, 10%);
-        color: black;
+        color: $themecolor;
+        border: none;
       }
     }
     .post-title{ color: $themecolor;}
