@@ -23,7 +23,23 @@ function mobileLinkColors(){
 
 function gotoPost(el) {
   window.location = el.attr('href');
+}
 
+function shareThis() {
+  $('.share-btn').click(function(){
+    console.log('shared!')
+    $('.share-action').hide();
+    $('.share-this ul a')
+    .toggleClass("visible")
+    .toggle("slow", function(){
+      // $('.share-action').hide();
+    });
+  })
+  $('.share-btn').hover(function(){
+    if(!$('.visible').length){
+      $('.share-action').fadeToggle("slow");
+    }
+  })
 }
 
 $(document).ready(function(){
@@ -31,4 +47,5 @@ $(document).ready(function(){
     // toggleNav();
   };
   mobileLinkColors();
+  shareThis();
 })
