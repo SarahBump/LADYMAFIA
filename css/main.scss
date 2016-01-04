@@ -188,6 +188,9 @@ $bigscreen: 1200px;
       .share i.fa {
         color: $background-color;
       }
+      .share i.fa:hover {
+        color: $background-color;
+      }
     }
   }
 }
