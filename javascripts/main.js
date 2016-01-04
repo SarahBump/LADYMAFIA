@@ -27,32 +27,17 @@ function gotoPost(el) {
 function shareThis() {
   $('.share-btn').click(function(){
     console.log('shared!')
-    $('.share-action').hide();
-    $('.share-this ul a')
-    .toggleClass("visible")
-    .toggle("slow", function(){
-      // $('.share-action').hide();
-    });
+    // $('.share-action').hide();
+    $('.share-this ul')
+      .toggleClass("visible")
+      .toggle("slow");
   })
-  $('.share-btn').hover(function(){
-    if(!$('.visible').length){
-      $('.share-action').fadeToggle("slow");
-    }
-  })
-}
+  // $('.share-btn').hover(function(){
+  //   if(!$('.visible').length){
+  //     $('.share-action').fadeToggle("slow");
+  //   }
+  // })
 
-function newShareWindow() {
-  $('.share-this ul a').click( function(){
-    console.log('new window')
-    window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
-    return false;
-  });
-}
-
-$(document).ready(function(){
-  // if( $('.header-small').length > 0) {
-  //   // toggleNav();
-  // };
   var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   var android = /Android/.test(navigator.userAgent) && !window.MSStream;
   if(iOS) {
@@ -60,7 +45,41 @@ $(document).ready(function(){
   }else if(android) {
     $('.share.SMS').href("sms:123456789?body=smoetexthere");
   }
+}
+
+function newShareWindow() {
+  $('.share-this ul a').click( function(){
+    console.log('new window')
+    if(!$(this).hasClass('email')){
+      window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+      return false;
+    }
+  });
+}
+
+function displayShareBtn() {
+  $( window ).scroll(function() {
+    if( $( ".post-wrapper" ).scrollTop() > 75){
+      $('.share-this').fadeIn();
+
+      if(window.innerWidth > 767){
+        window.setTimeout(function(){
+          $('.share-this ul')
+            .toggleClass("visible")
+            .fadeIn();
+        }, 500);
+      }
+
+    }
+  });
+}
+
+$(document).ready(function(){
+  // if( $('.header-small').length > 0) {
+  //   // toggleNav();
+  // };
   mobileLinkColors();
+  displayShareBtn();
   shareThis();
   newShareWindow();
 })

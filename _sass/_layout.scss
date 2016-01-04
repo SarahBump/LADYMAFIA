@@ -54,38 +54,43 @@
 
 .share-this {
   right: 15%;
-  width: 35px;
-  margin-top: 25%;
+  width: auto;
+  margin-top: 10%;
   position: fixed;
   text-align: center;
+  display: none;
+  z-index: 10;
 
   hr {
-    // padding-bottom: 3px;
-    margin: 5px auto;
+    margin-top: 5px;
+    margin-bottom: 0;
   }
   ul {
     width: 25px;
     list-style-type: none;
     margin: 0 auto;
+    letter-spacing: .1rem;
+
     a {
       margin-left: 0;
     }
   }
-  i.fa {
+  .share i.fa {
     // display: block;
     font-size: 18px;
+    padding-top: 10px;
+    color: #E1E1E1;
   }
-  .share-action { display: none; }
+  // .share-action { display: none; }
 
-  .share-btn{
+  .share-btn {
     background: transparent;
     border: none;
     height: auto;
     padding: 0;
-    color: #555;
     // font-weight: 600;
+    font-size: 24px;
     line-height: 0;
-    // letter-spacing: .1rem;
     // text-transform: uppercase;
     text-decoration: none;
     // white-space: nowrap;
@@ -94,7 +99,7 @@
     // cursor: pointer;
   }
 
-  ul a {
+  ul {
     display: none;
   }
 
@@ -108,6 +113,9 @@
     right: 5px;
     i.fa {
       font-size: 24px;
+    }
+    .share-btn i.fa{
+      font-size: 18px;
     }
   }
 }
