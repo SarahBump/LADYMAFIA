@@ -1,4 +1,3 @@
-
 function toggleNav() {
   $(window).scroll(function() {
     if($(this).width() < 769 && $(this).scrollTop() > 50){
@@ -42,10 +41,20 @@ function shareThis() {
   })
 }
 
+function newShareWindow() {
+  $('.share-this ul a').click( function(){
+    console.log('new window')
+    window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+    return false;
+  });
+}
+
 $(document).ready(function(){
-  if( $('.header-small').length > 0) {
-    // toggleNav();
-  };
+  // if( $('.header-small').length > 0) {
+  //   // toggleNav();
+  // };
+
   mobileLinkColors();
   shareThis();
+  newShareWindow();
 })

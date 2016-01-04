@@ -1,29 +1,52 @@
+
 <div class="share-this">
   <a class="share-btn"><i class="fa fa-paper-plane-o"></i></a>
   <hr>
   <p class="share-action"> share </p>
   <ul>
-    <a href=#><i class="fa fa-envelope"></i></a>
-    <a href=#><i class="fa fa-comment"></i></a>
-    <a href="https://www.facebook.com/dialog/share
-    ?app_id=946372735391329&display=popup
-    &href={{ site.url }}{{ page.url }}
-    &redirect_uri={{ site.url }}{{ page.url }}"><i class="fa fa-facebook"></i></a>
-    <a href="https://twitter.com/share?
-    text={{ page.title }}
-    &url={{ page.shorturl }}
-    &via=theeladymafia"><i class="fa fa-twitter"></i></a>
-    <a href=#><i class="fa fa-reddit"></i></a>
-    <a href="https://plus.google.com/share?
-    url=http://tomhohenstein.com{{ page.url }}
-    &hl=en-US"
-    onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></a>
+    <!-- email -->
+    <a class="share email" href="mailto:?Subject= Sharing via Lady Mafia: {{ page.teaser }}&amp;Body=I%20saw%20this%20and%20thought%20of%20you%20 {{ site.url }}{{ page.url }}">
+      <i class="fa fa-envelope"></i>
+    </a>
+
+    <!-- SMS-->
+    <!-- <a class="share android" href="sms:/* phone number here */?body=/* body text here */">ANDROID</a>
+
+
+    <a class="share iOS" href="sms:/* phone number here */&body=/* body text here */"> IOS
+      <i class="fa fa-comment"></i>
+    </a> -->
+
+    <a class="share SMS" href="">
+      <i class="fa fa-comment"></i>
+    </a>
+
+    <!-- facebook -->
+    <a class="share facebook" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&p[title]={{ page.title }} {{ page.teaser }}">
+      <i class="fa fa-facebook"></i>
+    </a>
+
+    <!-- twitter -->
+    <a class="share twitter" href="https://twitter.com/intent/tweet?text={{ page.title }} {{ page.teaser }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
+      <i class="fa fa-twitter"></i>
+    </a>
+
+    <!-- reddit -->
+    <a class="share reddit" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }} {{ page.teaser }}">
+      <i class="fa fa-reddit"></i>
+    </a>
+
+    <!-- google plus -->
+    <a class="share googleplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}&hl=en-US">
+      <i class="fa fa-google-plus"></i>
+    </a>
     <!-- <a href="http://www.linkedin.com/shareArticle
     ?mini=true
     &url={{ site.url }}{{ page.url }}
     &title={{ page.title }}
     &source={{ site.title }}"><i class="fa fa-linkedin"></i></a> -->
-    <a href=#><i class="fa fa-twitter"></i></a>
   </ul>
+
+
 
 </div>

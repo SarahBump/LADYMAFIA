@@ -67,7 +67,7 @@
     width: 25px;
     list-style-type: none;
     margin: 0 auto;
-    li {
+    a {
       margin-left: 0;
     }
   }
@@ -96,6 +96,12 @@
   }
   ul a {
     display: none;
+  }
+
+  @include no-mobile {
+    .share.SMS{
+      display: hidden;
+    }
   }
 
   @include media($mobile) {
