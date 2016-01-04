@@ -100,7 +100,7 @@
 
   @include no-mobile {
     .share.SMS{
-      display: hidden;
+      display: none;
     }
   }
 
