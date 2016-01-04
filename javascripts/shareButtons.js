@@ -28,9 +28,9 @@
 // var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 // var android = /Android/.test(navigator.userAgent) && !window.MSStream;
 // if(iOS) {
-//   $('.share.SMS').href("sms8479222290:&body=testing");
+//   $('.share.SMS').href("sms:123456789:&body=testing");
 // }else if(android) {
-//   $('.share.SMS').href("sms:8479222290?body=smoetexthere");
+//   $('.share.SMS').href("sms:123456789?body=smoetexthere");
 // }
 //
 //
