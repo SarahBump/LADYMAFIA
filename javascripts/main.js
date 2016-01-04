@@ -59,7 +59,8 @@ function newShareWindow() {
 
 function displayShareBtn() {
   $( window ).scroll(function() {
-    if( $( ".post-wrapper" ).scrollTop() > 75){
+    if( $( ".post-wrapper, .alt-layout" ).scrollTop() > 75){
+      console.log('scroll');
       $('.share-this').fadeIn();
 
       if(window.innerWidth > 767){
