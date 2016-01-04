@@ -76,7 +76,6 @@
     font-size: 18px;
   }
   .share-action { display: none; }
-  a:active +  p.share-action { display: none;  }
 
   .share-btn{
     background: transparent;
@@ -92,8 +91,9 @@
     // white-space: nowrap;
     background-color: transparent;
     border: none;
-    cursor: pointer;
+    // cursor: pointer;
   }
+
   ul a {
     display: none;
   }
