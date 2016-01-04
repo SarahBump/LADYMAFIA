@@ -80,6 +80,7 @@
     font-size: 18px;
     padding-top: 10px;
     color: #E1E1E1;
+    margin: 0;
   }
   // .share-action { display: none; }
 
@@ -112,33 +113,30 @@
 
   @include media($mobile) {
     right: 5px;
-    i.fa {
-      font-size: 24px;
+    .share-btn {
+      color: $text-color;
+
+      i.fa{
+        font-size: 18px;
+      }
     }
-    .share-btn i.fa{
-      font-size: 18px;
+    .share i.fa {
+      font-size: 22px;
+      padding-top: 14px;
+      color: $background-color;
+      &:hover {
+        color: $background-color;
+      }
+    }
+    ul {
+      background-color: $text-color;
+      padding: 0 10px;
     }
   }
 
   .share-btn, .share i.fa:hover {
     color: $text-color;
   }
-
-    @include media($mobile) {
-      .share-btn {
-        color: $text-color;
-      }
-      ul {
-        background-color: $text-color;
-        padding: 0 5px;
-      }
-      .share i.fa {
-        color: $background-color;
-      }
-      .share i.fa:hover {
-        color: $background-color;
-      }
-    }
 }
 
 
