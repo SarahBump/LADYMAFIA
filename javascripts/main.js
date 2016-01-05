@@ -76,12 +76,12 @@ $(document).ready(function(){
 
   var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   var android = /Android/.test(navigator.userAgent) && !window.MSStream;
-  var url = $('.share.SMS').href;
+  var url = $('.share.SMS').attr("href");
   var bodyText = 'Lady Mafia strikes again...' + url;
   if(iOS) {
-    var newURL = 'sms: :&body=' + bodyText;
+    var newURL = 'sms: :&' + bodyText;
   }else if(android) {
-    var newURL = 'sms: ?body=' + bodyText;
+    var newURL = 'sms: ?' + bodyText;
   }
   $('.share.SMS').attr('href', newURL);
 
