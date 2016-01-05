@@ -9,9 +9,7 @@
 title: LADY MAFIA
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Changing the narrative, challenging gender roles, and writing about the people who were too busy changing the world to worry about making it into history books. We are calling them, the Lady Mafia.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ladymafia.rocks" # the base hostname & protocol for your site
 twitter_username: theeladymafia
