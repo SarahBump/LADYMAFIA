@@ -79,9 +79,9 @@ $(document).ready(function(){
   var url = $('.share.SMS').attr("href");
   var bodyText = 'Lady Mafia strikes again...' + url;
   if(iOS) {
-    var newURL = 'sms: :&' + bodyText;
+    var newURL = 'sms: :&body=' + bodyText;
   }else if(android) {
-    var newURL = 'sms: ?' + bodyText;
+    var newURL = 'sms: ?body=' + bodyText;
   }
   $('.share.SMS').attr('href', newURL);
 
