@@ -38,13 +38,7 @@ function shareThis() {
   //   }
   // })
 
-  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  var android = /Android/.test(navigator.userAgent) && !window.MSStream;
-  if(iOS) {
-    $('.share.SMS').href("sms:123456789:&body=testing");
-  }else if(android) {
-    $('.share.SMS').href("sms:123456789?body=smoetexthere");
-  }
+
 }
 
 function newShareWindow() {
@@ -79,6 +73,15 @@ $(document).ready(function(){
   // if( $('.header-small').length > 0) {
   //   // toggleNav();
   // };
+
+  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  var android = /Android/.test(navigator.userAgent) && !window.MSStream;
+  if(iOS) {
+    $('.share.SMS').attr('href', "sms:123456789:&body=testing");
+  }else if(android) {
+    $('.share.SMS').attr('href', "sms:123456789?body=smoetexthere");
+  }
+
   mobileLinkColors();
   displayShareBtn();
   shareThis();

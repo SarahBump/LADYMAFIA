@@ -105,11 +105,11 @@
     display: none;
   }
 
-  @include no-mobile {
-    .share.SMS{
-      display: none;
-    }
-  }
+  // @include no-mobile {
+  //   .share.SMS > i{
+  //     display: none;
+  //   }
+  // }
 
   @include media($mobile) {
     right: 5px;
