@@ -1,6 +1,6 @@
 ---
 layout: alt
-title: Contact
+title: Contact Me
 permalink: /contact/
 tagline: Contact LADY MAFIA
 ---
