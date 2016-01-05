@@ -76,11 +76,14 @@ $(document).ready(function(){
 
   var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   var android = /Android/.test(navigator.userAgent) && !window.MSStream;
+  var url = $('.share.SMS').href;
+  var bodyText = 'Lady Mafia strikes again...' + url;
   if(iOS) {
-    $('.share.SMS').attr('href', "sms:123456789:&body=testing");
+    var newURL = 'sms: :&body=' + bodyText;
   }else if(android) {
-    $('.share.SMS').attr('href', "sms:123456789?body=smoetexthere");
+    var newURL = 'sms: ?body=' + bodyText;
   }
+  $('.share.SMS').attr('href', newURL);
 
   mobileLinkColors();
   displayShareBtn();
