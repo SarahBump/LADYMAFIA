@@ -2,7 +2,7 @@
 layout: alt
 title: About
 permalink: /about/
-tagline: About ladymafia.rocks
+tagline: The design and development of ladymafia.rocks
 theme: about
 ---
 ###Development

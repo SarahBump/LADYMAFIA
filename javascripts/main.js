@@ -25,6 +25,11 @@ function gotoPost(el) {
 }
 
 function shareThis() {
+
+  if($(window).innerWidth > 767){
+    $('.share-this ul').addClass("visible");
+  }
+
   $('.share-btn').click(function(){
     console.log('shared!')
     // $('.share-action').hide();
@@ -37,18 +42,17 @@ function shareThis() {
   //     $('.share-action').fadeToggle("slow");
   //   }
   // })
-
-
 }
 
 function newShareWindow() {
-  $('.share-this ul a').click( function(){
-    console.log('new window')
-    if(!$(this).hasClass('email')){
-      window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
-      return false;
-    }
-  });
+  $('.share-this ul a').click(
+    function(){
+    console.log('new window');
+      if(!$(this).hasClass('email')){
+        window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+        return false;
+      }
+    });
 }
 
 function displayShareBtn() {
