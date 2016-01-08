@@ -6,12 +6,13 @@
   <body class="alt-layout">
 
     <div class="site-wrapper">
-      {% include share-this.html %}
       <div class="container">
       {% include small-header.html %}
-
       <div class="row content">
-          {{ content }}
+        <div class="share-this share-default">
+          {% include share-this.html %}
+        </div>
+        {{ content }}
       </div>
       </div>
       {% include footer.html %}
