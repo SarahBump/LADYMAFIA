@@ -160,10 +160,20 @@
     }
   }
 }
+.detail-icon{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  @include media($mobile){
+    display: none;
+  }
+}
 .post-list-alt{
   .post-summary {
     text-align: left;
-    max-width: 660px;
+    // max-width: 660px;
+    max-width: 70%;
+    display: inline-block;
     list-style-type: none;
     text-decoration: none;
     font-family: 'blackout two_am';
@@ -181,11 +191,11 @@
     }
     &:hover {
       a.title {
-        display: block;
+        display: inline-block;
       }
       height: 55;
       font-family: 'blackout midnight';
-      padding: 0px 20px;
+      // padding: 0px 20px;
       a.post-link, span {
         color: white;
         // padding-left: 20px;

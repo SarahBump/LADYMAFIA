@@ -112,7 +112,7 @@
   // }
 
   @include media($mobile) {
-    right: 5px;
+    right: 15px;
     .share-btn {
       color: $text-color;
 
@@ -253,6 +253,9 @@
     position:absolute;
     bottom:0;
     background: $background-color;
+    img {
+      width: 30px;
+    }
     .wrapper {
       background: $background-color;
       width: 80%;
@@ -261,7 +264,6 @@
       margin: 0 auto;
       max-width: 960px;
       z-index: 10;
-
     }
   @include media($mobile) {
     display: none;
@@ -446,10 +448,13 @@ div.post-title {
     font-family: 'Blackout two_am';
 }
 
-.post-body{
+.post-body {
   margin-bottom: 50px;
   padding: 0px $spacing-unit;
   position: relative;
+  li {
+    margin-left: 25px;
+  }
   @include  media($mobile) {
     margin: 0 0 30px;
     padding: 0;

@@ -33,6 +33,21 @@ $laptop:        800px;
 $bigscreen: 1200px;
 
 
+//emoticons
+i.em {
+  width: 2.5em;
+}
+
+//footer
+.foot {
+  background-color: black;
+}
+.copy{
+  float: right;
+}
+
+
+
 //media queries
 @mixin media($device) {
     @media screen and (max-width: $device) {
@@ -195,14 +210,6 @@ $bigscreen: 1200px;
   }
 }
 
-img{
-  width: 30px;
-}
-
-i.em {
-  width: 2.5em;
-}
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -212,11 +219,3 @@ i.em {
         "styles.scss",
         "post-themes"
 ;
-
-
-.foot {
-  background-color: black;
-}
-.copy{
-  float: right;
-}

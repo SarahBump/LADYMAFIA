@@ -8,12 +8,10 @@
       {% endif %}
     <a class="page-link {{ current }}" href="{{ my_page.url | prepend: site.baseurl }}">
       {{ my_page.title }}
-      <a class="nav-tagline {{ current }}" href="{{ my_page.url | prepend: site.baseurl }}">
-        {{ my_page.tagline }}
-      </a>
+    <a class="nav-tagline {{ current }}" href="{{ my_page.url | prepend: site.baseurl }}">
+      {{ my_page.tagline }}
+    </a>
     <span>/</span>
-
-
 
     {% endif %}
     {% endfor %}
