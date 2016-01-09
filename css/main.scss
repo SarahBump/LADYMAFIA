@@ -187,8 +187,10 @@ i.em {
   }
   .share-this {
     //desktop
-    .share-btn, .share i.fa:hover {
-      color: $themecolor;
+    @include no-mobile {
+      .share-btn, .share i.fa:hover {
+        color: $themecolor;
+      }
     }
 
     //mobile
@@ -203,9 +205,9 @@ i.em {
       .share i.fa {
         color: $background-color;
       }
-      .share i.fa:hover {
-        color: $background-color;
-      }
+      // .share i.fa:hover {
+      //   color: $background-color;
+      // }
     }
   }
 }
