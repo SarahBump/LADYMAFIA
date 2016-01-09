@@ -167,12 +167,12 @@
   h3 {
     font-family: courier;
   }
-  &.row {
-    width: 80%;
-    @include media($mobile){
-      width: 100%;
-    }
-  }
+  // &.row {
+  //   width: 80%;
+  //   @include media($mobile){
+  //     width: 100%;
+  //   }
+  // }
 }
 
 .site-nav {
