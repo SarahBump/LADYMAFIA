@@ -7,7 +7,7 @@ teaser: The Silicon Valley Darling We Love to Hate
 theme: Holmes
 icon: Holmes.png
 title:  "Elizabeth Holmes"
-tile-content: 
+tile-content:
 type: profile
 credit: Blood Pressure by Ricardo Moreira from the Noun Project
 ---
@@ -28,7 +28,8 @@ The media and tech world are both enthralled, not only with Theranos and the pro
 
 * She lacks formal scientific training. She refuses to reveal how the technology works, and if the technology even works at all. Perhaps the reasoning behind all of the secrecy.
 
-* She has no personal life, she doesn’t watch movies or read books, she used to run, but gave it up. When she started Theranos she researched diet and nutrition and monitored her blood chemistry and determined that a vegan, macrobiotic lifestyle would allow her to “train” her body to work all the time and to function on very little sleep.  
+* She has no personal life, she doesn’t watch movies or read books, she used to run, but gave it up. When she started Theranos she researched diet and nutrition and monitored her blood chemistry and determined that a vegan, macrobiotic lifestyle would allow her to “train” her body to work all the time and to function on very little sleep.
+
 
 So, after know all this, you’re probably wondering, **_why is she being profiled as a member of lady mafia_**? She is an extreme we can use to continue the conversation, like [Kiran Gandhi](http://ladymafia.rocks/contemporary/Kiran/){:target="_blank"}, she is almost a symbol of shock culture.
 

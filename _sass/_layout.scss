@@ -24,7 +24,19 @@
   }
 }
 
+.all-posts{
+  @include media($mobile){
+    h3, li{
+      padding: 0 20px;
+      max-width: 92%;
+    }
+  }
+}
+
 .full-layout{
+  .share-this.share-default {
+    margin-top: 15%;
+  }
   @include media($mobile) {
     .share-this.share-default {
       margin-top: 25%;
@@ -462,14 +474,29 @@ div.post-title {
     };
   }
 }
-.post-title {
-    text-align: left;
-    letter-spacing: -1px;
-    line-height: 1;
-    color: #fdfdfd;
-    font-family: 'Blackout two_am';
-}
+.post-wrapper {
+  .post-title {
+      text-align: left;
+      letter-spacing: -1px;
+      line-height: 1;
+      color: #fdfdfd;
+      font-family: 'Blackout two_am';
+  }
+  .post-details{
+    font-family: helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-top: 5px;
+    span, a, i {
+      padding-right: 5px;
+      font-weight: 600;
+      color: black;
+    }
+    i {
+      padding-left: 10px;
+    }
 
+  }
+}
 .post-body {
   margin-bottom: 50px;
   padding: 0px $spacing-unit;
@@ -486,7 +513,7 @@ div.post-title {
 
 .post-footer {
   padding-top: 40px;
-  h3 { margin-bottom: 0;}
+  h3 { margin-bottom: 10px;}
   hr {
     width: 50px;
     display: block;
@@ -509,6 +536,41 @@ div.post-title {
     }
   }
 }
+
+.post-footer-mobile{
+  @include no-mobile {
+    display: none;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  hr {
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  .detail-icon{
+    display: inline-block;
+    // padding-top: 15px;
+  }
+  .more-content {
+    min-height: 125px;
+    display: block;
+  }
+
+  .post-list-alt .post-summary {
+    max-width: 70%;
+    // padding-bottom: 15%;
+    background-color: transparent;
+      a.post-link {
+      font-size: 20px;
+      float: left;
+      &.teaser{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
 .post-comments {
  .first-comment {
     display: none;
@@ -526,21 +588,21 @@ div.post-title {
       height: 350px;
     }
 
-    h2 {
-        font-size: 32px;
-
-        @include media($laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media($laptop) {
-            font-size: 22px;
-        }
-    }
+    // h2 {
+    //     font-size: 32px;
+    //
+    //     @include media($laptop) {
+    //         font-size: 28px;
+    //     }
+    // }
+    //
+    // h3 {
+    //     font-size: 26px;
+    //
+    //     @include media($laptop) {
+    //         font-size: 22px;
+    //     }
+    // }
 
     h4 {
         font-size: 20px;
@@ -590,13 +652,11 @@ div.post-title {
     font-weight: bolder;
     color: grey;
     padding-bottom: 10px;
-    img {
-      width: 25px;
+    &.dating-birthday, {
+      img {
+        width: 25px;
+      }
     }
-  }
-  li {
-    display: inline-block;
-    text-decoration: none;
   }
   img.card-icon{
     height: 60px;
@@ -607,6 +667,13 @@ div.post-title {
     @include media($mobile){
       width: 35px;
       margin-right: 10px;
+    }
+  }
+  li {
+    display: inline-block;
+    text-decoration: none;
+    img {
+      width: 25px;
     }
   }
 

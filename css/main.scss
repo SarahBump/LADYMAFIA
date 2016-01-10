@@ -178,6 +178,15 @@ i.em {
     //     }
     //   }
     // }
+
+    &.more-content .post-summary a.post-link{
+      font-family: 'blackout two_am';
+        &.tapped, &:visited, &:hover, &:active {
+            color: $themecolor;
+            font-family: 'blackout two_am';
+        }
+      }
+
   .post-content {
     p + hr {
       width: 30px;
@@ -222,6 +231,7 @@ i.em {
   }
 }
 
+img { width: 30px;}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

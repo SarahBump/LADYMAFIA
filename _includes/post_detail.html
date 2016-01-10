@@ -1,7 +1,9 @@
 
 <div class="{{post.theme}}">
   {% if post.icon %}
-  <img class="detail-icon" src="/images/post-icons/{{ post.icon }}"></img>
+  <a class="pdetail-icon" href="{{ post.url | prepend: site.baseurl }}">
+    <img class="detail-icon" src="/images/post-icons/{{ post.icon }}"></img>
+  </a>
   {% endif %}
   <div class="post-summary {{post.theme}}">
     {% if post.title %}
