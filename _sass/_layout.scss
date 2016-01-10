@@ -7,9 +7,10 @@
   //   margin-bottom: 0px;
   // }
   .blog-index{
-    + h3 {
-      margin-top: 30px;
-    }
+    margin-bottom: 30px;
+    // + h3 {
+    //   margin-top: 30px;
+    // }
     // .post-summary {
     //   a.post-link, span {
     //     color: black;
@@ -20,6 +21,22 @@
     color: red;
     font-family: 'blackout two_am';
     font-size: 20px;
+  }
+}
+
+.full-layout{
+  @include media($mobile) {
+    .share-this.share-default {
+      margin-top: 25%;
+    }
+    .container { width: 100%; }
+    header.site-header {
+      width: 90%;
+      margin: 0 auto;
+      .site-nav {
+        padding-bottom: 0;
+      }
+    }
   }
 }
 

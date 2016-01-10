@@ -134,7 +134,14 @@ i.em {
       a.post-link, span {
         color: $themecolor;
       }
+
       @include media($mobile) {
+        background-color: $themecolor;
+        a.post-link, span {
+          color: white;
+          // font-family: 'blackout midnight';
+        }
+
           &.tapped, &:visited, &:hover, &:active {
           // font-family: 'blackout midnight';
           // background-color: $background-color;
@@ -147,27 +154,30 @@ i.em {
         }
       }
     }
-    .all-posts{
-      &.post-summary{
-        a.post-link, span {
-          color: $themecolor;
-        }
-        &.tapped, &:visited, &:hover, &:active {
-            background-color: $themecolor;
-            color: white;
-        }
-
-        @include media($mobile) {
-          background-color: $themecolor;
-            &:visited, &:hover, &:active {
-              font-size: 20px;
-              a.post-link, span {
-                color: white;
-                }
-          }
-        }
-      }
-    }
+    // .all-posts{
+    //   &.post-summary{
+    //     a.post-link, span {
+    //       color: $themecolor;
+    //     }
+    //     &.tapped, &:visited, &:hover, &:active {
+    //         background-color: $themecolor;
+    //         color: white;
+    //     }
+    //
+    //     @include media($mobile) {
+    //       a.post-link, span {
+    //         background-color: $themecolor;
+    //       }
+    //
+    //       &:visited, &:hover, &:active {
+    //           font-size: 20px;
+    //           a.post-link, span {
+    //             color: white;
+    //             }
+    //       }
+    //     }
+    //   }
+    // }
   .post-content {
     p + hr {
       width: 30px;
@@ -219,5 +229,7 @@ i.em {
         "layout",
         "syntax-highlighting",
         "styles.scss",
-        "post-themes"
+        "post-themes",
+        "mobile-keyframes",
+        "tiles"
 ;

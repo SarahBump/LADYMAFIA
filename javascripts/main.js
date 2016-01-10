@@ -72,6 +72,29 @@ function displayShareBtn() {
     }
   });
 }
+// Function which adds the 'animated' class to any '.animatable' in view
+var doAnimations = function() {
+console.log('do');
+// Calc current offset and get all animatables
+  var offset = $(window).scrollTop() + $(window).height(),
+      $animatables = $('.animatable');
+
+  // Unbind scroll handler if we have no animatables
+  if ($animatables.size() == 0) {
+    $(window).off('scroll', doAnimations);
+  }
+
+  // Check all animatables and animate them if necessary
+  $animatables.each(function(i) {
+     var $animatable = $(this);
+    if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+      $animatable.removeClass('animatable').addClass('animated');
+    }
+  });
+
+};
+
+
 
 $(document).ready(function(){
   // if( $('.header-small').length > 0) {
@@ -88,6 +111,12 @@ $(document).ready(function(){
     var newURL = 'sms: ?body=' + bodyText;
   }
   $('.share.SMS').attr('href', newURL);
+
+
+  // Hook doAnimations on scroll, and trigger a scroll
+  $(window).on('scroll', doAnimations);
+  $(window).trigger('scroll');
+
 
   mobileLinkColors();
   displayShareBtn();

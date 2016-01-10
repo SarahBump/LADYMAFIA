@@ -7,6 +7,7 @@ teaser: The Silicon Valley Darling We Love to Hate
 theme: Holmes
 icon: Holmes.png
 title:  "Elizabeth Holmes"
+tile-content: 
 type: profile
 credit: Blood Pressure by Ricardo Moreira from the Noun Project
 ---

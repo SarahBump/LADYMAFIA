@@ -10,6 +10,7 @@ teaser: "creating Iraq, mapping Syria, and surviving 53 hours suspended by a rop
 theme: gertrudeBell
 icon: gertrudeBell.svg
 title: "Gertrude Bell"
+tile-content: https://www.youtube.com/embed/1zN7u_Z9u7s"
 type: historical
 datingprofile: true
 profileimage: /images/Gertrude-Bell-picnics.jpg
@@ -58,7 +59,7 @@ No tigress could have safeguarded Iraq’s rights better.
 >
 -- Max Mallowan
 
-Agreed! There is so much more to learn about Ms. Bell, her diplomatic feats, her comprehensive education system for Iraqi girls, and her incredible adventures through desert and mountain.  Read more about this captivating woman in 
+Agreed! There is so much more to learn about Ms. Bell, her diplomatic feats, her comprehensive education system for Iraqi girls, and her incredible adventures through desert and mountain.  Read more about this captivating woman in
 [Amazing Women in History](http://www.amazingwomeninhistory.com/gertrude-bell-queen-of-the-desert/),
 [The New York Times](http://www.nytimes.com/2014/06/27/world/middleeast/gertrude-bell-sought-to-stabilize-iraq-after-world-war-i.html?_r=1),
 [The Atlantic](http://www.theatlantic.com/magazine/archive/2007/06/the-woman-who-made-iraq/305893/),

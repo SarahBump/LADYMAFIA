@@ -6,6 +6,7 @@
       font-family: 'blackout midnight', arial-bold, sans-serif;
       font-size: 150px;
       font-size: 12vw;
+      height: 12vw;
       color: black;
       margin-bottom: 0;
       display: inline-block;
@@ -24,11 +25,10 @@
       }
     }
 
-
-
   @include desktop {
     h1.header-title{
       font-size: 11vw;
+      height: 11vw;
         + h1.header-title {
           &:before {
           height: 10vw;
@@ -41,6 +41,7 @@
   @include media($laptop) {
     h1.header-title{
       font-size: 13vw;
+      height: 13vw;
         + h1.header-title {
           padding-left: 12vw;
           &:before {

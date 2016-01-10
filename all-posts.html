@@ -10,7 +10,7 @@ tagline: Who are the members of LADY MAFIA?
   <h3 class="mobile-intro"> Who is LADY MAFIA? </h3>
   <ul class="post-list-alt row">
     {% for post in site.posts %}
-      <li class="post-summary {{post.theme}}">
+      <li class="moveUp animatable fadeBgColor post-summary {{post.theme}}">
         <a class="post-link title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <a class="post-link teaser" href="{{ post.url | prepend: site.baseurl }}">{{ post.teaser }}</a>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>

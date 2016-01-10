@@ -4,10 +4,11 @@ title:  "Hedy Lamarr"
 type: historical
 date:   2015-11-11 21:06:38 -0500
 author: Gaby Ruiz-Funes
-categories: 
+categories:
 icon: hedyLamarr.svg
 theme: hedyLamarr
 teaser: frequency-hopping, submarine signals, and the most beautiful woman in the world.
+tile-content: https://www.youtube.com/embed/hqkxcLq6S-g
 quote:
 credit: Antenna by Creative Stall from the Noun Project
 
