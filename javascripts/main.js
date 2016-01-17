@@ -95,7 +95,7 @@ console.log('do');
 };
 
 function mobileShareSize() {
-
+console.log('scroll');
   var scrollTimeout = null;
   var scrollendDelay = 1000; // ms
 

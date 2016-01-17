@@ -60,8 +60,12 @@
   @include media($mobile) {
     .share-this.share-default {
       margin-top: 25%;
+      right: 15px;
     }
-    .container { width: 100%; }
+    .container {
+      width: 100%;
+      padding: 0;
+    }
     header.site-header {
       width: 90%;
       margin: 0 auto;
