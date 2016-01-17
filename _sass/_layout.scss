@@ -1,4 +1,10 @@
-
+.default {
+  @include no-mobile {
+    .share-this {
+      right: 8%;
+    }
+  }
+}
 .home {
   h3 {
     margin-bottom: 0;
@@ -7,7 +13,7 @@
   //   margin-bottom: 0px;
   // }
   .blog-index{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     // + h3 {
     //   margin-top: 30px;
     // }
@@ -22,10 +28,23 @@
     font-family: 'blackout two_am';
     font-size: 20px;
   }
+
+
+  @include no-mobile {
+    .columns > hr {
+      display: none;
+    }
+    .about{
+      padding-top: 10px;
+      > hr {
+        display: block;
+      }
+    }
+  }
 }
 
 .all-posts{
-  @include media($mobile){
+  @include media($mobile) {
     h3, li{
       padding: 0 20px;
       max-width: 92%;
@@ -36,6 +55,7 @@
 .full-layout{
   .share-this.share-default {
     margin-top: 15%;
+    right: 15%;
   }
   @include media($mobile) {
     .share-this.share-default {
@@ -48,35 +68,6 @@
       .site-nav {
         padding-bottom: 0;
       }
-    }
-  }
-}
-
-.read-more-box{
-  max-height: 250px;
-  position: relative;
-  overflow: hidden;
-
-  .read-more-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: left;
-    margin: 0;
-    padding: 30px 0;
-
-    background-image: linear-gradient(to bottom, transparent, $background-color);
-  }
-}
-.read-more-btn{
-  margin-bottom: $spacing-unit;
-  font-family: 'blackout two_am';
-  a {
-    color: black;
-    font-size: 20px;
-    &:visited, &:hover {
-      color: black;
     }
   }
 }
@@ -164,13 +155,12 @@
     display: inline-block;
     margin-top: 0;
     @include no-mobile {
-      ul {
+     ul {
         display: inline-block;
       }
     }
   }
 }
-
 
 .site-title {
     font-size: 26px;
@@ -193,13 +183,29 @@
     font-weight: bold;
     font-size: 20px;
     letter-spacing: .25em;
+    margin-bottom: 15px;
+  }
+
+  p + h3 {
+    padding-top: 10px;
+  }
+  h4 {
+    font-family: 'blackout sunrise', sans-serif;
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-size: 2.75rem;
+    letter-spacing: .15rem;
+  }
+  h5 {
+    font-family: helvetica, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .15em;
   }
   p{
     font-family: arial, sans-serif ;
     margin-bottom: 15px;
-  }
-  .temp-site-heading{
-    margin-bottom: 10px;
   }
   &.row {
     width: 85%;
@@ -299,9 +305,9 @@
       max-width: 960px;
       z-index: 10;
     }
-  @include media($mobile) {
-    display: none;
-  }
+  // @include media($mobile) {
+  //   display: none;
+  // }
 }
 
 .footer-heading {
@@ -676,5 +682,34 @@ div.post-title {
       width: 25px;
     }
   }
+}
 
+.read-more-box{
+  max-height: 150px;
+  position: relative;
+  overflow: hidden;
+
+  .read-more-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 30px 0;
+
+    background-image: linear-gradient(to bottom, transparent, $background-color);
+  }
+}
+.read-more-btn{
+  margin-bottom: $spacing-unit;
+  font-family: 'blackout two_am';
+  text-align: right;
+  a {
+    color: black;
+    font-size: 20px;
+    &:visited, &:hover {
+      color: black;
+    }
+  }
 }

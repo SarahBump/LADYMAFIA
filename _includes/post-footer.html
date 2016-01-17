@@ -7,7 +7,11 @@
   {% endif %}
 
   <div class="blog-index post-list-alt">
-    {% if page.next != nil %}
+    {% if page.layout == "alt" %}
+      {% assign post = site.posts.first %}
+      {% assign content = post.content %}
+      {% include post_detail.html %}
+    {% elsif page.next != nil %}
       {% assign post = page.next %}
       {% assign content = post.content %}
       {% include post_detail.html %}

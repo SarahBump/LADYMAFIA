@@ -94,6 +94,49 @@ console.log('do');
 
 };
 
+function mobileShareSize() {
+
+  var scrollTimeout = null;
+  var scrollendDelay = 1000; // ms
+
+  $(window).scroll(function() {
+      if ( scrollTimeout === null ) {
+          scrollbeginHandler();
+      } else {
+          clearTimeout( scrollTimeout );
+      }
+      scrollTimeout = setTimeout( scrollendHandler, scrollendDelay );
+  });
+
+  function scrollbeginHandler() {
+    // this code executes on "scrollbegin"
+      $(".share-btn").stop().animate({
+          zoom: 1
+      });
+
+  }
+
+  function scrollendHandler() {
+      // this code executes on "scrollend"
+      $(".share-btn").stop().animate({
+          zoom: 1.5
+      });
+      scrollTimeout = null;
+  }
+  // if(window.innerWidth < 768){
+  //   $(document).scroll(function () {
+  //     if (window.scrollY < 50) {
+  //         $(".share-btn").stop().animate({
+  //             zoom: 1
+  //         });
+  //     } else {
+  //         $(".share-btn").stop().animate({
+  //             zoom: 1.5
+  //         });
+  //     }
+  //   });
+  // }
+}
 
 
 $(document).ready(function(){
@@ -122,4 +165,8 @@ $(document).ready(function(){
   displayShareBtn();
   shareThis();
   newShareWindow();
+
+  if(window.innerWidth < 768){
+    mobileShareSize();
+  }
 })

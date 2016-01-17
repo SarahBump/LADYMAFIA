@@ -24,7 +24,6 @@ But the invisible, potent, and largely non-accredited impact they have had, even
 
 We aren’t documenting “women engineers,” or “female leaders,” or “girls-who-xyz.” We simply intend to create a catalogue of the awesome ways that humans around us - many who happen to be women - inspire us in their everyday actions. **_Whether subtle or bold, they are fierce. They are agents of change. They are the LADY MAFIA._**
 
-
 ###The Design and Development of Lady Mafia
 
 **Development**

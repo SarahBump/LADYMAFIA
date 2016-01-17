@@ -38,6 +38,22 @@ i.em {
   width: 2.5em;
 }
 
+//category colors
+.category{
+  &.art ~.name{
+    color: cornflowerblue;
+  }
+  &.business ~.name {
+    color: darkseagreen;
+  }
+  &.non-profit ~.name {
+    color: orange;
+  }
+  &.tech ~.name {
+    color: darkmagenta;
+  }
+}
+
 //footer
 .foot {
   background-color: black;

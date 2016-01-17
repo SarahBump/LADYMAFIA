@@ -210,3 +210,29 @@
     }
   }
 }
+
+.upcoming-posts {
+  li {
+    list-style: none;
+    @include no-mobile {
+      padding-left: 15px;
+    }
+    .category {
+      font-family: 'blackout two_am', sans-serif;
+
+    }
+    .name{
+      font-family: 'blackout two_am', sans-serif;
+    }
+    span + span {
+      font-family: Helvetica;
+      padding: 0 5px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    div {
+      font-weight: 100;
+      font-family: helvetica, sans-serif;
+    }
+  }
+}

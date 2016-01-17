@@ -7,13 +7,14 @@
 
     <div class="site-wrapper">
       <div class="container">
-      {% include small-header.html %}
-      <div class="row content">
-        <div class="share-this share-default">
-          {% include share-this.html %}
+        {% include small-header.html %}
+        <div class="row content">
+          <div class="share-this share-default">
+            {% include share-this.html %}
+          </div>
+          {{ content }}
+          {% include post-footer.html %}
         </div>
-        {{ content }}
-      </div>
       </div>
       {% include footer.html %}
     </div>
