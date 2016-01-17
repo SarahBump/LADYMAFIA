@@ -111,15 +111,12 @@ $(window).scroll(function() {
   $('html, body').on({
     'touchmove': function(e) {
         console.log($(this).scrollTop()); // Replace this with your code.
-        // if ( scrollTimeout === null ) {
-        //     scrollbeginHandler();
-        // } else {
-        //     clearTimeout( scrollTimeout );
-        // }
-        // scrollTimeout = setTimeout( scrollendHandler, scrollendDelay );
-        $(".share-btn").stop().animate({
-            zoom: 1.5
-        });
+        if ( scrollTimeout === null ) {
+            scrollbeginHandler();
+        } else {
+            clearTimeout( scrollTimeout );
+        }
+        scrollTimeout = setTimeout( scrollendHandler, scrollendDelay );
     }
   });
 
@@ -133,10 +130,11 @@ $(window).scroll(function() {
 
   function scrollendHandler() {
       // this code executes on "scrollend"
-      $(".share-btn").stop().animate({
+      if (window.scrollY > 275) {
+        $(".share-btn").stop().animate({
           zoom: 1.5
       });
-
+    }
       scrollTimeout = null;
   }
   // if(window.innerWidth < 768){
@@ -181,6 +179,7 @@ $(document).ready(function(){
   displayShareBtn();
   shareThis();
   newShareWindow();
-
-  mobileShareSize();
+  if(window.innerWidth < 768){
+    mobileShareSize();
+  }
 });
