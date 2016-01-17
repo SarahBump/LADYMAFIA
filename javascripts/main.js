@@ -180,7 +180,5 @@ $(document).ready(function(){
   shareThis();
   newShareWindow();
 
-  if(window.innerWidth < 768){
-    mobileShareSize();
-  }
+  mobileShareSize();
 });
