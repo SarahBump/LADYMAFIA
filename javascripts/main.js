@@ -132,7 +132,8 @@ $(window).scroll(function() {
       // this code executes on "scrollend"
         $(".share-btn").stop().animate({
           zoom: 1.5
-      }
+      });
+    
       scrollTimeout = null;
   }
   // if(window.innerWidth < 768){
