@@ -111,12 +111,15 @@ $(window).scroll(function() {
   $('html, body').on({
     'touchmove': function(e) {
         console.log($(this).scrollTop()); // Replace this with your code.
-        if ( scrollTimeout === null ) {
-            scrollbeginHandler();
-        } else {
-            clearTimeout( scrollTimeout );
-        }
-        scrollTimeout = setTimeout( scrollendHandler, scrollendDelay );
+        // if ( scrollTimeout === null ) {
+        //     scrollbeginHandler();
+        // } else {
+        //     clearTimeout( scrollTimeout );
+        // }
+        // scrollTimeout = setTimeout( scrollendHandler, scrollendDelay );
+        $(".share-btn").stop().animate({
+            zoom: 1.5
+        });
     }
   });
 
@@ -130,10 +133,10 @@ $(window).scroll(function() {
 
   function scrollendHandler() {
       // this code executes on "scrollend"
-        $(".share-btn").stop().animate({
+      $(".share-btn").stop().animate({
           zoom: 1.5
       });
-    
+
       scrollTimeout = null;
   }
   // if(window.innerWidth < 768){
