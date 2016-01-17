@@ -99,13 +99,25 @@ console.log('scroll');
   var scrollTimeout = null;
   var scrollendDelay = 1000; // ms
 
-  $(window).scroll(function() {
+$(window).scroll(function() {
       if ( scrollTimeout === null ) {
           scrollbeginHandler();
       } else {
           clearTimeout( scrollTimeout );
       }
       scrollTimeout = setTimeout( scrollendHandler, scrollendDelay );
+  });
+
+  $('body').on({
+    'touchmove': function(e) {
+        console.log($(this).scrollTop()); // Replace this with your code.
+        if ( scrollTimeout === null ) {
+            scrollbeginHandler();
+        } else {
+            clearTimeout( scrollTimeout );
+        }
+        scrollTimeout = setTimeout( scrollendHandler, scrollendDelay );
+    }
   });
 
   function scrollbeginHandler() {
@@ -118,9 +130,11 @@ console.log('scroll');
 
   function scrollendHandler() {
       // this code executes on "scrollend"
-      $(".share-btn").stop().animate({
+      if (window.scrollY > 275) {
+        $(".share-btn").stop().animate({
           zoom: 1.5
       });
+    }
       scrollTimeout = null;
   }
   // if(window.innerWidth < 768){
@@ -169,4 +183,4 @@ $(document).ready(function(){
   if(window.innerWidth < 768){
     mobileShareSize();
   }
-})
+});
