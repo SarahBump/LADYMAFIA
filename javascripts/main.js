@@ -108,7 +108,7 @@ $(window).scroll(function() {
       scrollTimeout = setTimeout( scrollendHandler, scrollendDelay );
   });
 
-  $('body').on({
+  $('html, body').on({
     'touchmove': function(e) {
         console.log($(this).scrollTop()); // Replace this with your code.
         if ( scrollTimeout === null ) {
