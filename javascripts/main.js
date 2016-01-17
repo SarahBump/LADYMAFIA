@@ -130,11 +130,9 @@ $(window).scroll(function() {
 
   function scrollendHandler() {
       // this code executes on "scrollend"
-      if (window.scrollY > 275) {
         $(".share-btn").stop().animate({
           zoom: 1.5
-      });
-    }
+      }
       scrollTimeout = null;
   }
   // if(window.innerWidth < 768){
