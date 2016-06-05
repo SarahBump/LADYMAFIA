@@ -11,30 +11,20 @@
     {% assign ignore_length = titleLength %}
   {% endif %}
 
-    {% if page.dating-profile %}
-      {% capture words %}
-        {% assign words = 0 %}
-        {% for item in page.dating-card %}
-          {% assign itemlength = item[1] | number_of_words %}
-          {% assign words = words | plus: itemlength %}
-        {% endfor %}
-        {{ words | minus: ignore_length }}
-      {% endcapture %}
-    {% else %}
-    {% capture words %}
-      {{ page.content | number_of_words | minus: ignore_length }}
-    {% endcapture %}
-  {% endif %}
-
+  {% capture words %}
+    {{ page.content | number_of_words | minus: ignore_length }}
+  {% endcapture %}
 
   {% unless words contains "-" %}
     {% assign read-time = words | divided_by: 180 %}
     {% if read-time > 7 %}
       {{ read-time | append: " minute read (worth it)" }}
     {% elsif read-time >= 4 %}
-      {{ read-time | append: " minute read, we believe in you" }}
-    {% elsif read-time > 2 %}
+      {{ read-time | append: " minute read, you got this" }}
+    {% elsif read-time > 0 %}
       {{ read-time | append: " minute read, basically buzzfeed" }}
+    {% elsif read-time = 0 %}
+      {{ "1 minute read on a slow day" }}
     {% else %}
       {{ read-time | append: " minute read" }}
     {% endif %}
