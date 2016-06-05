@@ -1,0 +1,25 @@
+---
+layout: full
+icon: /images/logo/ladymafia_notext.png
+comments: false
+---
+
+<script type="text/javascript" src="../js/soundcloud.player.api.js"></script>
+<script type="text/javascript" src="../js/sc-player.js"></script>
+
+
+<ul class="tiles">
+    {% for post in site.posts %}
+      {% if post.tile-content %}
+
+      <li class="talent-tile {{post.theme}}">
+        <!-- <a class="post-link title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link teaser" href="{{ post.url | prepend: site.baseurl }}">{{ post.teaser }}</a>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <iframe id="tile-media" width="100%"  scrolling="no" frameborder="no" frameborder="0"  src="{{ post.tile-content }}"></iframe>
+        <!-- {{ post.tile-content }} -->
+      </li>
+      {% endif %}
+
+    {% endfor %}
+</ul>

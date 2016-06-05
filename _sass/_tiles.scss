@@ -1,0 +1,19 @@
+.tiles {
+  li {
+    list-style-type: none;
+    max-width: 50%;
+    width: auto;
+    min-width: 300px;
+    float: left;
+    // margin-right: 2%;
+    iframe {
+      min-height: 300px;
+    }
+  }
+  @include media($mobile) {
+    li {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}

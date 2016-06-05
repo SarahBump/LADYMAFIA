@@ -1,8 +1,15 @@
-<div class="post-summary {{post.theme}}">
-{% if post.title %}
-  <a class="post-link title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  <a class="post-link teaser" href="{{ post.url | prepend: site.baseurl }}">{{ post.teaser }}</a>
-  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-{% endif %}
 
+<div class="{{post.theme}}">
+  {% if post.icon %}
+  <a class="pdetail-icon" href="{{ post.url | prepend: site.baseurl }}">
+    <img class="detail-icon" src="/images/post-icons/{{ post.icon }}"></img>
+  </a>
+  {% endif %}
+  <div class="post-summary {{post.theme}}">
+    {% if post.title %}
+      <a class="post-link title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="post-link teaser" href="{{ post.url | prepend: site.baseurl }}">{{ post.teaser }}</a>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% endif %}
+  </div>
 </div>

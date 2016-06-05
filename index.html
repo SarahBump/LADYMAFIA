@@ -6,30 +6,11 @@ custom_js:
 - homepageTextResize.js
 ---
 
-<div class="home">
-  <div class="five columns">
-    <h3 class=temp-site-heading>We are live!!</h3>
-    <p class="temp-site-intro">and so excited to bring you stories, interviews, and profiles that re-define what we know about history and help write our contemporary narrative. We hope this entertains you, makes you think, challenges you, and above all inspires you. Enjoy!</p>
-    <br>
-    <div class="read-more-box">
-       <h3> About Lady Mafia </h3>
-       <p class="site-intro">
-         Violence and drug connotations aside, when you think of the word mafia you might associate it with a sense of mystique, an ubiquitous but unseen force, an invisible network of individuals, a powerful whole that is greater than the sum of its parts. A formal definition is hard to come by, as elusive as a mafia itself. Generally defined, a mafia is a closed group of people in a particular field, having a controlling influence.
-       </p>
-       <br>
-       <p class="site-intro">
-         In the age of information, we think it’s important to document the contributions of people who we are deeming members of the LADY MAFIA: women and men who are making the world better, who are doing courageous things in the name of human flourishing, who embody the spirit of the invisible force of femininity that has upheld the humanity even in the darkest days of history.
-         The invisible, potent, and often non-accredited impact of the people we will write about has a mafia-like quality that we want to celebrate.
-       </p>
-
-      <p class="read-more-overlay"></p>
-    </div>
-    <div class="read-more-btn"><a href="/about">Read More About Lady Mafia</a></div>
-  </div>
-
-  <div class="seven columns">
-    <h3>The Latest New Mafia</h3>
-    <p>People who see the world as it should be</p>
+<div class="row home">
+  <div class="six columns latest-post">
+    <h3>The Latest</h3>
+    <h4>New Mafia</h4>
+    <h5 class="subheader">People who see the world as it should be</h5>
     <div class="blog-index post-list-alt">
       {% for post in site.categories.contemporary limit:1 %}
         {% assign post = site.posts.first %}
@@ -37,8 +18,9 @@ custom_js:
         {% include post_detail.html %}
       {% endfor %}
     </div>
-    <h3> The Latest O.G. </h3>
-    <p>The movers and shakers you didn't learn about in history class</p>
+    </br>
+    <h4>O.G. Mafiosas</h4>
+    <h5 class="subheader">The influencers you didn't learn about in history class</h5>
     <div class="blog-index post-list-alt">
       {% for post in site.categories.historical limit:1 %}
         {% assign post = site.posts.first %}
@@ -46,5 +28,32 @@ custom_js:
         {% include post_detail.html %}
       {% endfor %}
     </div>
+  </div>
+  <div class="six columns">
+    <hr>
+    <h3 class=temp-site-heading>Coming soon...</h3>
+    <h4>Sneak Peak</h4>
+    <h5 class="subheader">Upcoming conversations with these #mafiosas</h5>
+    <ul class="upcoming-posts">
+      <li><span class="category tech">Tech</span><span>/</span><span class="name">Nadia Shouraboura</span><div>CEO of Hointer, the ex-Amazon VP of Technology laid the groundwork for it's famous operations</li>
+      <li><span class="category art">Art</span><span>/</span><span class="name">Aleah Chapin</span> <div>Winner of the 2012 BP Portrait award for the Aunties Project</div></li>
+      <li><span class="category non-profit">Non-Profit</span><span>/</span><span class="name">JJ Hanley</span> <div>Trader on Wall Street, documentarian, and founder of JJ's List</div></li>
+      <li><span class="category business">Entrepreneurship</span><span>/</span><span class="name">Flowers for Dreams</span> <div>Social entrepreneurs Steven Dyme and Joey Dickstein</div> </li>
+    </ul>
+    <h4>Milennial Mafia</h4>
+    <p class="temp-site-intro">Ben Franklin generation? Insufferably self-centered? People love writing about milennials, and who can blame them, we are a fascinating and polarizing generation. But as much as milennials love to consume content, we don't have a concentrated platform documenting our own existence. Lady Mafia is cooking up a podcast to share our perspective of life and history from a milennial perspective, to capture the thoughts and experiences of our richly diverse network of milennial friends and colleauges. Stay tuned!</p>
+  </div>
+  <div class="twelve columns about">
+    <hr>
+    <div class="read-more-box">
+       <h3> About Lady Mafia </h3>
+       <p class="site-intro">
+         Violence and drug connotations aside, when you think of the word mafia you might associate it with a sense of mystique, an ubiquitous but unseen force, an invisible network of individuals, a powerful whole that is greater than the sum of its parts. A formal definition is hard to come by, as elusive as a mafia itself. Generally defined, a mafia is a closed group of people in a particular field, having a controlling influence.
+         In the age of information, we think it’s important to document the contributions of people who we are deeming members of the LADY MAFIA: women and men who are making the world better, who are doing courageous things in the name of human flourishing, who embody the spirit of the invisible force of femininity that has upheld the humanity even in the darkest days of history.
+         The invisible, potent, and often non-accredited impact of the people we will write about has a mafia-like quality that we want to celebrate.
+       </p>
+      <p class="read-more-overlay"></p>
+    </div>
+    <div class="read-more-btn"><a href="/what">Read More</a></div>
   </div>
 </div>

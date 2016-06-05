@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="full-layout">
+
+    <div class="site-wrapper">
+      <div class="container">
+        <div class="share-this share-default">
+          {% include share-this.html %}
+      </div>
+      {% include small-header.html %}
+      <div class="row">
+        {{ content }}
+      </div>
+      </div>
+      {% include footer.html %}
+    </div>
+    <script src="/javascripts/fb-comments.js"></script>
+  </body>
+</html>

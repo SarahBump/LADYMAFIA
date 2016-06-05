@@ -8,6 +8,7 @@ teaser: "We are outing the mafia!"
 theme: LadyMafia
 icon: ladymafia_notext.png
 title:  "Lady Mafia"
+tile-content: 
 type: interview
 ---
 

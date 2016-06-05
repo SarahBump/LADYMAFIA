@@ -5,6 +5,7 @@
 
 
 
+
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -28,8 +29,40 @@ $content-width:    800px;
 $post-nav-height: 50px;
 
 $mobile:          767px;
+$portrait:       400px;
 $laptop:        800px;
 $bigscreen: 1200px;
+
+
+//emoticons
+i.em {
+  width: 2.5em;
+}
+
+//category colors
+.category{
+  &.art ~.name{
+    color: cornflowerblue;
+  }
+  &.business ~.name {
+    color: darkseagreen;
+  }
+  &.non-profit ~.name {
+    color: orange;
+  }
+  &.tech ~.name {
+    color: darkmagenta;
+  }
+}
+
+//footer
+.foot {
+  background-color: black;
+}
+.copy{
+  float: right;
+}
+
 
 
 //media queries
@@ -91,10 +124,19 @@ $bigscreen: 1200px;
 //post theme customization
 @mixin theme($themecolor){
     p a {
-      color: $themecolor;
-      font-weight: bolder;
-      &:active , &:hover &:visited {
-        color: darken($themecolor, 10%);
+    //   color: $themecolor;
+      color: black;
+    //   font-weight: bolder;
+      border-bottom: 3px solid $themecolor;
+      text-decoration: none;
+        &:visited, &:active{
+            color: #222;
+        }
+      &:hover{
+        // color: darken($themecolor, 10%);
+        color: $themecolor;
+        border: none;
+        text-decoration: none;
       }
     }
     .post-title{ color: $themecolor;}
@@ -102,72 +144,111 @@ $bigscreen: 1200px;
         border-left: 4px solid $themecolor;
     }
     &.post-summary {
-      &.tapped, &:hover, &:visited {
+      &.tapped, &:visited, &:hover, &:active {
           background-color: $themecolor;
           color: white;
       }
       a.post-link, span {
         color: $themecolor;
       }
-      // @include media($mobile) {
-      //   &:hover, &:visited, &.tapped {
-      //     font-family: 'blackout midnight';
-      //     background-color: $background-color;
-      //     padding: 0px 20px;
-      //     a.post-link, span {
-      //       color: $themecolor;
-      //     }
-      //   }
+
+      @include media($mobile) {
+        background-color: $themecolor;
+        a.post-link, span {
+          color: white;
+          // font-family: 'blackout midnight';
+        }
+
+          &.tapped, &:visited, &:hover, &:active {
+          // font-family: 'blackout midnight';
+          // background-color: $background-color;
+          // padding: 0px 20px;
+          color: white;
+
+          a.post-link, span {
+            color: white;
+          }
+        }
+      }
+    }
+    // .all-posts{
+    //   &.post-summary{
+    //     a.post-link, span {
+    //       color: $themecolor;
+    //     }
+    //     &.tapped, &:visited, &:hover, &:active {
+    //         background-color: $themecolor;
+    //         color: white;
+    //     }
+    //
+    //     @include media($mobile) {
+    //       a.post-link, span {
+    //         background-color: $themecolor;
+    //       }
+    //
+    //       &:visited, &:hover, &:active {
+    //           font-size: 20px;
+    //           a.post-link, span {
+    //             color: white;
+    //             }
+    //       }
+    //     }
+    //   }
+    // }
+
+    &.more-content .post-summary a.post-link{
+      font-family: 'blackout two_am';
+        &.tapped, &:visited, &:hover, &:active {
+            color: $themecolor;
+            font-family: 'blackout two_am';
+        }
+      }
+
+  .post-content {
+    p + hr {
+      width: 30px;
+      display: block;
+      margin-top: 0;
+      margin-bottom: 20px;
+      height: 0;
+      right: 0;
+      border-top: 3px solid $themecolor;
+    }
+    strong em {
+      // border-bottom: 4px solid $themecolor;
+      background-color: lighten($themecolor, 20%);
+      font-style: normal;
+
+    }
+  }
+  .share-this {
+    //desktop
+    @include no-mobile {
+      .share-btn, .share i.fa:hover {
+        color: $themecolor;
+      }
+    }
+
+    //mobile
+    @include media($mobile) {
+      .share-btn {
+        color: $themecolor;
+      }
+      ul {
+        background-color: $themecolor;
+        padding: 0 5px;
+      }
+      .share i.fa {
+        color: $background-color;
+      }
+      // .share i.fa:hover {
+      //   color: $background-color;
       // }
     }
-    .all-posts{
-      &.post-summary{
-        a.post-link, span {
-          color: $themecolor;
-        }
-        &.tapped, &:hover, &:visited, {
-            background-color: $themecolor;
-            color: white;
-        }
-        // @include media($mobile) {
-        //   background-color: $themecolor;
-        //   a.post-link, span {
-        //     color: white;
-        //   }
-        //   &:hover, &:visited {
-        //     font-family: 'blackout midnight';
-        //     background-color: $background-color;
-        //     padding: 0px 20px;
-        //     a.post-link, span {
-        //       color: $themecolor;
-        //     }
-        //   }
-        // }
-      }
-    }
-
-
-    .post-content {
-      p + hr {
-        width: 30px;
-        display: block;
-        margin-top: 0;
-        margin-bottom: 20px;
-        height: 0;
-        right: 0;
-        border-top: 3px solid $themecolor;
-      }
-    }
+  }
 }
 
-img{
-  width: 30px;
-}
-
-i.em {
-  width: 2.5em;
-}
-
+img { width: 30px;}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -175,13 +256,8 @@ i.em {
         "layout",
         "syntax-highlighting",
         "styles.scss",
-        "post-themes"
+        "post-themes",
+        "mobile-keyframes",
+        "tiles",
+        "test-styles"
 ;
-
-
-.foot {
-  background-color: black;
-}
-.copy{
-  float: right;
-}

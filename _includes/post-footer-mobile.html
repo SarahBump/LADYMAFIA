@@ -1,0 +1,27 @@
+<div class="post-footer-mobile">
+  <hr>
+  <h3> More Lady Mafia... </h3>
+  <div class="blog-index post-list-alt">
+    {% if page.next != nil %}
+      {% assign post = page.next %}
+      {% assign content = post.content %}
+      <div class="{{post.theme}} more-content">
+        {% if post.icon %}
+      <img class="detail-icon" src="/images/post-icons/{{ post.icon }}"></img>
+        {% endif %}
+        <div class="post-summary">
+          {% if post.title %}
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link teaser" href="{{ post.url | prepend: site.baseurl }}">{{ post.teaser }}</a>
+          {% endif %}
+        </div>
+      </div>
+    {% else %}
+      {% assign post = site.posts.last %}
+      {% assign content = post.content %}
+      <a class="post-link title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="post-link teaser" href="{{ post.url | prepend: site.baseurl }}">{{ post.teaser }}</a>
+    {% endif %}
+  </div>
+  <hr>
+</div>

@@ -1,9 +1,12 @@
-
+.instagram1 {
+  font-family: 'blackout two_am';
+}
 .site-header, .main-header {
     h1.header-title{
       font-family: 'blackout midnight', arial-bold, sans-serif;
       font-size: 150px;
       font-size: 12vw;
+      height: 12vw;
       color: black;
       margin-bottom: 0;
       display: inline-block;
@@ -25,6 +28,7 @@
   @include desktop {
     h1.header-title{
       font-size: 11vw;
+      height: 11vw;
         + h1.header-title {
           &:before {
           height: 10vw;
@@ -37,6 +41,7 @@
   @include media($laptop) {
     h1.header-title{
       font-size: 13vw;
+      height: 13vw;
         + h1.header-title {
           padding-left: 12vw;
           &:before {
@@ -90,6 +95,10 @@
   }
 }
 
+.about{
+  @include theme(hotpink);
+}
+
 .post-wrapper {
   background-color: $background-color;
   height: 100%;
@@ -111,24 +120,26 @@
   height: $post-nav-height;
   background-color: $background-color;
   @include media($mobile) {
+    background-image: linear-gradient(to top, transparent, $background-color);
+
     background-color: transparent;
     // background: linear-gradient(to bottom, rgba(253, 253, 253, 1) 0%  rgba(253, 253, 253, 0) 100%);
     /* Webkit */
-    background: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0, rgba(253, 253, 253,0.5)), /* Top */
-        color-stop(1, rgba(253, 253, 253,1.0)) /* Bottom */
-    );
-
-    /* Gecko */
-    background: -moz-linear-gradient(
-        center bottom,
-        rgba(253, 253, 253,0.0) 0%, /* Bottom */
-        rgba(253, 253, 253,1.0) 100% /* Top */
-    );
-        padding-bottom: 30px;
+    // background: -webkit-gradient(
+    //     linear,
+    //     left bottom,
+    //     left top,
+    //     color-stop(0, rgba(253, 253, 253,0.5)), /* Top */
+    //     color-stop(1, rgba(253, 253, 253,1.0)) /* Bottom */
+    // );
+    //
+    // /* Gecko */
+    // background: -moz-linear-gradient(
+    //     center bottom,
+    //     rgba(253, 253, 253,0.0) 0%, /* Bottom */
+    //     rgba(253, 253, 253,1.0) 100% /* Top */
+    // );
+    padding-bottom: 30px;
     .trigger {
         margin-top: -5px;
     }
@@ -152,14 +163,28 @@
     }
   }
 }
+.detail-icon{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  @include media($mobile){
+    display: none;
+  }
+}
 .post-list-alt{
   .post-summary {
     text-align: left;
-    max-width: 660px;
+    // max-width: 660px;
+    width: 70%;
+    display: inline-block;
     list-style-type: none;
     text-decoration: none;
     font-family: 'blackout two_am';
     color: black;
+    @include media($mobile) {
+      width: 100%;
+    }
+
     a.title {
       display: none;
       font-size: 40px;
@@ -173,15 +198,41 @@
     }
     &:hover {
       a.title {
-        display: block;
+        display: inline-block;
       }
       height: 55;
       font-family: 'blackout midnight';
-      padding: 0px 20px;
+      // padding: 0px 20px;
       a.post-link, span {
         color: white;
         // padding-left: 20px;
       }
+    }
+  }
+}
+
+.upcoming-posts {
+  li {
+    list-style: none;
+    @include no-mobile {
+      padding-left: 15px;
+    }
+    .category {
+      font-family: 'blackout two_am', sans-serif;
+
+    }
+    .name{
+      font-family: 'blackout two_am', sans-serif;
+    }
+    span + span {
+      font-family: Helvetica;
+      padding: 0 5px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    div {
+      font-weight: 100;
+      font-family: helvetica, sans-serif;
     }
   }
 }

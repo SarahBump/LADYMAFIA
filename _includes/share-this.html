@@ -1,0 +1,39 @@
+  <a class="share-btn"><i class="fa fa-paper-plane-o"></i></a><br>
+<hr>
+  <!-- <p class="share-action"> share </p> -->
+  <ul>
+    <!-- email -->
+    <a class="share email" href="mailto:?Subject= Sharing via Lady Mafia: {{ page.teaser }}&amp;Body=I%20saw%20this%20and%20thought%20of%20you%20 {{ site.url }}{{ page.url }}">
+      <i class="fa fa-envelope"></i>
+    </a><br>
+
+    <!-- SMS-->
+    <a class="share SMS" href="{{ page.teaser }} {{ site.url }}{{ page.url }}">
+      <i class="fa fa-comment"></i>
+    </a><br>
+
+    <!-- facebook -->
+    <a class="share facebook" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&p[title]={{ page.title }} {{ page.teaser }}">
+      <i class="fa fa-facebook"></i>
+    </a><br>
+
+    <!-- twitter -->
+    <a class="share twitter" href="https://twitter.com/intent/tweet?text={{ page.title }} {{ page.teaser }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
+      <i class="fa fa-twitter"></i>
+    </a><br>
+
+    <!-- reddit -->
+    <a class="share reddit" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }} {{ page.teaser }}">
+      <i class="fa fa-reddit"></i>
+    </a><br>
+
+    <!-- google plus -->
+    <a class="share googleplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}&hl=en-US">
+      <i class="fa fa-google-plus"></i>
+    </a><br>
+    <!-- <a href="http://www.linkedin.com/shareArticle
+    ?mini=true
+    &url={{ site.url }}{{ page.url }}
+    &title={{ page.title }}
+    &source={{ site.title }}"><i class="fa fa-linkedin"></i></a> -->
+</ul>

@@ -3,15 +3,18 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="alt-layout">
 
     <div class="site-wrapper">
       <div class="container">
-      {% include small-header.html %}
-
-      <div class="row content">
+        {% include small-header.html %}
+        <div class="row content">
+          <div class="share-this share-default">
+            {% include share-this.html %}
+          </div>
           {{ content }}
-      </div>
+          {% include post-footer.html %}
+        </div>
       </div>
       {% include footer.html %}
     </div>

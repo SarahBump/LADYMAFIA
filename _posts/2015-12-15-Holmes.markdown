@@ -1,0 +1,38 @@
+---
+author: Sarah Bump
+categories: contemporary
+date:   2015-12-16
+layout: post
+teaser: The Silicon Valley Darling We Love to Hate
+theme: Holmes
+icon: Holmes.png
+title:  "Elizabeth Holmes"
+tile-content:
+type: profile
+credit: Blood Pressure by Ricardo Moreira from the Noun Project
+---
+
+
+CEO and Founder of blood testing company, [Theranos](https://theranos.com/){:target="_blank"}, Elizabeth Holmes is no stranger to the spotlight. **_She is the youngest self-made billionaire_** and a college dropout. She left Stanford, where she was studying chemical engineering, at the age of 19 to start Theranos. Theranos was projected to be the disruption the laboratory-diagnostic industry needed. Blood testing has not changed since the modern clinical lab emerged in the 1960’s and **_her idea was revolutionary_**: No more vials or tourniquets, just a pinprick of blood gathered in a container smaller than a dime. Up to 70 lab tests can be run on one drop of blood and in less time than traditional tests. Not to mention, at a much lower cost, Theranos charges from $2.67 for a glucose test to $59.95 for a range of STD’s and posts all of its prices online, upholding the highest standard of transparency. Holmes thinks that ease of testing will make people more likely to go through with blood tests and help with earlier detection of illness, something she's passionate about.
+
+A Silicon Valley darling, and the investors to back her, **_what’s the catch_**? Well she she still hasn’t revealed how she is going to do this. Holmes has yet to produce the test data, paperwork, or U.S. Food and Drug administration approval that this technology actually works. Reportedly, Theranos isn’t using its own products and technology to analyze most of the tests it was conducting for consumers. Former employees claimed Theranos was cheating on routine proficiency tests, which help federal regulators determine if a particular lab is producing accurate results. The implication is that Theranos’s technology is a charade.
+
+
+The media and tech world are both enthralled, not only with Theranos and the product, but with Holmes herself. Holmes is playing an important part in history because of her contribution to the conversation, we aren't used to seeing cold, no-nonsense women like her and that challenges the gender binary whether it is for the better or worse. No doubt a game changer, she stands alone as the youngest self-made, female billionaire, but what is it about her that you just can’t look away:
+
+* She’s a young woman, every article that’s written about her starts with “a young woman,” there is a need to identify her, to place her somewhere, she has no choice but to identified as this
+
+* She is obsessed with being taken seriously. She wears a uniform of a black turtleneck and black slacks so people don’t have to comment or think about what she’s wearing, the focus can be on what she is saying.
+
+* She has the right mixture of boldness and precocity that Silicon Valley loves and she is too willing to let that propel her through the business media’s star chamber.
+
+* She lacks formal scientific training. She refuses to reveal how the technology works, and if the technology even works at all. Perhaps the reasoning behind all of the secrecy.
+
+* She has no personal life, she doesn’t watch movies or read books, she used to run, but gave it up. When she started Theranos she researched diet and nutrition and monitored her blood chemistry and determined that a vegan, macrobiotic lifestyle would allow her to “train” her body to work all the time and to function on very little sleep.
+
+
+So, after know all this, you’re probably wondering, **_why is she being profiled as a member of lady mafia_**? She is an extreme we can use to continue the conversation, like [Kiran Gandhi](http://ladymafia.rocks/contemporary/Kiran/){:target="_blank"}, she is almost a symbol of shock culture.
+
+> She is so extreme and imbalanced, you can’t help but want to know more and watch the story unfold. Now we can say, yes I think women can be engineers and contribute, but what does this look like. Right now we have these examples of women who are having children and going back to work after 8 days, and Elizabeth who has trained herself into, what appears to be, a robot.
+
+She’s brought a ton of attention to the and spotlight to show how men and women are being treated in the tech industry. She’s pushing the conversation forward in a big way, call her what you want, she is still contributing, even through the backlash, she is continuing the conversation. We can look at her and say, yes I do love the idea of female leadership and engineering, but what do I want that to look like? Certainly not Elizabeth Holmes, **_we can not and will never out-male the men_**, this is counter-productive. The key is balance and having these extremist can and will help us find that.

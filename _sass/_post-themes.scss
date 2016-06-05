@@ -34,10 +34,18 @@
   @include theme(goldenrod);
 }
 
+.Holmes {
+  @include theme(red);
+}
+
+.rupiKaur {
+  @include theme(lightpink);
+}
+
 // =====  L  =====
 
 .LadyMafia{
-  @include theme(red);
+  @include theme(black);
   .post-icon {
     width: 200px;
     margin-left: 40px;

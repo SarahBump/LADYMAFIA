@@ -2,15 +2,19 @@
 <html>
 
   {% include head.html %}
-  <body>
+  <body class="default">
     <div class="site-wrapper">
       <div class="container">
       {% include main-header.html %}
       {% include nav.html %}
-      <div class="row content">
+      <div class="content">
+        <div class="share-this share-default">
+          {% include share-this.html %}
+        </div>
           {{ content }}
       </div>
     </div>
+    {% include footer.html %}
   </div>
   </body>
 
