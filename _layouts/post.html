@@ -2,8 +2,9 @@
 layout: post-view
 comments: true
 ---
-    
+
     <article class="post-content">
+        {% include /add-ons/reading-time.html %}
         {% if page.quote %}
         <blockquote class="post-quote u-full-width"><span>"</span>{{ page.quote }}</blockquote>
         {% endif %}
