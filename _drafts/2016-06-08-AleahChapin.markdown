@@ -1,7 +1,9 @@
+---
+published: true
+layout: post
 author: Gaby Ruiz-Funes
 categories: contemporary
 date:   2016-06-08
-layout: post
 quote: I hope my paintings can help us see the humanity in each other.
 teaser: "Big data, making music with marbles, and feminine leadership"
 theme: aleahChapin
@@ -9,6 +11,7 @@ icon: kiranGandhi.svg
 title:  "Aleah Chapin"
 tile-content: http://static1.squarespace.com/static/54241deee4b0dab08d8e9ec3/t/5424332ce4b09e569b515f3e/1411658553101/?format=500w
 type: interview
+---
 
 What is your style of femininity?
 

@@ -1,13 +1,13 @@
 {% if page.comments %}
-    <div id="comments" class="post-comments">
-      <hr/>
-      <h3>Comments</h3>
-      <div class="first-comment">
-        <button> people want to hear from you </button>
-      </div>
-      <div class="fb-comments" data-href= "{{ site.url }}{{ page.url }}" data-num-posts="4" data-width="706" data-colorscheme="light" data-mobile="true"></div>
-
-      <!-- never display -->
-      <span class="fb-comments-count" data-href="{{ site.url }}{{ page.url }}"></span>
+<!-- never display -->
+  <div id="comments" class="post-comments">
+    <hr/>
+    <span class="fb-comments-count" data-href="{{ site.url }}{{ page.url }}"></span>
+    <h3>Discuss</h3>
+    <div class="first-comment">
+      <button> people want to hear from you </button>
     </div>
-  {% endif %}
+    <div class="fb-comments" data-href= "{{ site.url }}{{ page.url }}" data-num-posts="4" data-width="706" data-colorscheme="light" data-mobile="true"></div>
+  </div>
+  <script src="/javascripts/fb-comments.js"></script>
+{% endif %}

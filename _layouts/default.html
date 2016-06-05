@@ -18,10 +18,10 @@
   </div>
   </body>
 
-</html>
+  {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+    <script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
+    {% endfor %}
+  {% endif %}
 
-{% if page.custom_js %}
-  {% for js_file in page.custom_js %}
-  <script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
-  {% endfor %}
-{% endif %}
+</html>

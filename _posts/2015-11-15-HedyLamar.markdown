@@ -1,4 +1,5 @@
 ---
+published: true
 layout: post
 title:  "Hedy Lamarr"
 type: historical

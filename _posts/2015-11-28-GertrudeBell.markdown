@@ -1,28 +1,29 @@
 ---
+published: true
+layout: tinderpost
 author: Gaby Ruiz-Funes
 categories: historical
-comments: true
 credit: Compass by Stanislav Levin from the Noun Project; date by Gregor Črešnar from the Noun Project
 date: 2015-11-28
-layout: post
-quote: No woman in recent time has combined her qualities – her taste for arduous and dangerous adventure with her scientific interest and knowledge, her competence in archaeology and art, her distinguished literary gift, her sympathy for all sorts and condition of men, her political insight and appreciation of human values, her masculine vigour, hard common sense and practical efficiency – all tempered by feminine charm and a most romantic spirit.  -- D. G. Hogarth
+quote: No tigress could have safeguarded Iraq’s rights better. -- Max Mallowan
 teaser: "creating Iraq, mapping Syria, and surviving 53 hours suspended by a rope in a blizzard"
 theme: gertrudeBell
 icon: gertrudeBell.svg
 title: "Gertrude Bell"
 tile-content: https://www.youtube.com/embed/1zN7u_Z9u7s"
 type: historical
-datingprofile: true
+dating-profile: true
 profileimage: /images/Gertrude-Bell-picnics.jpg
-nameage: Gertrude Margaret Lowthian Bell
-birthday: July 14, 1868
-location: Baghdad, Iraq
-origin: Great Britain
-employer: Works at British Military Intelligence, self-employed archeologist in Syria, or the Arab Bureau, depending on the day.
-education: Oxford (first chick awarded highest honors in Modern History)
-interested: Men (bonus if you speak one of the eight languages I am fluent in including French, German, Persian, Arabic and Turkish. But I’m great at teaching myself language, so it shouldn’t be a problem.
-firstdate: playing tennis or taking a stroll through the Baghdad Museum of Antiquities, which I founded.
-bio: 5'5. People call me "al-Khatun" (Lady of the Court). When I’m not busy creating British colonial policy, I like long, solo, 1500-mile treks through the desert, climbing mountains in the Swiss Alps, and getting to know Arab tribal leaders. I’m super into archeology and have funded my own archeological digs throughout the middle-east, because the archeological societies won’t let a woman in (silly Victorian rules)! I’m passionate, caring, and a little shy, but definitely have a taste for luxury...even when traveling across the desert I must have my china dinner service and a formal dinner dress with me! Also, I may or may not be a spy.
+dating-card:
+  nameage: Gertrude Margaret Lowthian Bell
+  birthday: July 14, 1868
+  location: Baghdad, Iraq
+  origin: Great Britain
+  employer: Works at British Military Intelligence, self-employed archeologist in Syria, or the Arab Bureau, depending on the day.
+  education: Oxford (first chick awarded highest honors in Modern History)
+  interested: Men (bonus if you speak one of the eight languages I am fluent in including French, German, Persian, Arabic and Turkish. But I’m great at teaching myself language, so it shouldn’t be a problem.
+  firstdate: playing tennis or taking a stroll through the Baghdad Museum of Antiquities, which I founded.
+  bio: 5'5. People call me "al-Khatun" (Lady of the Court). When I’m not busy creating British colonial policy, I like long, solo, 1500-mile treks through the desert, climbing mountains in the Swiss Alps, and getting to know Arab tribal leaders. I’m super into archeology and have funded my own archeological digs throughout the middle-east, because the archeological societies won’t let a woman in (silly Victorian rules)! I’m passionate, caring, and a little shy, but definitely have a taste for luxury...even when traveling across the desert I must have my china dinner service and a formal dinner dress with me! Also, I may or may not be a spy.
 ---
 
 It's impossible to argue - she is incredible. Gertrude once spent 53 hours at the end of a rope in the Alps after her climbing expedition was caught in a blizzard. Are you in love yet? We sure are. Luckily, she's single (as of her suspected suicide in 1926)!  #swiperight
@@ -55,11 +56,11 @@ You should have learned about Gertrude Bell in any history class that covered in
 * Miss Bell’s life and legacy was also the subject of an international scholarly conference last year in London, the first of its kind.
 
 >
-No tigress could have safeguarded Iraq’s rights better.
+No woman in recent time has combined her qualities – her taste for arduous and dangerous adventure with her scientific interest and knowledge, her competence in archaeology and art, her distinguished literary gift, her sympathy for all sorts and condition of men, her political insight and appreciation of human values, her masculine vigour, hard common sense and practical efficiency – all tempered by feminine charm and a most romantic spirit.
 >
--- Max Mallowan
+-- D. G. Hogarth
 
-Agreed! There is so much more to learn about Ms. Bell, her diplomatic feats, her comprehensive education system for Iraqi girls, and her incredible adventures through desert and mountain.  Read more about this captivating woman in
+There is so much more to learn about Ms. Bell, her diplomatic feats, her comprehensive education system for Iraqi girls, and her incredible adventures through desert and mountain.  Read more about this captivating woman in
 [Amazing Women in History](http://www.amazingwomeninhistory.com/gertrude-bell-queen-of-the-desert/),
 [The New York Times](http://www.nytimes.com/2014/06/27/world/middleeast/gertrude-bell-sought-to-stabilize-iraq-after-world-war-i.html?_r=1),
 [The Atlantic](http://www.theatlantic.com/magazine/archive/2007/06/the-woman-who-made-iraq/305893/),

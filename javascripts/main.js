@@ -152,6 +152,23 @@ $(window).scroll(function() {
   // }
 }
 
+function commentDisplay(){
+  console.log('comments');
+  var numComments = parseInt($('.fb_comments_count').text());
+  if(numComments > 0){
+    console.log('true');
+    $('.fb-comments').show();
+    $('.post-details .comments').show()
+  }else{
+    $('.fb-comments').hide();
+    $('.first-comment').show();
+  }
+
+  $('.first-comment button').click(function(){
+     $('.first-comment').hide();
+     $('.fb-comments').show();
+   })
+ }
 
 $(document).ready(function(){
   // if( $('.header-small').length > 0) {
@@ -182,4 +199,6 @@ $(document).ready(function(){
   if(window.innerWidth < 768){
     mobileShareSize();
   }
+
+  // commentDisplay();
 });

@@ -1,8 +1,9 @@
 ---
+published: true
+layout: post
 author: Sarah Bump
 categories: contemporary
 date:   2015-12-16
-layout: post
 teaser: The Silicon Valley Darling We Love to Hate
 theme: Holmes
 icon: Holmes.png
