@@ -1,13 +1,13 @@
-author: Sarah Bump
+author: Gaby Ruiz-Funes
 categories: contemporary
-date:   2015-11-18 21:06:38 -0500
+date:   2016-06-08
 layout: post
-quote: I want to work with a group of people who touch a large amount of lives. I think to be a sole independent person, you can inspire others, but unless you’re working together, you won’t move the earth in as big or impactful of a way as you could.
+quote: I hope my paintings can help us see the humanity in each other.
 teaser: "Big data, making music with marbles, and feminine leadership"
-theme: kiranGandhi
+theme: aleahChapin
 icon: kiranGandhi.svg
-title:  "Kiran Gandhi"
-tile-content: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/222933505&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
+title:  "Aleah Chapin"
+tile-content: http://static1.squarespace.com/static/54241deee4b0dab08d8e9ec3/t/5424332ce4b09e569b515f3e/1411658553101/?format=500w
 type: interview
 
 What is your style of femininity?
