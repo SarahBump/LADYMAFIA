@@ -1,4 +1,3 @@
-<span>
   {% assign title = page.title | number_of_words %}
   {% assign titleLength =  page.teaser | number_of_words | plus: title %}
 
@@ -29,4 +28,3 @@
       {{ read-time | append: " minute read" }}
     {% endif %}
   {% endunless %}
-</span>

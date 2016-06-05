@@ -496,13 +496,24 @@ div.post-title {
     font-family: helvetica, sans-serif;
     text-transform: uppercase;
     padding-top: 5px;
-    span, a, i {
-      padding-right: 5px;
+    span, a {
+      margin-left: 10px;
       font-weight: 600;
       color: black;
     }
+    span:first-of-type{
+      margin-left: 0;
+    }
     i {
-      padding-left: 10px;
+      padding-right: 5px;
+    }
+    @include  media($mobile) {
+      span, a {
+        display: block;
+        padding-right: 0;
+        margin-bottom: 5px;
+        margin-left: 0;
+      }
     }
     // .comments { display: none; }
 
