@@ -20,15 +20,11 @@ Kiran is using her skill set to improve the industries she is passionate about, 
 
 We caught up with Kiran to find out how she ticks, how she’s able to balance everything, and what is inspiring her to do it all. Kiran Gandhi is a drummer, a mathematician, a feminist, and **_she is LADY MAFIA._**
 
-{: .question .short}
-<i class="em em-ladymafia"></i>  The reason that we are so inspired by you is how you’ve been able to combine your passions and work on multiple projects at once, ie touring with MIA, getting your MBA from Harvard, and training for the marathon. How do you prioritize? How do you balance everything? <br>
+<i class="em em-ladymafia"></i> **LM:** The reason that we are so inspired by you is how you’ve been able to combine your passions and work on multiple projects at once, ie touring with MIA, getting your MBA from Harvard, and training for the marathon. How do you prioritize? How do you balance everything? <br>
+<i class="em em-sunny"></i> **KG:** I use my theory of atomic living actually to answer this question. For me, I really have to hone in and look internally to know what matters to me and then I navigate the external. I know, in my heart, the things that matter to me and motivate me are my commitment to gender equality, innovation in the music industry, playing the drums and creating music, and then finally my friends and family.  Because I know that these four things are what’s important, are what invigorate me, then I look externally and say, how do I navigate the opportunities that have come into my life? If they have the potential to nourish any of those four things, I say yes! This helps me balance, stay focused, and live a fun life.
 
-<i class="em em-sunny"></i>  I use my theory of atomic living actually to answer this question. For me, I really have to hone in and look internally to know what matters to me and then I navigate the external. I know, in my heart, the things that matter to me and motivate me are my commitment to gender equality, innovation in the music industry, playing the drums and creating music, and then finally my friends and family.  Because I know that these four things are what’s important, are what invigorate me, then I look externally and say, how do I navigate the opportunities that have come into my life? If they have the potential to nourish any of those four things, I say yes! This helps me balance, stay focused, and live a fun life.
-
-{: .question .short}
-<i class="em em-ladymafia"></i>  What did you learn from Maya? <br>
-
-<i class="em em-sunny"></i>  The first thing I learned from her is to follow your gut instincts and to actually act on them. So, if in your mind you’re like, “oh my god it would be so cool if in this show tonight we used a local coconut and broke the coconut on stage and performed an Indian ceremony,” she would actually go and find the coconut and we would practice it and do it that night and it would be a special show. If she wanted me to make a new sound, she’d be like, “wouldn’t it be so cool if you could drop a marble on a table live?” and that day, in Montreal, I was out in the city trying to find a marble and a table and we mic’d it and that was part of the show, it was me, in time, literally playing marbles dropping on a table as a drum sound. She taught me to act on your instincts and own it.
+<i class="em em-ladymafia"></i> **LM:** What did you learn from Maya? <br>
+<i class="em em-sunny"></i> **KG:** The first thing I learned from her is to follow your gut instincts and to actually act on them. So, if in your mind you’re like, “oh my god it would be so cool if in this show tonight we used a local coconut and broke the coconut on stage and performed an Indian ceremony,” she would actually go and find the coconut and we would practice it and do it that night and it would be a special show. If she wanted me to make a new sound, she’d be like, “wouldn’t it be so cool if you could drop a marble on a table live?” and that day, in Montreal, I was out in the city trying to find a marble and a table and we mic’d it and that was part of the show, it was me, in time, literally playing marbles dropping on a table as a drum sound. She taught me to act on your instincts and own it.
 
 The second thing was to what she called ‘get into the rhythm of the song.’ Play drums not only listening to the drums, and the rhythm section, but to also pay attention to the fact that the vocals have a rhythm. So play the drums in relation to that.
 
@@ -40,49 +36,38 @@ so that everybody else on that stage feels like “okay cool Kiran’s got my ba
 
 {% include post-footer-mobile.html %}
 
-{: .question .short}
-<i class="em em-ladymafia"></i>  How do you cultivate your sense of values? <br>
+<i class="em em-ladymafia"></i> **LM:** How do you cultivate your sense of values? <br>
+<i class="em em-sunny"></i> **KG:** What I try to do is think about when I am so in the flow, so present, that I’m not thinking about anything else. First, it is when I am speaking about gender equality. Second, it is when I have been innovating in the music industry, either with my boss at [Interscope Records](http://www.interscope.com/ "Interscope Records"){:target="_blank"}, or when I was at Harvard running this group, [Music Minds](http://kirangandhi.com/2015/03/05/musicminds-soulcycle-as-curator/){:target="_blank"}, which hacked problems in the music industry. Finally, it is when I am playing and creating music. I like focusing my attention this way, rather than saying, “oh what’s my fifteen year plan from now?” Because then, I don’t have to have any regrets, I just get to be true to Kiran of this moment. If I am so committed to this fifteen year goal without recognizing what Kiran of the present needs, that fifteen year goal will never be achieved because I am not being honest about the current building block that needs to happen today, the current atomic moment.  
 
-<i class="em em-sunny"></i>  What I try to do is think about when I am so in the flow, so present, that I’m not thinking about anything else. First, it is when I am speaking about gender equality. Second, it is when I have been innovating in the music industry, either with my boss at [Interscope Records](http://www.interscope.com/ "Interscope Records"){:target="_blank"}, or when I was at Harvard running this group, [Music Minds](http://kirangandhi.com/2015/03/05/musicminds-soulcycle-as-curator/){:target="_blank"}, which hacked problems in the music industry. Finally, it is when I am playing and creating music. I like focusing my attention this way, rather than saying, “oh what’s my fifteen year plan from now?” Because then, I don’t have to have any regrets, I just get to be true to Kiran of this moment. If I am so committed to this fifteen year goal without recognizing what Kiran of the present needs, that fifteen year goal will never be achieved because I am not being honest about the current building block that needs to happen today, the current atomic moment.  
-
-{: .question .short}
-<i class="em em-ladymafia"></i>  How would you describe your style of femininity? <br>
-
-<i class="em em-sunny"></i>  What a f*cking awesome question. I would describe it as being holistically, authentically myself. There are moments when I am deeply emotional, when I cry, when I am very aware of my sensory experiences, my ability to actually touch someone and make contact with them in kind of a loving and maternal non-sexual way. When I am able to give someone a hug and really pull them into my heart, whether they are male or female and do this in a way that they can understand it has a purity to it and not a sexual energy to it. I think this is something that men can’t necessarily do in the same way. On the other side,
+<i class="em em-ladymafia"></i> **LM:** How would you describe your style of femininity? <br>
+<i class="em em-sunny"></i> **KG:** What a f*cking awesome question. I would describe it as being holistically, authentically myself. There are moments when I am deeply emotional, when I cry, when I am very aware of my sensory experiences, my ability to actually touch someone and make contact with them in kind of a loving and maternal non-sexual way. When I am able to give someone a hug and really pull them into my heart, whether they are male or female and do this in a way that they can understand it has a purity to it and not a sexual energy to it. I think this is something that men can’t necessarily do in the same way. On the other side,
 
 > being feminine is just being authentic to what it is that you want to do. So if you want to be a mathematician, if you want to be a drummer, cool, just do it! And in doing it, you’re actively reconstructing a new definition of femininity.
 
 The more that we live our lives doing what we love, that’s how you define whether something is appropriate for men or women. This is how I define my femininity.
 
-{: .question .short}
-<i class="em em-ladymafia"></i>  What’s missing from the conversation around feminism? <br>
 
-<i class="em em-sunny"></i>  Well definitely getting men involved, by showing the business case for why having a safer and more welcoming environment for women in the workplace actually affects men, too.
+<i class="em em-ladymafia"></i> **LM:** What’s missing from the conversation around feminism? <br>
+<i class="em em-sunny"></i> **KG:** Well definitely getting men involved, by showing the business case for why having a safer and more welcoming environment for women in the workplace actually affects men, too.
 
 > Having women in positions of leadership makes businesses better because you have a wider scope of perspectives. By the very nature of being a woman you have a different walk of life which means you bring a different mental group to the table.
 
 When they talk about entrepreneurship, on your founding team, you want as little of a venn-diagram as possible. You want each of your skillsets to be spread across about as far as possible so you can cover everything. This is also true in more day-to-day, personal life feminism. If we include men in the conversation, we will be able to move forward and we will be able to show men that enabling women to be their authentic self can actually enable men to be their authentic self too.
 
-{: .question .short}
-<i class="em em-ladymafia"></i>  We believe the members of LADY MAFIA are the movers, the shakers. What is your contribution? What do you want to be remembered as?<br>
+<i class="em em-ladymafia"></i> **LM:** We believe the members of LADY MAFIA are the movers, the shakers. What is your contribution? What do you want to be remembered as?<br>
+<i class="em em-sunny"></i> **KG:** I want to be remembered as a team builder, a team player. A lot of my accomplishments in the early stage of my life have been singular, they’re my own journey. They’re me running a marathon, drumming, travelling the world, going to Harvard. Those are things that I did, but I want my legacy to be about me being a team builder. I want to work with a group of people who touch a large amount of lives. I think to be a sole independent  person, you can inspire others, but unless you're working together, you won’t move the earth in as big or impactful of a way as you could.
 
-<i class="em em-sunny"></i>  I want to be remembered as a team builder, a team player. A lot of my accomplishments in the early stage of my life have been singular, they’re my own journey. They’re me running a marathon, drumming, travelling the world, going to Harvard. Those are things that I did, but I want my legacy to be about me being a team builder. I want to work with a group of people who touch a large amount of lives. I think to be a sole independent  person, you can inspire others, but unless you're working together, you won’t move the earth in as big or impactful of a way as you could.
-
-{: .question .short}
-<i class="em em-ladymafia"></i>  What’s next for you? <br>
-
-<i class="em em-sunny"></i>  I’m working on my music. I’ve never been much of a technical person so to be in a studio trying to figure out ableton and logic and all these things in real time is a slow process for me, but I have all these ideas about pushing boundaries in the music industry and then pushing boundaries in all the topics that i’m talking about when it comes to feminism. Being able to talk about them in an accessible way is a challenge. That’s what the next phase of my life is about, writing music that’s meaningful to me, that’s pure, that’s real, that’s sad, that’s honest, that’s musical, that’s musically enjoyable first, before you even think about consuming the feminism behind it, and that’s my project. It’s called [Madame Gandhi](https://soundcloud.com/madamegandhi "Madame Gandhi"){:target="_blank"}. It will typically be a collective, I’m going to have female sound designers on the stage with me, but it could be any group of people.
+<i class="em em-ladymafia"></i> **LM:** What’s next for you? <br>
+<i class="em em-sunny"></i> **KG:** I’m working on my music. I’ve never been much of a technical person so to be in a studio trying to figure out ableton and logic and all these things in real time is a slow process for me, but I have all these ideas about pushing boundaries in the music industry and then pushing boundaries in all the topics that i’m talking about when it comes to feminism. Being able to talk about them in an accessible way is a challenge. That’s what the next phase of my life is about, writing music that’s meaningful to me, that’s pure, that’s real, that’s sad, that’s honest, that’s musical, that’s musically enjoyable first, before you even think about consuming the feminism behind it, and that’s my project. It’s called [Madame Gandhi](https://soundcloud.com/madamegandhi "Madame Gandhi"){:target="_blank"}. It will typically be a collective, I’m going to have female sound designers on the stage with me, but it could be any group of people.
 
 > I call it Madame Gandhi because the notion of a madame is someone who is a female, who is respected for her female qualities, not because she’s trying to become masculine, or hard, or change herself to fit in, but really just being a female leader. We really don’t even have a good example of what it’s like to have female leaders in this world.
 
 So this is the notion of a madame, the idea that you are leading based on your feminine qualities and they should be as valued, loved, and welcomed as we love, value, and welcome male qualities.
 
-{: .question .short}
-<i class="em em-ladymafia"></i>  If there was a Kiran emoji what would it be? <br>
+<i class="em em-ladymafia"></i> **LM:** If there was a Kiran emoji what would it be? <br>
+<i class="em em-sunny"></i> **KG:** It’s a sun! Kiran is the first ray of the sun.
 
-<i class="em em-sunny"></i>  It’s a sun! Kiran is the first ray of the sun.
-
-<i class="em em-ladymafia"></i>  Thank you so much for your support Kiran, we are so stoked for this journey and are so happy you could be a part of it.
+**LM:** Thank you so much for your support Kiran, we are so stoked for this journey and are so happy you could be a part of it.
 
 ---
 

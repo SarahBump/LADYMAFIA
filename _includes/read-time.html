@@ -1,5 +1,7 @@
   {% assign title = page.title | number_of_words %}
-  {% assign titleLength =  page.teaser | number_of_words | plus: title %}
+  {% if page.teaser %}
+    {% assign titleLength =  page.teaser | number_of_words | plus: title %}
+  {% endif %}
 
   {% if page.type == 'interview' %}
     {% assign total_questions = page.content | split: "LM:" | size | times: 2 | minus: 1 %}
