@@ -25,4 +25,5 @@ As a human person these people inspire us, you're a human person and we want to 
 ### Our hopes and dreams for LadyMafia.rocks
 We want to re-contextualize the narrative. Give credit where credit is due. And, at the least, bring some intelligent entertainment to the web.  
 
+---
 If you are someone or know someone who embodies this spirit, let us know at <a href="mailto:wanted@ladymafia.rocks" >wanted@ladymafia.rocks </a>

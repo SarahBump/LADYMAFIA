@@ -6,7 +6,7 @@ categories: contemporary
 credit: Brushes by Becca O'Shea from the Noun Project
 date:   2016-06-14
 quote: In each project, and in all of my work, I try to express that idea that through our individuality we are all the same, through our differences we are all one...I hope my paintings can help us see the humanity in each other.
-teaser: One Body
+teaser: "One body: finding beauty, strength, and courage through vulnerability"
 theme: aleahChapin
 icon: aleahChapin.svg
 title:  "Aleah Chapin"
@@ -31,7 +31,7 @@ type: interview
 {: .question .short}
 <i class="em em-ladymafia"></i> What is your contribution, what do you want to be remembered as?  
 
-<i class="em em-nude-body"></i>  I hope my work is remembered. I hope that it can make a difference in how we see our own bodies, how we define beauty and strength, courage and vulnerability. I hope my paintings can help us see the humanity in each other.
+<i class="em em-nude-body"></i>  I hope my work is remembered. I hope that it can make a difference in how we see our own bodies, how we define beauty and strength, courage and vulnerability. **_I hope my paintings can help us see the humanity in each other._**
 
 {: .question .long}
 We love that! When we see your work we are captivated by the way you capture movement, the bodies you paint are certainly human, and they are so much more dynamic compared to the depictions of bodies, especially female, that we have seen in art historically and culture currently.  
@@ -70,3 +70,5 @@ We love that! When we see your work we are captivated by the way you capture mov
 <i class="em em-ladymafia"></i>  What’s next for you?  
 
 <i class="em em-nude-body"></i>  I just recently moved and created a home after working intensively for the past 6 years in NYC. Whats next for me is to set roots, breathe mountain air, walk through the woods and beaches, and see what wants to come next.
+
+---

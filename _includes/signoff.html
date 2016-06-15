@@ -1,5 +1,9 @@
 <div class="sign-off">
+  {% if page.type == "interview" %}
+  <span>Interviewed by </span>
+  {% else %}
   <span>Until next time,</span><br>
+  {% endif %}
   <span>{{ page.author }}</span><br>
-  {{ page.date | date: "%-d %B %Y" }}
+  {{ page.date | date: "%B %-d, %Y" }}
 </div>

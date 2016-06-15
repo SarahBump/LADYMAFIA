@@ -38,3 +38,5 @@ Your history classes probably forgot cover Hedy's contribution in any World War 
 Thanks to the wonderful [Google Doodle](http://www.google.com/doodles/hedy-lamarrs-101st-birthday) for educating us on the inventors who have made our modern lives possible.  
 
 Learn about Hedy's technical prowess and controversial acting career in this entertaining and informative post on [Movie Pilot](http://moviepilot.com/posts/3635767?lt_source=external,manual).
+
+---

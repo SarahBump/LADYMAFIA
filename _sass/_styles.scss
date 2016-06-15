@@ -120,8 +120,6 @@
   height: $post-nav-height;
   background-color: $background-color;
   @include media($mobile) {
-    background-image: linear-gradient(to top, transparent, $background-color);
-
     background-color: transparent;
     // background: linear-gradient(to bottom, rgba(253, 253, 253, 1) 0%  rgba(253, 253, 253, 0) 100%);
     /* Webkit */
@@ -238,9 +236,9 @@
 }
 
 .question {
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 18px;
   &.long{
-    font-size:   14px;
+    font-size:   16px;
   }
 }

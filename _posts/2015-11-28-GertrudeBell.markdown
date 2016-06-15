@@ -60,6 +60,7 @@ No woman in recent time has combined her qualities – her taste for arduous and
 >
 -- D. G. Hogarth
 
+---
 There is so much more to learn about Ms. Bell, her diplomatic feats, her comprehensive education system for Iraqi girls, and her incredible adventures through desert and mountain.  Read more about this captivating woman in
 [Amazing Women in History](http://www.amazingwomeninhistory.com/gertrude-bell-queen-of-the-desert/),
 [The New York Times](http://www.nytimes.com/2014/06/27/world/middleeast/gertrude-bell-sought-to-stabilize-iraq-after-world-war-i.html?_r=1),
