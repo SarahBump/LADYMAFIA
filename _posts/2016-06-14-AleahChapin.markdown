@@ -34,7 +34,7 @@ Uplifting stuff! We interviewed Chapin shortly after her most recent solo-exhibi
 {: .question .long}
 <i class="em em-ladymafia"></i>  Can you talk about the experience of the Aunties project and how you captured such meaningful moments - were the women at ease? What sorts of direction did you give them? What can we learn from the “behind the scenes” interactions that we can connect with through your paintings?  
 
-<i class="em em-nude-body"></i>  I see the final paintings as the pinnacle of an experience, but they begin simply as a photo-shoot; a gathering of my Aunties at the edge of the forest with me and a camera. Throughout the process, I may make suggestions here or there, but it’s all a response to what is happening in the moment, an attempt to make space to discover the unexpected. I remember one thing I told them was “be one body”. These women know each other so well that this was natural for them. I think this idea of being one is not only an aesthetic concept, but a way to view the world that I have learned from them.
+<i class="em em-nude-body"></i>  I see the final paintings as the pinnacle of an experience, but they begin simply as a photo-shoot; a gathering of my Aunties at the edge of the forest with me and a camera. Throughout the process, I may make suggestions here or there, but it’s all a response to what is happening in the moment, an attempt to make space to discover the unexpected. **_I remember one thing I told them was “be one body”._** These women know each other so well that this was natural for them. I think this idea of being one is not only an aesthetic concept, but a way to view the world that I have learned from them.
 
 
 {: .question .long}
