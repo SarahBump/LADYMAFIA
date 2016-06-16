@@ -12,6 +12,7 @@ icon: aleahChapin.svg
 title:  "Aleah Chapin"
 type: interview
 ---
+
 You don’t find many 20-somethings who spend their time surrounded by naked older women. Equally rare are professions where one spends significant time with many nude people in situations that aren’t exploitative. Acclaimed artist Aleah Chapin is one of those exceptions. Inspired by gender fluidity and the women who have shaped her world, Chapin paints people in their most vulnerable state - physically and emotionally. In a word, her paintings are freeing.
  
 It’s not often we see people naked and in motion – most nude images are meticulously posed and airbrushed, or the but of a degrading joke. In that same vein, our encounters with the human form usually serve to elicit feeling from the viewer, rather than communicate the emotion of the subject. Chapin’s art evokes emotion because she captures the palpable complex emotion of the people she paints. And while high-profile campaigns claim to celebrate body-type diversity through giant ads depicting supple, flawless lingerie models, Chapin’s paintings give honest life to the human form.
@@ -28,7 +29,7 @@ Uplifting stuff! We interviewed Chapin shortly after her most recent solo-exhibi
 
 ---
 
-{: .question .short}
+{: .question .short #interview-start}
 <i class="em em-ladymafia"></i>  Where do you get inspiration/energy, how do you get through times where you don’t feel the creative flow?  
 
 <i class="em em-nude-body"></i>  If I knew where inspiration was hidden, my life would be much easier! But it’s that struggle that pushes me forward. Inspiration has never been a constant companion, but I’m learning that it is one that will always return, and usually when I least expect it. 
