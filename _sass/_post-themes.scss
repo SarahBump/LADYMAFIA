@@ -11,14 +11,14 @@
 }
 
 .aleahChapin {
-  @include theme(cornflowerblue);
+  @include theme(#84a2d8);
   i.em.em-nude-body {
     background-image: url(/images/post-icons/custom-emojis/nude-body.png);
     height: 1.2em;
     width: 1.2em;
   }
   .question {
-    color: cornflowerblue;
+    color: #84a2d8;
   }
 }
 // =====  B  =====
