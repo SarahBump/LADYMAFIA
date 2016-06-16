@@ -86,3 +86,6 @@ We love that! When we see your work we are captivated by the way you capture mov
 <i class="em em-nude-body"></i>  I just recently moved and created a home after working intensively for the past 6 years in NYC. Whats next for me is to set roots, breathe mountain air, walk through the woods and beaches, and see what wants to come next.
 
 ---
+In Chapin’s paintings we can see the beauty and weirdness of the human form as guilt-free voyeurs. But studying the dynamic details of the people she paints does more than satisfy our curiosity. Her works show that we are much more than our physical bodies; they represent an oasis, a moment where we can feel completely accepted. We can feel the connection to and among her subjects. We all want to love, belong, and feel accepted for who we are, and Chapin’s paintings give us a tangible, visual template for what real raw community looks like. Seeing the liberated bodies of her models, we ourselves are liberated.
+ 
+In a time of tension between the freedom to be who we are as individuals and the desire by some to suppress that freedom, Chapin’s paintings truly allow us to see the humanity in one another and serve as a reminder that vulnerability is strength, and that we are one body.
