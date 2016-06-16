@@ -20,11 +20,9 @@ In the Aunties Project, a collection of giant oil paintings for which she won Br
  
 Perhaps equally as notable as her unconventional subjects, Chapin’s success on the business side is important to highlight. She has won several prestigious awards and her career is still in its infancy. True to her own voice, she is making a living in a field that has a stark underrepresentation of women professionally. Consider some uplifting facts from the [NMWA](http://www.nmwa.org/advocate/get-facts) to throw into conversation at your next happy hour or cocktail party:
 
--Only 28% of museum solo exhibitions spotlighted women in eight selected museums throughout the 2000s.
-
--In a report from October 2014, Gallery Tally looked at over 4,000 artists represented in L.A. and New York—of those, 32.3% were women.
-
--Though women earn half of the MFAs granted in the US, only a quarter of solo exhibitions in New York galleries feature women.
+*Only 28% of museum solo exhibitions spotlighted women in eight selected museums throughout the 2000s.
+*In a report from October 2014, Gallery Tally looked at over 4,000 artists represented in L.A. and New York—of those, 32.3% were women.
+*Though women earn half of the MFAs granted in the US, only a quarter of solo exhibitions in New York galleries feature women.
 
 Uplifting stuff! We interviewed Chapin shortly after her most recent solo-exhibition in New York, Body/Being. While we could blab on for pages about her innovative spirit and liberating work, we’ll shut up and let you hear it straight from this humble Mafiosa.
 
