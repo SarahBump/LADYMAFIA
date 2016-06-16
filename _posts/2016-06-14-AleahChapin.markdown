@@ -24,7 +24,7 @@ Perhaps equally as notable as her unconventional subjects, Chapin’s success on
 * In a report from October 2014, Gallery Tally looked at over 4,000 artists represented in L.A. and New York—of those, 32.3% were women.
 * Though women earn half of the MFAs granted in the US, only a quarter of solo exhibitions in New York galleries feature women.
 
-Uplifting stuff! We interviewed Chapin shortly after her most recent solo-exhibition in New York, Body/Being. While we could blab on for pages about her innovative spirit and liberating work, we’ll shut up and let you hear it straight from this humble Mafiosa.
+Uplifting stuff! We interviewed Chapin shortly after her most recent solo-exhibition in New York, [Body/Being](http://www.flowersgallery.com/exhibitions/view/aleah-chapin-1). While we could blab on for pages about her innovative spirit and liberating work, we’ll shut up and let you hear it straight from this humble Mafiosa.
 
 ---
 
