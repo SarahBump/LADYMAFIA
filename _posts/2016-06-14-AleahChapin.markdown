@@ -26,10 +26,14 @@ Perhaps equally as notable as her unconventional subjects, Chapin’s success on
 
 Uplifting stuff! We interviewed Chapin shortly after her most recent solo-exhibition in New York, Body/Being. While we could blab on for pages about her innovative spirit and liberating work, we’ll shut up and let you hear it straight from this humble Mafiosa.
 
+---
 {: .question .short}
 <i class="em em-ladymafia"></i>  Where do you get inspiration/energy, how do you get through times where you don’t feel the creative flow?  
 
-<i class="em em-nude-body"></i>  If I knew where inspiration was hidden, my life would be much easier! But it’s that struggle that pushes me forward. Inspiration has never been a constant companion, but I’m learning that it is one that will always return, and usually when I least expect it. If I show up, if I go to my studio, if I stay open to the life that I’m living and experiences I’m having, then those ideas that make my heart beat faster and make the world seem so much bigger, always come. Knowing this, trusting in the beauty of it all, is what keeps me going.
+<i class="em em-nude-body"></i>  If I knew where inspiration was hidden, my life would be much easier! But it’s that struggle that pushes me forward. Inspiration has never been a constant companion, but I’m learning that it is one that will always return, and usually when I least expect it. 
+> If I show up, if I go to my studio, if I stay open to the life that I’m living and experiences I’m having, then those ideas that make my heart beat faster and make the world seem so much bigger, always come.
+
+Knowing this, trusting in the beauty of it all, is what keeps me going.
 
 {: .question .long}
 <i class="em em-ladymafia"></i>  Can you talk about the experience of the Aunties project and how you captured such meaningful moments - were the women at ease? What sorts of direction did you give them? What can we learn from the “behind the scenes” interactions that we can connect with through your paintings?  
