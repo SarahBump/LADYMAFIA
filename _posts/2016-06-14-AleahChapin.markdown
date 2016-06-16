@@ -65,7 +65,9 @@ We love that! When we see your work we are captivated by the way you capture mov
 {: .question .short}
 <i class="em em-ladymafia"></i>  What’s missing from the conversation around feminism?
 
-<i class="em em-nude-body"></i>  I’m not sure if it’s missing, as it is something I talk about with friends all the time. I believe that we, as women, should really be able to do whatever we want without that confirming nor denying our female identities. We should be able to have any job, wear any clothing, do any activity. We should be able to have a family and a career without being told we have to choose between the two. We should be able to make our own lives based on what we love and what we want, not on what has come before us.
+<i class="em em-nude-body"></i>  I’m not sure if it’s missing, as it is something I talk about with friends all the time. I believe that we, as women, should really be able to do whatever we want without that confirming nor denying our female identities. We should be able to have any job, wear any clothing, do any activity. We should be able to have a family and a career without being told we have to choose between the two.
+
+> We should be able to make our own lives based on what we love and what we want, not on what has come before us.
 
 {: .question .short}
 <i class="em em-ladymafia"></i>  Who is inspiring you right now? Who do you think is part of Lady Mafia?  
