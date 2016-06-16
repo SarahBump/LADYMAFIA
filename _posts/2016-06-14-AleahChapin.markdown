@@ -47,9 +47,6 @@ Uplifting stuff! We interviewed Chapin shortly after her most recent solo-exhibi
 
 <i class="em em-nude-body"></i>  I hope my work is remembered. I hope that it can make a difference in how we see our own bodies, how we define beauty and strength, courage and vulnerability. **_I hope my paintings can help us see the humanity in each other._**
 
-{: .question .long}
-We love that! When we see your work we are captivated by the way you capture movement, the bodies you paint are certainly human, and they are so much more dynamic compared to the depictions of bodies, especially female, that we have seen in art historically and culture currently.  
-
 {: .question .short}
 <i class="em em-ladymafia"></i> Do you think about movement as you are painting? How do the experiences of painting people together in the Aunties Project versus mostly individual in Body/Being differ in terms of exploring beauty, strength, courage, and vulnerability?  
 
