@@ -27,6 +27,7 @@ Perhaps equally as notable as her unconventional subjects, Chapin’s success on
 Uplifting stuff! We interviewed Chapin shortly after her most recent solo-exhibition in New York, Body/Being. While we could blab on for pages about her innovative spirit and liberating work, we’ll shut up and let you hear it straight from this humble Mafiosa.
 
 ---
+
 {: .question .short}
 <i class="em em-ladymafia"></i>  Where do you get inspiration/energy, how do you get through times where you don’t feel the creative flow?  
 
