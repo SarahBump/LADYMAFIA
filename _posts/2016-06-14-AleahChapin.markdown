@@ -15,7 +15,7 @@ type: interview
 
 You don’t find many 20-somethings who spend their time surrounded by naked older women. Equally rare are professions where one spends significant time with many nude people in situations that aren’t exploitative. Acclaimed artist [Aleah Chapin](http://www.aleahchapin.com/){:target="_blank"} is one of those exceptions. Inspired by gender fluidity and the women who have shaped her world, Chapin paints people in their most vulnerable state - physically and emotionally. Her work gives honest life to the human form.
 
-It’s not often we see people naked and real, let alone in motion. You’ve seen the ads plastered on busses: “I’M NO ANGEL.” These high-profile campaigns claim to celebrate body-type diversity and “real” women through giant ads depicting supple, flawless lingerie models, but I want to scream back, “WHERE’S YOUR CELLULITE? DO YOU HAVE ANY PORES? WHERE’S YOUR SCAR FROM THE TIME YOU FELL AND SKINNED YOUR KNEE AND PICKED THE SCAB OFF EVEN THOUGH YOUR MOM TOLD YOU NOT?”
+It’s not often we see people naked and real, let alone in motion. You’ve seen the ads plastered on busses: “I’M NO ANGEL.” These high-profile campaigns claim to celebrate body-type diversity and “real” women through giant ads depicting supple, flawless lingerie models, but I want to scream back, “WHERE’S YOUR CELLULITE? DO YOU HAVE ANY PORES? WHERE’S YOUR SCAR FROM THE TIME YOU FELL AND SKINNED YOUR KNEE AND PICKED THE SCAB OFF EVEN THOUGH YOUR MOM TOLD YOU NOT TO?”
 
 Like those lingerie ads, nude images are likely meticulously posed and airbrushed, or the butt of a degrading joke. Most contemporary depictions of the human form usually serve to elicit feeling from the viewer, rather than communicate the emotion of the subject. Chapin’s art evokes emotion because she captures the palpable complex emotion of the people she paints. Her paintings are honest and freeing.
  
@@ -81,7 +81,7 @@ Knowing this, trusting in the beauty of it all, is what keeps me going.
 {: .question .short}
 <i class="em em-ladymafia"></i>  What are you reading?
 
-<i class="em em-nude-body"></i>  Currently? Buddha’s Brain and Harry Potter.
+<i class="em em-nude-body"></i>  Currently? Buddha’s Brain and Harry Potter. I also just read "Big Magic". That book is fantastic. I resisted it for a while, thinking it may be cheesy, but it's super good and inspiring. I loved it so much that I bought for my mom the other day. She's an artist too! 
 
 {: .question .short}
 <i class="em em-ladymafia"></i>  If there was an Aleah emoji, what would it be?
