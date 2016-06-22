@@ -11,6 +11,7 @@ theme: aleahChapin
 icon: aleahChapin.svg
 title:  "Aleah Chapin"
 type: interview
+comments: true
 ---
 
 You don’t find many 20-somethings who spend their time surrounded by naked older women. Equally rare are professions where one spends significant time with many nude people in situations that aren’t exploitative. Acclaimed artist [Aleah Chapin](http://www.aleahchapin.com/){:target="_blank"} is one of those exceptions. Inspired by gender fluidity and the women who have shaped her world, Chapin paints people in their most vulnerable state - physically and emotionally. Her work gives honest life to the human form.
