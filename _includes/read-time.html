@@ -17,7 +17,7 @@
   {% endcapture %}
 
   {% unless words contains "-" %}
-    {% assign read-time = words | divided_by: 240 %}
+    {% assign read-time = words | divided_by: 360 %}
     {% if read-time > 7 %}
       {{ read-time | append: " minute read (worth it)" }}
     {% elsif read-time >= 4 %}
