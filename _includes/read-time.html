@@ -3,9 +3,6 @@
     {% assign titleLength =  page.teaser | number_of_words | plus: title %}
   {% endif %}
   
-  {% if page.quote %}
-    {% assign quote_length = page.quote | number_of_words %}
-  {% endif %}
   {% if page.type == 'interview' %}
     {% assign total_questions = page.content | split: "LM:" | size | times: 2 | minus: 1 %}
     {% assign ignore_length = total_questions | plus: titleLength | plus: 3 %}
@@ -17,7 +14,12 @@
   
 
   {% capture words %}
-    {{ page.content | number_of_words | minus: ignore_length | minus: quote_length }}
+    {% if page.quote %}
+      {% assign quote_length = page.quote | number_of_words %}
+      {{ page.content | number_of_words | minus: ignore_length | minus: quote_length }}
+    {% else %}
+      {{ page.content | number_of_words | minus: ignore_length }}
+    {% endif %}
   {% endcapture %}
 
   {% unless words contains "-" %}
