@@ -152,9 +152,8 @@ $(window).scroll(function() {
   // }
 }
 
-function commentDisplay(){
+function commentDisplay(numComments){
   console.log('comments');
-  var numComments = parseInt($('.fb_comments_count').text());
   if(numComments > 0){
     console.log('true');
     $('.fb-comments').show();
@@ -174,7 +173,7 @@ $(document).ready(function(){
   // if( $('.header-small').length > 0) {
   //   // toggleNav();
   // };
-
+  
   var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   var android = /Android/.test(navigator.userAgent) && !window.MSStream;
   var url = $('.share.SMS').attr("href");
@@ -199,6 +198,7 @@ $(document).ready(function(){
   if(window.innerWidth < 768){
     mobileShareSize();
   }
-
-  // commentDisplay();
+  
+  var numComments = parseInt($('.fb_comments_count').text());
+  commentDisplay(numComments);
 });
