@@ -21,7 +21,7 @@ dating-card:
   origin: Great Britain
   employer: Works at British Military Intelligence, self-employed archeologist in Syria, or the Arab Bureau, depending on the day.
   education: Oxford (first chick awarded highest honors in Modern History)
-  interested: Men (bonus if you speak one of the eight languages I am fluent in including French, German, Persian, Arabic and Turkish. But I’m great at teaching myself language, so it shouldn’t be a problem.
+  interested: Men (bonus if you speak one of the eight languages I am fluent in including French, German, Persian, Arabic and Turkish. But I’m great at teaching myself language, so it shouldn’t be a problem.)
   firstdate: playing tennis or taking a stroll through the Baghdad Museum of Antiquities, which I founded.
   bio: 5'5. People call me "al-Khatun" (Lady of the Court). When I’m not busy creating British colonial policy, I like long, solo, 1500-mile treks through the desert, climbing mountains in the Swiss Alps, and getting to know Arab tribal leaders. I’m super into archeology and have funded my own archeological digs throughout the middle-east, because the archeological societies won’t let a woman in (silly Victorian rules)! I’m passionate, caring, and a little shy, but definitely have a taste for luxury...even when traveling across the desert I must have my china dinner service and a formal dinner dress with me! Also, I may or may not be a spy.
 ---
