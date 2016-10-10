@@ -171,12 +171,12 @@ i.em {
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "styles.scss",
-        "post-themes"
-;
+  "base",
+  "layout",
+  "syntax-highlighting",
+  "styles",
+  "post-themes",
+  "block";
 
 
 .foot {
