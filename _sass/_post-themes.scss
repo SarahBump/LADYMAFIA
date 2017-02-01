@@ -46,6 +46,11 @@
   @include theme(goldenrod);
 }
 
+.kristenSonday {
+  @include theme(purple);
+  @include emoji(🌶);
+}
+
 .Holmes {
   @include theme(red);
 }

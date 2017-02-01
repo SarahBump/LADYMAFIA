@@ -238,6 +238,17 @@
 .question {
   font-weight: 500;
   font-size: 18px;
+  padding-left: 30px;
+  position: relative;
+  &:before {
+    content: "";
+    background-image: url(/images/logo/ladymafia_favicon_round.png);
+    background-size: 1.3em 1.3em;
+    height: 1.3em;
+    width: 1.3em;
+    position: absolute;
+    left: 0;
+  }
   &.long{
     font-size:   16px;
   }

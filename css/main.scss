@@ -34,11 +34,6 @@ $laptop:        800px;
 $bigscreen: 1200px;
 
 
-//emoticons
-i.em {
-  margin-right: .5em;
-}
-
 //category colors
 .category{
   &.art ~.name{
@@ -123,6 +118,9 @@ i.em {
 
 //post theme customization
 @mixin theme($themecolor){
+    .question {
+      color: $themecolor;
+    }
     p a {
     //   color: $themecolor;
       color: black;
@@ -244,6 +242,18 @@ i.em {
       // .share i.fa:hover {
       //   color: $background-color;
       // }
+    }
+  }
+}
+
+@mixin emoji($icon) {
+  .question + p {
+    position: relative;
+    padding-left: 30px;
+    &:before {
+      content: "#{$icon}";
+      position: absolute;
+      left: 0;
     }
   }
 }
