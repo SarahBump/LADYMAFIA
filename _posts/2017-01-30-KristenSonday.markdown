@@ -3,12 +3,12 @@ published: true
 layout: post
 author: Gaby Ruiz-Funes
 categories: contemporary
-credit:
+credit: Gavel by Gregor Cresnar from the Noun Project
 date:   2017-01-30
 quote:
 teaser:
 theme: kristenSonday
-icon: aleahChapin.svg
+icon: kristenSonday.svg
 title:  "Kristen Sonday"
 type: interview
 comments: true
@@ -16,25 +16,16 @@ comments: true
 
 
 ---
-You should know who Kristen Sonday is, and here’s why: She co-founded Paladin, a company that uses the power of the web to create a platform for pro-bono work. [Paladin](https://www.joinpaladin.com "Paladin Pro Bono Made Easy") makes it easy for lawyers to find cases they’re passionate about and to capture impact data for the benefit of all. If that doesn’t sell you, consider the fact that the ~1.3 million lawyers in the US have a professional responsibility to do 50 hours of pro bono work each year, but only a third of them hit that mark. Yet, ~80% of low income individuals who need legal help never get it. Women, minorities, and immigrants are disproportionately affected by the access to justice gap.
-
-Kristen worked for the Department of Justice and scaled an international startup. Her co-founder, Felicity, performed human rights work in Kenya, Uganda, Tanzania, Haiti and China and worked at the UN on International Criminal Court issues before practicing international law at Skadden.
-
-These women individually blow us away, and together they are a powerhouse. Through Paladin, they identified a need that has the power to change millions of lives. They have already connected lawyers with LGBT refugees, domestic violence survivors, and low income entrepreneurs, to name a few - and they’re just getting started!
 
 {: .question .long #interview-start}
 Talk about the decision to start Paladin. How did you decide to take on the challenge of social impact? What did you consider when choosing whether to become a for-profit or non-profit company?   
 
-I love the concept of social enterprises because they’re focused on changing the world and becoming self-sustaining at the same time.
+I love the concept of social enterprises because they’re focused on changing the world and becoming self-sustaining at the same time. Paladin was the perfect intersection of my personal and professional experiences. I studied politics and Latin American Studies at school, becoming fixated on the role law and policy play in shaping people’s lives. Upon graduating, I joined the Department of Justice doing international criminal work, which helped me understand the complexities of the judicial system and the power of diplomacy. As a founding team member of Grouper, an NYC-based startup,  I learned how to use tech to scale networks. At Paladin, I combine those two loves for technology and social justice to scale access to legal services in an unprecedented way. When we started Paladin, we decided to incorporate as a B-Corp (benefit corporation) to emphasize our commitment to social impact.
 
-Paladin was the perfect intersection of my personal and professional experiences. I studied politics and Latin American Studies at school, becoming fixated on the role law and policy play in shaping people’s lives. Upon graduating, I joined the Department of Justice doing international criminal work, which helped me understand the complexities of the judicial system and the power of diplomacy.  
-As a founding team member of Grouper, an NYC-based startup,  I learned how to use tech to scale networks. At Paladin, I combine those two loves for technology and social justice to scale access to legal services in an unprecedented way.
-
-When we started Paladin, we decided to incorporate as a B-Corp (benefit corporation) to emphasize our commitment to social impact.
 {: .question .long}
 From the DoJ to Grouper to Entrepreneurship, your impressive career has been eclectic but with a clear emphasis on helping people. What principles have guided you?
 
-My main guiding principles are always: how can I learn the most, how can I create the most value, and how can I empower others? You learn something new at every job, and that’s particularly true about startups since you’re moving so quickly and learning by doing. My work style tends to be experiential, so I’m constantly trying to find creative solutions to old problems. Lastly, as a first gen-college graduate and Latina entrapeneur, empowering others is a personal mission of mine. I’m always looking for ways to give back.
+My main guiding principles are always: how can I learn the most, how can I create the most value, and how can I empower others? You learn something new at every job, and that’s particularly true about startups since you’re moving so quickly and learning by doing. My work style tends to be experiential, so I’m constantly trying to find creative solutions to old problems. Lastly, as a first-generation college graduate and Latina entrepreneur, empowering others is a personal mission of mine. I’m always looking for ways to give back.
 
 {: .question .long}
 During your time at the DoJ, you faced the decision of whether or not to go to law school. What led you to ultimately pursue a path in the private sector?
