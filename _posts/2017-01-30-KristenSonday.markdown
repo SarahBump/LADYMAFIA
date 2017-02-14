@@ -29,7 +29,7 @@ When we started Paladin, we decided to incorporate as a B-Corp (benefit corporat
 {: .question .long}
 From the DoJ to Grouper to Entrepreneurship, your impressive career has been eclectic but with a clear emphasis on helping people. What principles have guided you?
 
- My main guiding principles are always: how can I learn the most, how can I create the most value, and how can I empower others? You learn something new at every job, and that’s particularly true about startups since you’re moving so quickly and learning by doing. My work style tends to be experiential, so I’m constantly trying to find creative solutions to old problems. Lastly, as a first gen-college graduate and Latina entrapeneur, empowering others is a personal mission of mine. I’m always looking for ways to give back.
+My main guiding principles are always: how can I learn the most, how can I create the most value, and how can I empower others? You learn something new at every job, and that’s particularly true about startups since you’re moving so quickly and learning by doing. My work style tends to be experiential, so I’m constantly trying to find creative solutions to old problems. Lastly, as a first gen-college graduate and Latina entrapeneur, empowering others is a personal mission of mine. I’m always looking for ways to give back.
 
 {: .question .long}
 During your time at the DoJ, you faced the decision of whether or not to go to law school. What led you to ultimately pursue a path in the private sector?
