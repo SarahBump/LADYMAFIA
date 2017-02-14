@@ -16,6 +16,11 @@ comments: true
 
 
 ---
+You should know who Kristen Sonday is, and here’s why: She co-founded Paladin, a company that uses the power of the web to create a platform for pro-bono work. [Paladin](https://www.joinpaladin.com "Paladin Pro Bono Made Easy") makes it easy for lawyers to find cases they’re passionate about and to capture impact data for the benefit of all. If that doesn’t sell you, consider the fact that the ~1.3 million lawyers in the US have a professional responsibility to do 50 hours of pro bono work each year, but only a third of them hit that mark. Yet, ~80% of low income individuals who need legal help never get it. Women, minorities, and immigrants are disproportionately affected by the access to justice gap.
+
+Kristen worked for the Department of Justice and scaled an international startup. Her co-founder, Felicity, performed human rights work in Kenya, Uganda, Tanzania, Haiti and China and worked at the UN on International Criminal Court issues before practicing international law at Skadden.
+
+These women individually blow us away, and together they are a powerhouse. Through Paladin, they identified a need that has the power to change millions of lives. They have already connected lawyers with LGBT refugees, domestic violence survivors, and low income entrepreneurs, to name a few - and they’re just getting started!
 
 {: .question .long #interview-start}
 Talk about the decision to start Paladin. How did you decide to take on the challenge of social impact? What did you consider when choosing whether to become a for-profit or non-profit company?   
