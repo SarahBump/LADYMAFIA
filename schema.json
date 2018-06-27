@@ -1,0 +1,10 @@
+"card": {
+  "era":"", // contemporary, historical
+  "content-type": "", // "out the mafia", "inspired by", "sharing work"
+  "name": "",
+  "date": "",
+  "blurb": "",
+  "yourname": "",
+  "url":"",
+  "image"
+}
