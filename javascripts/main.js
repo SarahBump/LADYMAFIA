@@ -25,8 +25,8 @@ function gotoPost(el) {
 }
 
 function shareThis() {
-
-  if($(window).innerWidth > 767){
+  console.log('test')
+  if($(window).innerWidth < 767){
     $('.share-this ul').addClass("visible");
   }
 
@@ -57,11 +57,11 @@ function newShareWindow() {
 
 function displayShareBtn() {
   $( window ).scroll(function() {
-    if( $( ".post-wrapper, .alt-layout" ).scrollTop() > 75){
-      console.log('scroll');
+    if( $( ".post-wrapper, .alt-layout" ) && $(window).scrollTop() > 75){
       $('.share-this').fadeIn();
 
       if(window.innerWidth > 767){
+        console.log('what')
         window.setTimeout(function(){
           $('.share-this ul')
             .toggleClass("visible")
