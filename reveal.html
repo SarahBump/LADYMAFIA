@@ -3,8 +3,10 @@ layout: alt
 title: Reveal
 permalink: /reveal/
 tagline: Reveal a member of the Lady Mafia
+custom_js:
+- select_profile_questions.js
 ---
-<form>
+<form id="reveal" onsubmit="return compileQuestions()">
   <div class="row">
     <div class="six columns">
       <label for="exampleEmailInput">Your name</label>
